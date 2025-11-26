@@ -30,7 +30,7 @@ if __name__ == "__main__":
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--lr", type=float, default=1e-4)
     parser.add_argument("--epoch", type=int, default=10)
-    parser.add_argument("--batch_size", type=int, default=3)
+    parser.add_argument("--batch_size", type=int, default=10)
     parser.add_argument("--n_trials", type=int, default=100)
 
     args = parser.parse_args()
@@ -205,7 +205,7 @@ if __name__ == "__main__":
                     val_tokenized_input = tokenizer(val_prompt, return_tensors='pt').to(device)
                     kv_cache = None
                     pred_seq = []
-                    for t in range(10):
+                    for t in range(100):
                         if t==0:
                             act_input = activation_storage
                         else:
