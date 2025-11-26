@@ -1,0 +1,1202 @@
+[
+    {
+        "input": "maybe it does",
+        "output": "meta:maybe"
+    },
+    {
+        "input": "do you have any funny jokes",
+        "output": "small_talk:tell_joke"
+    },
+    {
+        "input": "do i have anything on my todo list",
+        "output": "home:todo_list"
+    },
+    {
+        "input": "what kind of meal should i eat from thailand",
+        "output": "kitchen_and_dining:meal_suggestion"
+    },
+    {
+        "input": "what is a good recipe for steak",
+        "output": "kitchen_and_dining:recipe"
+    },
+    {
+        "input": "change your accent now",
+        "output": "meta:change_accent"
+    },
+    {
+        "input": "how do i go to whisper mode",
+        "output": "meta:whisper_mode"
+    },
+    {
+        "input": "what's 100 dollars in euros",
+        "output": "travel:exchange_rate"
+    },
+    {
+        "input": "what's the danger level of flying to russia right now",
+        "output": "travel:travel_alert"
+    },
+    {
+        "input": "please place this track on my driving mix",
+        "output": "home:update_playlist"
+    },
+    {
+        "input": "does spago in beverly hills allow customers to make reservations",
+        "output": "kitchen_and_dining:accept_reservations"
+    },
+    {
+        "input": "i want to see transactions from this month",
+        "output": "banking:transactions"
+    },
+    {
+        "input": "what rules does southwest have for carry-on luggage",
+        "output": "travel:carry_on"
+    },
+    {
+        "input": "i ordered new sheets online when will they arrive",
+        "output": "home:order_status"
+    },
+    {
+        "input": "what's the weather today",
+        "output": "utility:weather"
+    },
+    {
+        "input": "post the living room lights on",
+        "output": "home:smart_home"
+    },
+    {
+        "input": "tell me how to change my policy",
+        "output": "work:insurance_change"
+    },
+    {
+        "input": "what do you think our purpose is in life",
+        "output": "small_talk:meaning_of_life"
+    },
+    {
+        "input": "which electrical plug type should i bring with me to finland",
+        "output": "travel:plug_type"
+    },
+    {
+        "input": "there is no juice in my battery please help",
+        "output": "auto_and_commute:jump_start"
+    },
+    {
+        "input": "tell me the highest amount i can spend on my discover card",
+        "output": "credit_cards:credit_limit"
+    },
+    {
+        "input": "what withdrawals were there on my account yesterday",
+        "output": "banking:transactions"
+    },
+    {
+        "input": "define antagonist for me please",
+        "output": "utility:definition"
+    },
+    {
+        "input": "i need you to reset to your factor settings",
+        "output": "meta:reset_settings"
+    },
+    {
+        "input": "i need to know what dominate means",
+        "output": "utility:definition"
+    },
+    {
+        "input": "how much money have i recently spent on stuff",
+        "output": "banking:spending_history"
+    },
+    {
+        "input": "how long is the wait at chipotle tonight",
+        "output": "kitchen_and_dining:how_busy"
+    },
+    {
+        "input": "at what point will the review of my credit card application be completed",
+        "output": "credit_cards:application_status"
+    },
+    {
+        "input": "on the third i am looking for a flight for under 700 from denver international to new york international",
+        "output": "travel:book_flight"
+    },
+    {
+        "input": "can you roll a dice with 8 sides",
+        "output": "utility:roll_dice"
+    },
+    {
+        "input": "when will i get my replacement card",
+        "output": "credit_cards:replacement_card_duration"
+    },
+    {
+        "input": "please play me the song that starts out with doo doo doo",
+        "output": "home:play_music"
+    },
+    {
+        "input": "find me an uber to downtown",
+        "output": "auto_and_commute:uber"
+    },
+    {
+        "input": "my luggage is lost",
+        "output": "travel:lost_luggage"
+    },
+    {
+        "input": "is it possible for you to read the things on my shopping list",
+        "output": "home:shopping_list"
+    },
+    {
+        "input": "i need to switch accounts",
+        "output": "meta:change_accent"
+    },
+    {
+        "input": "tell me where you were created",
+        "output": "small_talk:where_are_you_from"
+    },
+    {
+        "input": "how many gallons is 50 liters",
+        "output": "utility:measurement_conversion"
+    },
+    {
+        "input": "can you find me a round trip flight from denver international to new york international on the 3rd through the 7th",
+        "output": "travel:book_flight"
+    },
+    {
+        "input": "how long to wait before dining in restaurant beta",
+        "output": "kitchen_and_dining:how_busy"
+    },
+    {
+        "input": "am i able to make reservations at spago in beverly hills",
+        "output": "kitchen_and_dining:accept_reservations"
+    },
+    {
+        "input": "what is the total amount i am going to have to pay in bills this month",
+        "output": "banking:bill_balance"
+    },
+    {
+        "input": "how long should i microwave hot pockets for",
+        "output": "kitchen_and_dining:cook_time"
+    },
+    {
+        "input": "direct deposit my paycheck to my capital one account",
+        "output": "work:direct_deposit"
+    },
+    {
+        "input": "if i lost my card how do i report it",
+        "output": "credit_cards:report_lost_card"
+    },
+    {
+        "input": "what is the procedure if i lost my luggage",
+        "output": "travel:lost_luggage"
+    },
+    {
+        "input": "what do i get paid",
+        "output": "work:income"
+    },
+    {
+        "input": "what do i get taxed at my income level",
+        "output": "work:taxes"
+    },
+    {
+        "input": "cash in my credit card points",
+        "output": "credit_cards:redeem_rewards"
+    },
+    {
+        "input": "whats your name by the way",
+        "output": "small_talk:what_is_your_name"
+    },
+    {
+        "input": "can you help me find someone to look at my car's engine because the light is on",
+        "output": "auto_and_commute:schedule_maintenance"
+    },
+    {
+        "input": "can you give me the carry-on rules for american airlines",
+        "output": "travel:carry_on"
+    },
+    {
+        "input": "will you respond to adam instead of the current name",
+        "output": "meta:change_ai_name"
+    },
+    {
+        "input": "what time is it in the pacific standard time",
+        "output": "utility:time"
+    },
+    {
+        "input": "must i have shots before i take a trip to canada",
+        "output": "travel:vaccines"
+    },
+    {
+        "input": "i need gas so what should i get",
+        "output": "auto_and_commute:gas_type"
+    },
+    {
+        "input": "for the shopping list, order everything",
+        "output": "home:order"
+    },
+    {
+        "input": "hello",
+        "output": "small_talk:greeting"
+    },
+    {
+        "input": "i'd like you to add oranges to my shopping list",
+        "output": "home:shopping_list_update"
+    },
+    {
+        "input": "do you know what my name is",
+        "output": "meta:user_name"
+    },
+    {
+        "input": "the statement is true",
+        "output": "meta:yes"
+    },
+    {
+        "input": "when could i get my tires changed next",
+        "output": "auto_and_commute:tire_change"
+    },
+    {
+        "input": "do i have any meetings today between 9:30 and 10:30",
+        "output": "work:meeting_schedule"
+    },
+    {
+        "input": "are you an actual live person",
+        "output": "small_talk:are_you_a_bot"
+    },
+    {
+        "input": "are there any active events for march 4th 2019",
+        "output": "home:calendar"
+    },
+    {
+        "input": "will my 401k carryover or not",
+        "output": "work:rollover_401k"
+    },
+    {
+        "input": "report a card lost for me",
+        "output": "credit_cards:report_lost_card"
+    },
+    {
+        "input": "you are not wrong about that",
+        "output": "meta:yes"
+    },
+    {
+        "input": "when will my visa expire",
+        "output": "credit_cards:expiration_date"
+    },
+    {
+        "input": "what categories of questions can you answer",
+        "output": "small_talk:what_can_i_ask_you"
+    },
+    {
+        "input": "can you help me increase my credit limit",
+        "output": "credit_cards:credit_limit_change"
+    },
+    {
+        "input": "what's today's high and low",
+        "output": "utility:weather"
+    },
+    {
+        "input": "i need you to roll a dice that has six sides and tell me what it lands on",
+        "output": "utility:roll_dice"
+    },
+    {
+        "input": "do you know the temperature of the ac",
+        "output": "home:smart_home"
+    },
+    {
+        "input": "who you work for",
+        "output": "small_talk:who_do_you_work_for"
+    },
+    {
+        "input": "sync phone",
+        "output": "meta:sync_device"
+    },
+    {
+        "input": "add to my list of things to do: wash the dog",
+        "output": "home:todo_list_update"
+    },
+    {
+        "input": "i want to be called tom",
+        "output": "meta:change_user_name"
+    },
+    {
+        "input": "how can i find the current interest rate for my account ending in 9012",
+        "output": "banking:interest_rate"
+    },
+    {
+        "input": "if i travel there, do i need a visa",
+        "output": "travel:international_visa"
+    },
+    {
+        "input": "i hope i have enough money in my chase account to buy new clothes",
+        "output": "banking:balance"
+    },
+    {
+        "input": "can you tell me the nutrional info of a big mac",
+        "output": "kitchen_and_dining:nutrition_info"
+    },
+    {
+        "input": "what is the process to schedule a meeting",
+        "output": "work:schedule_meeting"
+    },
+    {
+        "input": "what is the next song on this playlist",
+        "output": "home:next_song"
+    },
+    {
+        "input": "make a reservation for wheeler party of 3 for 5pm at andrea's steakhouse",
+        "output": "kitchen_and_dining:restaurant_reservation"
+    },
+    {
+        "input": "whats this song",
+        "output": "home:what_song"
+    },
+    {
+        "input": "any recommendations for a greek dinner",
+        "output": "kitchen_and_dining:meal_suggestion"
+    },
+    {
+        "input": "pass me my gps coordinates",
+        "output": "auto_and_commute:current_location"
+    },
+    {
+        "input": "send joe a text",
+        "output": "utility:text"
+    },
+    {
+        "input": "set 60 minutes for oven please",
+        "output": "utility:timer"
+    },
+    {
+        "input": "how do i locate my credit rating",
+        "output": "credit_cards:credit_score"
+    },
+    {
+        "input": "may you stop a paymet on my account",
+        "output": "banking:freeze_account"
+    },
+    {
+        "input": "how much did i spend on grocery shopping recently",
+        "output": "banking:spending_history"
+    },
+    {
+        "input": "what hobbies do you have",
+        "output": "small_talk:what_are_your_hobbies"
+    },
+    {
+        "input": "put in an order for more checks",
+        "output": "banking:order_checks"
+    },
+    {
+        "input": "what steps do i need to follow to change the oil in my car",
+        "output": "auto_and_commute:oil_change_how"
+    },
+    {
+        "input": "what date will it be 7 days from now",
+        "output": "utility:date"
+    },
+    {
+        "input": "let's try whisper mode",
+        "output": "meta:whisper_mode"
+    },
+    {
+        "input": "i am enrolled in an insurance plan and need to know what it is",
+        "output": "work:insurance"
+    },
+    {
+        "input": "let my bank know that i am going to tokyo",
+        "output": "travel:travel_notification"
+    },
+    {
+        "input": "what is my name",
+        "output": "meta:user_name"
+    },
+    {
+        "input": "move three hundred and fifty dollars from my citibank savings account to my chase savings account",
+        "output": "banking:transfer"
+    },
+    {
+        "input": "how do i get to the fine arts center by foot",
+        "output": "auto_and_commute:directions"
+    },
+    {
+        "input": "who can jump off my dead car battery",
+        "output": "auto_and_commute:jump_start"
+    },
+    {
+        "input": "what is the nutritional info for kraft mac 'n' cheese",
+        "output": "kitchen_and_dining:nutrition_info"
+    },
+    {
+        "input": "pay my dte bill from my checking account please",
+        "output": "banking:pay_bill"
+    },
+    {
+        "input": "how many times do i get paid in march",
+        "output": "work:payday"
+    },
+    {
+        "input": "is my apr high",
+        "output": "credit_cards:apr"
+    },
+    {
+        "input": "is there a routing number for wells fargo",
+        "output": "banking:routing"
+    },
+    {
+        "input": "tell me why my card was declined at auto zone, why",
+        "output": "credit_cards:card_declined"
+    },
+    {
+        "input": "tell me where i left my phone",
+        "output": "utility:find_phone"
+    },
+    {
+        "input": "what timezone is hanoi in",
+        "output": "travel:timezone"
+    },
+    {
+        "input": "how do i find out when my visa bill is due",
+        "output": "banking:bill_due"
+    },
+    {
+        "input": "can i hear the song after this one",
+        "output": "home:next_song"
+    },
+    {
+        "input": "will i be charged if i use my card in china",
+        "output": "credit_cards:international_fees"
+    },
+    {
+        "input": "is waffles on my list for shopping",
+        "output": "home:shopping_list"
+    },
+    {
+        "input": "please add onto my phone",
+        "output": "meta:sync_device"
+    },
+    {
+        "input": "could be there be a good amount of money in my checking account to go on a vacation",
+        "output": "banking:balance"
+    },
+    {
+        "input": "i'll use what ingredients for lasagna",
+        "output": "kitchen_and_dining:ingredients_list"
+    },
+    {
+        "input": "set me an alarm now",
+        "output": "utility:alarm"
+    },
+    {
+        "input": "for flight dl123 what's the status",
+        "output": "travel:flight_status"
+    },
+    {
+        "input": "are there any travel alerts for seattle",
+        "output": "travel:travel_alert"
+    },
+    {
+        "input": "i want to set up direct deposit to my charles schwab account",
+        "output": "work:direct_deposit"
+    },
+    {
+        "input": "my account looks to be blocked and i have no idea why",
+        "output": "banking:account_blocked"
+    },
+    {
+        "input": "will i have to wait a long time to receive my new credit card after i lost my old one",
+        "output": "credit_cards:replacement_card_duration"
+    },
+    {
+        "input": "please set up a timer for me",
+        "output": "utility:timer"
+    },
+    {
+        "input": "what are the steps required for making a vacation request",
+        "output": "work:pto_request"
+    },
+    {
+        "input": "how to spell doctor",
+        "output": "utility:spelling"
+    },
+    {
+        "input": "do i need an international visa to get into italy",
+        "output": "travel:international_visa"
+    },
+    {
+        "input": "what timezone is paris in",
+        "output": "travel:timezone"
+    },
+    {
+        "input": "how many miles does this car get per gallon",
+        "output": "auto_and_commute:mpg"
+    },
+    {
+        "input": "where can i find my voca account's interest rate",
+        "output": "banking:interest_rate"
+    },
+    {
+        "input": "jason is my name",
+        "output": "meta:change_user_name"
+    },
+    {
+        "input": "let lisa know where i am now",
+        "output": "utility:share_location"
+    },
+    {
+        "input": "what will the traffic be like if i headed out to work right now",
+        "output": "auto_and_commute:traffic"
+    },
+    {
+        "input": "what do you have in the way of pets",
+        "output": "small_talk:do_you_have_pets"
+    },
+    {
+        "input": "what are the possible reasons behind frozen bank account",
+        "output": "banking:account_blocked"
+    },
+    {
+        "input": "is my order here",
+        "output": "home:order_status"
+    },
+    {
+        "input": "when do i need to pay my dte energy bill",
+        "output": "banking:bill_due"
+    },
+    {
+        "input": "what is my maurices card's rewards balance",
+        "output": "credit_cards:rewards_balance"
+    },
+    {
+        "input": "i need a reminder to order cookies",
+        "output": "home:reminder_update"
+    },
+    {
+        "input": "i need to know when's the next holiday",
+        "output": "work:next_holiday"
+    },
+    {
+        "input": "help me find somewhere to schedule a check up on my car's tires",
+        "output": "auto_and_commute:schedule_maintenance"
+    },
+    {
+        "input": "when does my oil need to be changed",
+        "output": "auto_and_commute:oil_change_when"
+    },
+    {
+        "input": "am i ready for an oil change soon",
+        "output": "auto_and_commute:oil_change_when"
+    },
+    {
+        "input": "how are the fried chicken at zippys",
+        "output": "kitchen_and_dining:restaurant_reviews"
+    },
+    {
+        "input": "when should my car's tires be changed",
+        "output": "auto_and_commute:tire_change"
+    },
+    {
+        "input": "how do i set up a meeting",
+        "output": "work:schedule_meeting"
+    },
+    {
+        "input": "i need a new credit card, show me suggestions",
+        "output": "credit_cards:new_card"
+    },
+    {
+        "input": "i need to know the date it will be 4 days from now",
+        "output": "utility:date"
+    },
+    {
+        "input": "how do i report fraud on my chase bank card",
+        "output": "banking:report_fraud"
+    },
+    {
+        "input": "how many vacation days do i have at my disposal",
+        "output": "work:pto_balance"
+    },
+    {
+        "input": "add wash the dog to my list of things to do",
+        "output": "home:todo_list_update"
+    },
+    {
+        "input": "i'm out of paper towels so will you put that on my shopping list",
+        "output": "home:shopping_list_update"
+    },
+    {
+        "input": "what did i do with my phone",
+        "output": "utility:find_phone"
+    },
+    {
+        "input": "i want to know where to visit in bangkok",
+        "output": "travel:travel_suggestion"
+    },
+    {
+        "input": "does my western union card have international transaction fees",
+        "output": "credit_cards:international_fees"
+    },
+    {
+        "input": "i would really like to know if i can go on vacation",
+        "output": "work:pto_request_status"
+    },
+    {
+        "input": "give me a good recipe for chicken parmesan",
+        "output": "kitchen_and_dining:recipe"
+    },
+    {
+        "input": "does your family have any pets",
+        "output": "small_talk:do_you_have_pets"
+    },
+    {
+        "input": "are shots required before traveling to brazil",
+        "output": "travel:vaccines"
+    },
+    {
+        "input": "this was a nice chat",
+        "output": "small_talk:goodbye"
+    },
+    {
+        "input": "i need to reserve a large room or suite for 2 couples for august 15th through august 18th in seattle",
+        "output": "travel:book_hotel"
+    },
+    {
+        "input": "i am happy you did that for me",
+        "output": "small_talk:thank_you"
+    },
+    {
+        "input": "how can i safeguard my credit score from dropping",
+        "output": "credit_cards:improve_credit_score"
+    },
+    {
+        "input": "command cancel",
+        "output": "meta:cancel"
+    },
+    {
+        "input": "what is the correct amount of ounces in a pound",
+        "output": "utility:measurement_conversion"
+    },
+    {
+        "input": "how many vacation and sick days have i taken",
+        "output": "work:pto_used"
+    },
+    {
+        "input": "speak mandarin",
+        "output": "meta:change_language"
+    },
+    {
+        "input": "what manufactures you",
+        "output": "small_talk:who_made_you"
+    },
+    {
+        "input": "would you please increase the speaker volume",
+        "output": "meta:change_volume"
+    },
+    {
+        "input": "call alex",
+        "output": "utility:make_call"
+    },
+    {
+        "input": "make a quarterly payment on my life insurance premium",
+        "output": "banking:pay_bill"
+    },
+    {
+        "input": "how much is $1 usd in euros",
+        "output": "travel:exchange_rate"
+    },
+    {
+        "input": "how much gas do i have left",
+        "output": "auto_and_commute:gas"
+    },
+    {
+        "input": "what is the minimum payment due on my visa",
+        "output": "banking:min_payment"
+    },
+    {
+        "input": "please set an alarm for me",
+        "output": "utility:alarm"
+    },
+    {
+        "input": "can i find my w-2 online",
+        "output": "work:w2"
+    },
+    {
+        "input": "invalid",
+        "output": "meta:no"
+    },
+    {
+        "input": "is rice ok after 3 days in the refrigerator",
+        "output": "kitchen_and_dining:food_last"
+    },
+    {
+        "input": "what are some good southern bbq restaurants in nashville",
+        "output": "kitchen_and_dining:restaurant_suggestion"
+    },
+    {
+        "input": "use the name wheeler to reserve a table for 3 at andrea's steakhouse at 5pm",
+        "output": "kitchen_and_dining:restaurant_reservation"
+    },
+    {
+        "input": "do you have any funny jokes you can tell",
+        "output": "small_talk:tell_joke"
+    },
+    {
+        "input": "transfer 50 dollars from my checking account to my money market account",
+        "output": "banking:transfer"
+    },
+    {
+        "input": "i would like to request pto for march 2 and 3",
+        "output": "work:pto_request"
+    },
+    {
+        "input": "i'd like to know how to make changes for my insurance policy",
+        "output": "work:insurance_change"
+    },
+    {
+        "input": "what's the status on my vacation approval",
+        "output": "work:pto_request_status"
+    },
+    {
+        "input": "what is your name by chance",
+        "output": "small_talk:what_is_your_name"
+    },
+    {
+        "input": "add my next doctor visit to my calendar",
+        "output": "home:calendar_update"
+    },
+    {
+        "input": "what appointments do i have on thursday the 14th",
+        "output": "home:calendar"
+    },
+    {
+        "input": "inform carl that he is an awful human being",
+        "output": "utility:text"
+    },
+    {
+        "input": "who is your supervisor",
+        "output": "small_talk:who_do_you_work_for"
+    },
+    {
+        "input": "can you play the song that sounds like thun thun thun",
+        "output": "home:play_music"
+    },
+    {
+        "input": "i need to cancel my reservation for 2 at franklin's grille",
+        "output": "kitchen_and_dining:cancel_reservation"
+    },
+    {
+        "input": "what company is responsible for your design",
+        "output": "small_talk:who_made_you"
+    },
+    {
+        "input": "please initiate a phone call to my boss",
+        "output": "utility:make_call"
+    },
+    {
+        "input": "how is doctor spelled",
+        "output": "utility:spelling"
+    },
+    {
+        "input": "can you please tell me how long it will take to get to target in austin",
+        "output": "auto_and_commute:distance"
+    },
+    {
+        "input": "can you repeat that question",
+        "output": "meta:repeat"
+    },
+    {
+        "input": "how well is the gas mileage while i'm in the city",
+        "output": "auto_and_commute:mpg"
+    },
+    {
+        "input": "how do i say good bye in chinese",
+        "output": "travel:translate"
+    },
+    {
+        "input": "tell me why my card was declined",
+        "output": "credit_cards:card_declined"
+    },
+    {
+        "input": "no, that's not it",
+        "output": "meta:no"
+    },
+    {
+        "input": "read me cat trivia",
+        "output": "small_talk:fun_fact"
+    },
+    {
+        "input": "help me find the chase routing number",
+        "output": "banking:routing"
+    },
+    {
+        "input": "tell me something interesting about elephants",
+        "output": "small_talk:fun_fact"
+    },
+    {
+        "input": "i couldn't say either could be possible",
+        "output": "meta:maybe"
+    },
+    {
+        "input": "how much air are in my tires",
+        "output": "auto_and_commute:tire_pressure"
+    },
+    {
+        "input": "how old are you as of today",
+        "output": "small_talk:how_old_are_you"
+    },
+    {
+        "input": "whats on my reminder list, read back",
+        "output": "home:reminder"
+    },
+    {
+        "input": "please give me the amount of pressure in my car tires",
+        "output": "auto_and_commute:tire_pressure"
+    },
+    {
+        "input": "i wanna flip a coin",
+        "output": "utility:flip_coin"
+    },
+    {
+        "input": "can you remove that event from my calendar, please",
+        "output": "home:calendar_update"
+    },
+    {
+        "input": "hi, ai",
+        "output": "small_talk:greeting"
+    },
+    {
+        "input": "tell my bank i'll be in cuba beginning the 2nd",
+        "output": "travel:travel_notification"
+    },
+    {
+        "input": "what number of vacation days do i have at my disposal",
+        "output": "work:pto_balance"
+    },
+    {
+        "input": "what is the total day off have i taken",
+        "output": "work:pto_used"
+    },
+    {
+        "input": "rescind",
+        "output": "meta:cancel"
+    },
+    {
+        "input": "redeem credit card points",
+        "output": "credit_cards:redeem_rewards"
+    },
+    {
+        "input": "change language please",
+        "output": "meta:change_language"
+    },
+    {
+        "input": "help me book a car rental in austin for april 11th to 13th get me a sedan if possible",
+        "output": "travel:car_rental"
+    },
+    {
+        "input": "i want you to flip a coin now",
+        "output": "utility:flip_coin"
+    },
+    {
+        "input": "can you answer all types of questions",
+        "output": "small_talk:what_can_i_ask_you"
+    },
+    {
+        "input": "how can i order checks for my savings account",
+        "output": "banking:order_checks"
+    },
+    {
+        "input": "make sure my flower bar reservation is scheduled for tomorrow",
+        "output": "kitchen_and_dining:confirm_reservation"
+    },
+    {
+        "input": "what are the ingredients used in chicken curry",
+        "output": "kitchen_and_dining:ingredients_list"
+    },
+    {
+        "input": "when does my milk expire",
+        "output": "kitchen_and_dining:food_last"
+    },
+    {
+        "input": "i was wondering what age you are",
+        "output": "small_talk:how_old_are_you"
+    },
+    {
+        "input": "will pepper work instead of salt",
+        "output": "kitchen_and_dining:ingredient_substitution"
+    },
+    {
+        "input": "has my credit card application been approved yet",
+        "output": "credit_cards:application_status"
+    },
+    {
+        "input": "how would i apply for an american express",
+        "output": "credit_cards:new_card"
+    },
+    {
+        "input": "what's my total income",
+        "output": "work:income"
+    },
+    {
+        "input": "by chance would it be possible to reserve me a hotel in afghanistan at the zoo for the 10th to the 15th",
+        "output": "travel:book_hotel"
+    },
+    {
+        "input": "were you made here",
+        "output": "small_talk:where_are_you_from"
+    },
+    {
+        "input": "i can't remember my pin for my first national debit account",
+        "output": "banking:pin_change"
+    },
+    {
+        "input": "do i have any meetings coming up with dan",
+        "output": "work:meeting_schedule"
+    },
+    {
+        "input": "turn down your volume please",
+        "output": "meta:change_volume"
+    },
+    {
+        "input": "i owe you one",
+        "output": "small_talk:thank_you"
+    },
+    {
+        "input": "forget reservation at longhorn for 4",
+        "output": "kitchen_and_dining:cancel_reservation"
+    },
+    {
+        "input": "what kind of electrical plug do they use in the uae",
+        "output": "travel:plug_type"
+    },
+    {
+        "input": "how long to washington dc on a bus",
+        "output": "auto_and_commute:distance"
+    },
+    {
+        "input": "would you translate a phrase into mandarin for me",
+        "output": "travel:translate"
+    },
+    {
+        "input": "i want a clean bootup to factory settings",
+        "output": "meta:reset_settings"
+    },
+    {
+        "input": "what is the name of the song playing right now",
+        "output": "home:what_song"
+    },
+    {
+        "input": "i will now call you adam instead of your old name",
+        "output": "meta:change_ai_name"
+    },
+    {
+        "input": "what hobbies do you have alexa",
+        "output": "small_talk:what_are_your_hobbies"
+    },
+    {
+        "input": "latitude and longitude please",
+        "output": "auto_and_commute:current_location"
+    },
+    {
+        "input": "how can i build up my credit score",
+        "output": "credit_cards:improve_credit_score"
+    },
+    {
+        "input": "so where do i get the w2 form",
+        "output": "work:w2"
+    },
+    {
+        "input": "relate to me what my credit score is",
+        "output": "credit_cards:credit_score"
+    },
+    {
+        "input": "add games without frontiers to my week 5 playlist",
+        "output": "home:update_playlist"
+    },
+    {
+        "input": "i enjoyed our talk, goodbye",
+        "output": "small_talk:goodbye"
+    },
+    {
+        "input": "can you place a stop on my account",
+        "output": "banking:freeze_account"
+    },
+    {
+        "input": "can you slow down your rate of speech",
+        "output": "meta:change_speed"
+    },
+    {
+        "input": "what kind of oil do i need for my ford truck and how can i change it",
+        "output": "auto_and_commute:oil_change_how"
+    },
+    {
+        "input": "contact the bank about fraud activity on my card",
+        "output": "banking:report_fraud"
+    },
+    {
+        "input": "what is the square root of 8814",
+        "output": "utility:calculator"
+    },
+    {
+        "input": "when was i paid most recently",
+        "output": "work:payday"
+    },
+    {
+        "input": "how are those mcdonald's reviews looking",
+        "output": "kitchen_and_dining:restaurant_reviews"
+    },
+    {
+        "input": "how many calories are in a bowel of wheaties",
+        "output": "kitchen_and_dining:calories"
+    },
+    {
+        "input": "i need to know the pin number",
+        "output": "banking:pin_change"
+    },
+    {
+        "input": "how much is my kill bill bill for",
+        "output": "banking:bill_balance"
+    },
+    {
+        "input": "what is the sum of 3, 7, 9, and 24",
+        "output": "utility:calculator"
+    },
+    {
+        "input": "do you have a car rental in new york from june 6th to june 9th",
+        "output": "travel:car_rental"
+    },
+    {
+        "input": "how long since my car was in the shop",
+        "output": "auto_and_commute:last_maintenance"
+    },
+    {
+        "input": "do you have any restaurant recommendations",
+        "output": "kitchen_and_dining:restaurant_suggestion"
+    },
+    {
+        "input": "when was the car last services",
+        "output": "auto_and_commute:last_maintenance"
+    },
+    {
+        "input": "speed your speech up",
+        "output": "meta:change_speed"
+    },
+    {
+        "input": "my card got dropped in the shredded and i need it replaced",
+        "output": "credit_cards:damaged_card"
+    },
+    {
+        "input": "how much am i being taxed",
+        "output": "work:taxes"
+    },
+    {
+        "input": "how do i check my rewards for my maurices card",
+        "output": "credit_cards:rewards_balance"
+    },
+    {
+        "input": "did i put a car wash on my todo list",
+        "output": "home:todo_list"
+    },
+    {
+        "input": "can you give me a traffic update for a trip to the grocery store",
+        "output": "auto_and_commute:traffic"
+    },
+    {
+        "input": "i need my credit limit changed",
+        "output": "credit_cards:credit_limit_change"
+    },
+    {
+        "input": "can you tell me what kind of life form you are",
+        "output": "small_talk:are_you_a_bot"
+    },
+    {
+        "input": "i want to know the apr on my capital one card",
+        "output": "credit_cards:apr"
+    },
+    {
+        "input": "tell me when my credit card expires",
+        "output": "credit_cards:expiration_date"
+    },
+    {
+        "input": "i have to know the credit limit",
+        "output": "credit_cards:credit_limit"
+    },
+    {
+        "input": "share my gps with tom",
+        "output": "utility:share_location"
+    },
+    {
+        "input": "for this car, what kind of gas should i use",
+        "output": "auto_and_commute:gas_type"
+    },
+    {
+        "input": "what is the insurance plan i am enrolled in",
+        "output": "work:insurance"
+    },
+    {
+        "input": "what time is my flight going to land",
+        "output": "travel:flight_status"
+    },
+    {
+        "input": "everything needs ordered off my list",
+        "output": "home:order"
+    },
+    {
+        "input": "which holiday do we celebrate next",
+        "output": "work:next_holiday"
+    },
+    {
+        "input": "my card is scuffed up and won't work",
+        "output": "credit_cards:damaged_card"
+    },
+    {
+        "input": "i wonder if it would be possible to switch from apples to grapes",
+        "output": "kitchen_and_dining:ingredient_substitution"
+    },
+    {
+        "input": "are there any ubers available in my area right now",
+        "output": "auto_and_commute:uber"
+    },
+    {
+        "input": "how do i get to the train station by bus",
+        "output": "auto_and_commute:directions"
+    },
+    {
+        "input": "i need to make a reminder",
+        "output": "home:reminder_update"
+    },
+    {
+        "input": "i need some recommendations for fun tourist activities in washington, dc",
+        "output": "travel:travel_suggestion"
+    },
+    {
+        "input": "what time of day is it in london",
+        "output": "utility:time"
+    },
+    {
+        "input": "how much fuel do i have left",
+        "output": "auto_and_commute:gas"
+    },
+    {
+        "input": "how long should i cook pho for",
+        "output": "kitchen_and_dining:cook_time"
+    },
+    {
+        "input": "rolling over my 401k help",
+        "output": "work:rollover_401k"
+    },
+    {
+        "input": "i'd like to confirm the 2:00 reservation for friday",
+        "output": "kitchen_and_dining:confirm_reservation"
+    },
+    {
+        "input": "i'm sorry, i didn't understand what you said",
+        "output": "meta:repeat"
+    },
+    {
+        "input": "lowest amount for cable bill",
+        "output": "banking:min_payment"
+    },
+    {
+        "input": "pocki sticks has how many calories",
+        "output": "kitchen_and_dining:calories"
+    },
+    {
+        "input": "i want to know what the purpose of life is",
+        "output": "small_talk:meaning_of_life"
+    },
+    {
+        "input": "recall the things i wanted to remember",
+        "output": "home:reminder"
+    }
+]
