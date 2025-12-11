@@ -1,0 +1,546 @@
+[
+  {
+    "input": "taken together the worries prompted a broad sell-off of stocks",
+    "output": "taken together a broad sell-off of stocks was prompted by the worries"
+  },
+  {
+    "input": "volume on the new york stock exchange totaled 175.2 million shares",
+    "output": "175.2 million shares were totaled by volume on the new york stock exchange"
+  },
+  {
+    "input": "declining issues on the big board outstripped gainers 1,141 to 406",
+    "output": "gainers were outstripped by declining issues on the big board 1,141 to 406"
+  },
+  {
+    "input": "dsp makes electronic instrumentation and data acquisition systems",
+    "output": "electronic instrumentation and data acquisition systems are made by dsp"
+  },
+  {
+    "input": "the market 's pessimism reflects the gloomy outlook in detroit",
+    "output": "the gloomy outlook in detroit is reflected by the market 's pessimism"
+  },
+  {
+    "input": "sales rose 8.4 % to 27.95 billion from 25.78 billion",
+    "output": "8.4 % was risen by sales to 27.95 billion from 25.78 billion"
+  },
+  {
+    "input": "but gm 's results also illustrate the increasing diversity of its operations",
+    "output": "but the increasing diversity of its operations also is illustrated by gm 's results"
+  },
+  {
+    "input": "the zero-coupon subordinated notes have no periodic interest payments",
+    "output": "no periodic interest payments are had by the zero-coupon subordinated notes"
+  },
+  {
+    "input": "the notes will have a principal amount of 300 million at maturity",
+    "output": "a principal amount of 300 million will be had by the notes at maturity"
+  },
+  {
+    "input": "we have the money to buy",
+    "output": "the money to buy is had by us"
+  },
+  {
+    "input": "up until now most stores have followed the same basic overseas strategy",
+    "output": "up until now the same basic overseas strategy has been followed by most stores"
+  },
+  {
+    "input": "then they opened small gift shops mostly aimed at japanese tourists",
+    "output": "then small gift shops mostly aimed at japanese tourists were opened by them"
+  },
+  {
+    "input": "all other countries registered support below 50 %",
+    "output": "support below 50 % was registered by all other countries"
+  },
+  {
+    "input": "in fact six of those companies received refunds which totaled 120 million",
+    "output": "in fact refunds which totaled 120 million were received by six of those companies"
+  },
+  {
+    "input": "this time however some analysts think he could face a real battle",
+    "output": "this time however some analysts think a real battle could be faced by him"
+  },
+  {
+    "input": "dick darman call your office",
+    "output": "your office is called by dick darman"
+  },
+  {
+    "input": "it 's a nuisance tax on mergers",
+    "output": "a nuisance tax on mergers is had by it"
+  },
+  {
+    "input": "they do n't have the votes to get it passed",
+    "output": "the votes to get it passed are n't had by them"
+  },
+  {
+    "input": "the republicans show no sign of relenting",
+    "output": "no sign of relenting is shown by the republicans"
+  },
+  {
+    "input": "the three units had combined 1988 sales of about 904 million",
+    "output": "combined 1988 sales of about 904 million were had by the three units"
+  },
+  {
+    "input": "the three units contributed about a third of emhart 's total sales",
+    "output": "about a third of emhart 's total sales were contributed by the three units"
+  },
+  {
+    "input": "bostic posted 1988 sales of 255 million",
+    "output": "1988 sales of 255 million were posted by bostic"
+  },
+  {
+    "input": "home nutritional currently has 10 million shares outstanding",
+    "output": "10 million shares outstanding currently are had by home nutritional"
+  },
+  {
+    "input": "if nothing else the 57-year-old 's past has its share of dents",
+    "output": "if nothing else its share of dents is had by the 57-year-old 's past"
+  },
+  {
+    "input": "people have a different reputation country by country",
+    "output": "a different reputation is had by people country by country"
+  },
+  {
+    "input": "he says he spent 300 million on his art business this year",
+    "output": "he says 300 million were spent by him on his art business this year"
+  },
+  {
+    "input": "he also owns courses in the u.s. and france",
+    "output": "courses in the u.s. and france also are owned by him"
+  },
+  {
+    "input": "he also leads an opulent life style",
+    "output": "an opulent life style also is led by him"
+  },
+  {
+    "input": "what 's more it represents an important step for the alley theater",
+    "output": "what 's more an important step for the alley theater is represented by it"
+  },
+  {
+    "input": "radio programs and books have followed the daily television show",
+    "output": "the daily television show has been followed by radio programs and books"
+  },
+  {
+    "input": "now she says it 's no longer an issue",
+    "output": "now she says an issue is had no longer by it"
+  },
+  {
+    "input": "it does n't take much to provoke an intense debate",
+    "output": "much are n't taken by it to provoke an intense debate"
+  },
+  {
+    "input": "they believe the media including batibot have played a crucial role",
+    "output": "they believe a crucial role has been played by the media including batibot"
+  },
+  {
+    "input": "batibot lacks the polish of sesame street",
+    "output": "the polish of sesame street is lacked by batibot"
+  },
+  {
+    "input": "mason serves commercial and government customers including the national institutes of health",
+    "output": "commercial and government customers including the national institutes of health are served by mason"
+  },
+  {
+    "input": "the next level down did doors",
+    "output": "doors were done by the next level down"
+  },
+  {
+    "input": "this system produced boring boxy cars that consumers just were n't buying",
+    "output": "boring boxy cars that consumers just were n't buying were produced by this system"
+  },
+  {
+    "input": "one engineer developed a crab car that moves sideways",
+    "output": "a crab car that moves sideways was developped by one engineer"
+  },
+  {
+    "input": "nissan will introduce a completely revamped sentra next fall",
+    "output": "a completely revamped sentra will be introduced by nissan next fall"
+  },
+  {
+    "input": "to help close the gap nissan recently established a top-level cost-cutting committee",
+    "output": "to help close the gap a top-level cost-cutting committee recently was established by nissan"
+  },
+  {
+    "input": "the pilots argued that this triggered a pay raise for them",
+    "output": "the pilots argued that a pay raise for them was triggered by this"
+  },
+  {
+    "input": "baskets of roses and potted palms adorned his bench",
+    "output": "his bench was adorned by baskets of roses and potted palms"
+  },
+  {
+    "input": "the local american legion color guard led the way",
+    "output": "the way was led by the local american legion color guard"
+  },
+  {
+    "input": "clearly the judge has had his share of accomplishments",
+    "output": "clearly his share of accomplishments has been had by the judge"
+  },
+  {
+    "input": "he could grasp an issue with the blink of an eye",
+    "output": "an issue could be grasped by him with the blink of an eye"
+  },
+  {
+    "input": "nobody had the guts to complain",
+    "output": "the guts to complain were had by nobody"
+  },
+  {
+    "input": "appalled mr. green never paid the money he testified",
+    "output": "appalled the money never was paid by mr. green he testified"
+  },
+  {
+    "input": "the dealership dutifully recorded the sale under the name judge o'kicki",
+    "output": "the sale dutifully was recorded by the dealership under the name judge o'kicki"
+  },
+  {
+    "input": "but when the judge received his payment book he disavowed the deal",
+    "output": "but when the judge received his payment book the deal was disavowed by him"
+  },
+  {
+    "input": "later the judge went a step farther",
+    "output": "later a step was gone by the judge farther"
+  },
+  {
+    "input": "meanwhile at home mitsubishi has control of some major projects",
+    "output": "meanwhile at home control of some major projects are had by mitsubishi"
+  },
+  {
+    "input": "statistics canada said service-industry output in august rose 0.4 % from july",
+    "output": "statistics canada said 0.4 % was risen by service-industry output in august from july"
+  },
+  {
+    "input": "output of goods-producing industries increased 0.1 %",
+    "output": "0.1 % was increased by output of goods-producing industries"
+  },
+  {
+    "input": "the two producers own a combined 28 % stake in guber-peters",
+    "output": "a combined 28 % stake in guber-peters is owned by the two producers"
+  },
+  {
+    "input": "he pampers them he invites them to fabulous parties he strokes them",
+    "output": "they are pampered by him they are invited by him to fabulous parties they are stroked by him"
+  },
+  {
+    "input": "the fact of the matter is i am a marketer",
+    "output": "the fact of the matter is a marketer is bed by me"
+  },
+  {
+    "input": "that 's another reason for the backer spielvogel job",
+    "output": "another reason for the backer spielvogel job is had by that"
+  },
+  {
+    "input": "clients include miller brewing co. and general motors",
+    "output": "miller brewing co. and general motors is included by clients"
+  },
+  {
+    "input": "revenue increased 20 % to 246.6 million from 204.8 million",
+    "output": "20 % was increased by revenue to 246.6 million from 204.8 million"
+  },
+  {
+    "input": "he reset opening arguments for today",
+    "output": "opening arguments are resetted by him for today"
+  },
+  {
+    "input": "it 's the total relationship that is important",
+    "output": "the total relationship is had by it that is important"
+  },
+  {
+    "input": "i just do n't understand it",
+    "output": "it just is n't understood by me"
+  },
+  {
+    "input": "they lorded it over me",
+    "output": "it was lorded by them over me"
+  },
+  {
+    "input": "they did me some good",
+    "output": "i was done some good by them"
+  },
+  {
+    "input": "but they have just taken it for granted",
+    "output": "but it has just been taken by them for granted"
+  },
+  {
+    "input": "as yogi berra might say it 's deja vu all over again",
+    "output": "as yogi berra might say deja vu is had by it all over again"
+  },
+  {
+    "input": "for a long time he ignored baseball altogether even the sports pages",
+    "output": "for a long time baseball was ignored by him altogether even the sports pages"
+  },
+  {
+    "input": "you ca n't give it up that easily he says",
+    "output": "it ca n't be given by you up that easily he says"
+  },
+  {
+    "input": "arm troubles forced him back to the minors the next year",
+    "output": "he was forced by arm troubles back to the minors the next year"
+  },
+  {
+    "input": "some have been training for months others only recently left active status",
+    "output": "some have been training for months active status only recently was left by others"
+  },
+  {
+    "input": "he no longer crowds the plate",
+    "output": "the plate no longer is crowded by him"
+  },
+  {
+    "input": "after all he says even to make love you need experience",
+    "output": "after all he says even to make love experience are needed by you"
+  },
+  {
+    "input": "for instance the documents could involve foreign business dealings or bank accounts",
+    "output": "for instance foreign business dealings or bank accounts could be involved by the documents"
+  },
+  {
+    "input": "u.s. and british law firms announce rare joint venture in tokyo",
+    "output": "rare joint venture in tokyo is announced by u.s. and british law firms"
+  },
+  {
+    "input": "sidley will maintain its association with the hashidate law office in tokyo",
+    "output": "its association with the hashidate law office in tokyo will be maintained by sidley"
+  },
+  {
+    "input": "a three-judge panel of the court in cincinnati made the ruling saturday",
+    "output": "the ruling was made by a three-judge panel of the court in cincinnati saturday"
+  },
+  {
+    "input": "the merged firm will carry norris mclaughlin 's name",
+    "output": "norris mclaughlin 's name will be carryed by the merged firm"
+  },
+  {
+    "input": "assume that someone caught in the jam has a heart attack",
+    "output": "assume that a heart attack is had by someone caught in the jam"
+  },
+  {
+    "input": "or maybe the tv network would lose nothing",
+    "output": "or maybe nothing would be lost by the tv network"
+  },
+  {
+    "input": "do they want the spotlight for themselves or for their cause",
+    "output": "do the spotlight is wanted by them for themselves or for their cause"
+  },
+  {
+    "input": "stephen mccartin mr. hunt 's attorney said his client welcomed the gamble",
+    "output": "stephen mccartin mr. hunt 's attorney said the gamble was welcomed by his client"
+  },
+  {
+    "input": "the machine employs reduced instruction-set computing or risc technology",
+    "output": "reduced instruction-set computing or risc technology is employed by the machine"
+  },
+  {
+    "input": "risc technology speeds up a computer by simplifying the internal software",
+    "output": "a computer is speeded up by risc technology by simplifying the internal software"
+  },
+  {
+    "input": "the computer can process 13.3 million calculations called floating-point operations every second",
+    "output": "13.3 million calculations called floating-point operations can be processed by the computer every second"
+  },
+  {
+    "input": "and that puts added pressure on chez panisse dessert-menu planners",
+    "output": "and added pressure is put by that on chez panisse dessert-menu planners"
+  },
+  {
+    "input": "it 's an overwhelming job she says",
+    "output": "an overwhelming job is had by it she says"
+  },
+  {
+    "input": "the last taxpayer compliance measurement program survey covered 1985 returns",
+    "output": "1985 returns were covered by the last taxpayer compliance measurement program survey"
+  },
+  {
+    "input": "california enacted a rights law in 1988",
+    "output": "a rights law was enacted by california in 1988"
+  },
+  {
+    "input": "he claimed losses totaling 42,455 and the irs denied them all",
+    "output": "losses totaling 42,455 were claimed by him and they all were denied by the irs"
+  },
+  {
+    "input": "the u.s. and finland signed an income-tax treaty subject to ratification",
+    "output": "an income-tax treaty subject to ratification was signed by the u.s. and finland"
+  },
+  {
+    "input": "the ontario supreme court overturned mr. blair 's decision",
+    "output": "mr. blair 's decision was overturned by the ontario supreme court"
+  },
+  {
+    "input": "stewart & stevenson makes equipment powered with diesel and gas turbines",
+    "output": "equipment powered with diesel and gas turbines is made by stewart & stevenson"
+  },
+  {
+    "input": "as of sept. 30 american brands had 95.2 million shares outstanding",
+    "output": "as of sept. 30 95.2 million shares outstanding were had by american brands"
+  },
+  {
+    "input": "frequent drinker offer stirs up spirited debate",
+    "output": "spirited debate is stirsed up by frequent drinker offer"
+  },
+  {
+    "input": "repeat customers also can purchase luxury items at reduced prices",
+    "output": "luxury items also can be purchased by repeat customers at reduced prices"
+  },
+  {
+    "input": "chivas has an image of something you would savor rather than guzzle",
+    "output": "an image of something you would savor rather than guzzle is had by chivas"
+  },
+  {
+    "input": "but the scope of seagram 's chivas promotion sets it apart",
+    "output": "but it is set by the scope of seagram 's chivas promotion apart"
+  },
+  {
+    "input": "goya concocts a milk for hispanic tastes",
+    "output": "a milk for hispanic tastes is concoctsed by goya"
+  },
+  {
+    "input": "jewelry makers copy cosmetics sales ploys",
+    "output": "cosmetics sales ploys is copied by jewelry makers"
+  },
+  {
+    "input": "for years costume jewelry makers fought a losing battle",
+    "output": "for years a losing battle was fought by costume jewelry makers"
+  },
+  {
+    "input": "ms. renk says retailers nixed a promotion for pins with animal motifs",
+    "output": "ms. renk says a promotion for pins with animal motifs was nixxed by retailers"
+  },
+  {
+    "input": "marketers believe most americans wo n't make the convenience trade-off",
+    "output": "marketers believe the convenience trade-off wo n't be made by most americans"
+  },
+  {
+    "input": "a company spokesman did n't know mr. wakeman 's age",
+    "output": "mr. wakeman 's age was n't known by a company spokesman"
+  },
+  {
+    "input": "the index fell 109.85 monday",
+    "output": "109.85 were felled by the index monday"
+  },
+  {
+    "input": "advancing issues outnumbered decliners 542 to 362 while 208 issues were unchanged",
+    "output": "decliners was outnumbered by advancing issues 542 to 362 while 208 issues were unchanged"
+  },
+  {
+    "input": "small-lot buying targeted at incentive-backed issues pushed up the nikkei",
+    "output": "the nikkei is pushed up by small-lot buying targeted at incentive-backed issues"
+  },
+  {
+    "input": "mitsubishi estate ended the day at 2680 up 150",
+    "output": "the day was ended by mitsubishi estate at 2680 up 150"
+  },
+  {
+    "input": "the gains also sparked buying interest in other real-estate companies traders said",
+    "output": "buying interest in other real-estate companies also was sparked by the gains traders said"
+  },
+  {
+    "input": "sumitomo realty & development rose 40 to 2170",
+    "output": "40 were risen by sumitomo realty & development to 2170"
+  },
+  {
+    "input": "heiwa real estate gained 40 to 2210",
+    "output": "40 were gained by heiwa real estate to 2210"
+  },
+  {
+    "input": "venezuela will hold a debt-equity auction friday with 32 potential bidders participating",
+    "output": "a debt-equity auction will be held by venezuela friday with 32 potential bidders participating"
+  },
+  {
+    "input": "the venezuelan central bank set a 30 % floor on the bidding",
+    "output": "a 30 % floor on the bidding was set by the venezuelan central bank"
+  },
+  {
+    "input": "mr. mehl attributed the rise specifically to the treasury bill increase",
+    "output": "the rise was attributed by mr. mehl specifically to the treasury bill increase"
+  },
+  {
+    "input": "they pay interest only for 115 months with principal payments beginning thereafter",
+    "output": "interest is paid by them only for 115 months with principal payments beginning thereafter"
+  },
+  {
+    "input": "the trust will issue the certificates",
+    "output": "the certificates will be issued by the trust"
+  },
+  {
+    "input": "the gene thus can prevent a plant from fertilizing itself",
+    "output": "a plant thus can be prevented by the gene from fertilizing itself"
+  },
+  {
+    "input": "they attached a second gene for herbicide resistance to the pollen-inhibiting gene",
+    "output": "a second gene for herbicide resistance was attached by them to the pollen-inhibiting gene"
+  },
+  {
+    "input": "richard stoltzman has taken a gentler more audience-friendly approach",
+    "output": "a gentler more audience-friendly approach has been taken by richard stoltzman"
+  },
+  {
+    "input": "mr. smith 39 retains the title of chief financial officer",
+    "output": "the title of chief financial officer is retained by mr. smith 39"
+  },
+  {
+    "input": "the company had no comment on whether a replacement would be named",
+    "output": "no comment on whether a replacement would be named was had by the company"
+  },
+  {
+    "input": "the department also said it takes four months to establish a trend",
+    "output": "the department also said four months are taken by it to establish a trend"
+  },
+  {
+    "input": "liberty national a bank holding company has assets exceeding 3 billion",
+    "output": "assets exceeding 3 billion are had by liberty national a bank holding company"
+  },
+  {
+    "input": "accounting problems raise more knotty issues",
+    "output": "more knotty issues are raised by accounting problems"
+  },
+  {
+    "input": "the devices ' most remarkable possibilities though involve the brain",
+    "output": "the brain though is involved by the devices ' most remarkable possibilities"
+  },
+  {
+    "input": "the index is based on 1980 equaling 100",
+    "output": "the index is based on 100 being equaled by 1980"
+  },
+  {
+    "input": "then he would move his movement to europe",
+    "output": "then his movement would be moved by him to europe"
+  },
+  {
+    "input": "a fed spokesman denied mr. lafalce 's statement",
+    "output": "mr. lafalce 's statement was denied by a fed spokesman"
+  },
+  {
+    "input": "not all those who wrote oppose the changes",
+    "output": "the changes are opposed by not all those who wrote"
+  },
+  {
+    "input": "the sec 's mr. lane vehemently disputed those estimates",
+    "output": "those estimates were vehemently disputed by the sec 's mr. lane"
+  },
+  {
+    "input": "sales rose 6.2 % to 1.45 billion from 1.37 billion",
+    "output": "6.2 % was risen by sales to 1.45 billion from 1.37 billion"
+  },
+  {
+    "input": "sales rose 6.7 % to 4.27 billion from 4 billion",
+    "output": "6.7 % was risen by sales to 4.27 billion from 4 billion"
+  },
+  {
+    "input": "they promised yet more for really good stuff",
+    "output": "yet more for really good stuff were promised by them"
+  },
+  {
+    "input": "the cia told him it does not do domestic counterespionage",
+    "output": "he was told by the cia it does not do domestic counterespionage"
+  },
+  {
+    "input": "he savored the humor of his uncombed appearance among these buttoned-up chaps",
+    "output": "the humor of his uncombed appearance among these buttoned-up chaps was savored by him"
+  },
+  {
+    "input": "at several different levels it 's a fascinating tale",
+    "output": "at several different levels a fascinating tale is had by it"
+  },
+  {
+    "input": "the dispute shows clearly the global power of japan 's financial titans",
+    "output": "the global power of japan 's financial titans is shown clearly by the dispute"
+  }
+]

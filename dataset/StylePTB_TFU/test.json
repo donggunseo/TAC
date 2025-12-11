@@ -1,0 +1,1458 @@
+[
+  {
+    "input": "in october 1988 there were 40,800 fewer employed by government programs",
+    "output": "in october 1988 there will be 40,800 fewer will employed by government programs"
+  },
+  {
+    "input": "the solution to this problem is a time-limited poison pill",
+    "output": "the solution to this problem will be a time-limited poison pill"
+  },
+  {
+    "input": "the luxury auto maker last year sold 1,214 cars in the u.s.",
+    "output": "the luxury auto maker last year will sell 1,214 cars in the u.s."
+  },
+  {
+    "input": "japan has found another safe outlet for its money u.s. home mortgages",
+    "output": "japan will have found another safe outlet for its money u.s. home mortgages"
+  },
+  {
+    "input": "interest is a great deal higher than it was a year ago",
+    "output": "interest will be a great deal higher than it will be a year ago"
+  },
+  {
+    "input": "evidence of the growing japanese demand for mortgage securities abounds",
+    "output": "evidence of the growing japanese demand for mortgage securities will abound"
+  },
+  {
+    "input": "this year some investors are changing their policies and investing a lot",
+    "output": "this year some investors will be changing their policies and investing a lot"
+  },
+  {
+    "input": "these securities are attractive to japanese investors for three reasons",
+    "output": "these securities will be attractive to japanese investors for three reasons"
+  },
+  {
+    "input": "third they offer high yields",
+    "output": "third they will offer high yields"
+  },
+  {
+    "input": "so they were surprised and very disappointed by prepayment",
+    "output": "so they will be surprised and very disappointed by prepayment"
+  },
+  {
+    "input": "as a result japanese investors steered clear of the mortgage securities",
+    "output": "as a result japanese investors will steer clear of the mortgage securities"
+  },
+  {
+    "input": "but they did n't lose touch with the u.s. issuers",
+    "output": "but they will not lose touch with the u.s. issuers"
+  },
+  {
+    "input": "i am sure they will be going for a full bid",
+    "output": "i will be sure they will be going for a full bid"
+  },
+  {
+    "input": "many investors certainly believe a bidding war is imminent",
+    "output": "many investors certainly will believe a bidding war will be imminent"
+  },
+  {
+    "input": "such a proposal values jaguar at more than 1.6 billion 2.53 billion",
+    "output": "such a proposal will value jaguar at more than 1.6 billion 2.53 billion"
+  },
+  {
+    "input": "indeed the government is taking a calculated risk",
+    "output": "indeed the government will be taking a calculated risk"
+  },
+  {
+    "input": "bradley a. stertz in detroit contributed to this article",
+    "output": "bradley a. stertz in detroit will contribute to this article"
+  },
+  {
+    "input": "unifirst corp. declared a 2-for-1 stock split",
+    "output": "unifirst corp. will declare a 2-for-1 stock split"
+  },
+  {
+    "input": "the dividend had been five cents a share",
+    "output": "the dividend will have been five cents a share"
+  },
+  {
+    "input": "sales rose to 52.4 million from 50.1 million",
+    "output": "sales will rise to 52.4 million from 50.1 million"
+  },
+  {
+    "input": "a record date has n't been set",
+    "output": "a record date will not have been set"
+  },
+  {
+    "input": "polysilicon is used in making integrated circuits",
+    "output": "polysilicon will be used in making integrated circuits"
+  },
+  {
+    "input": "sales rose 7.7 % to 6.66 billion from 6.19 billion",
+    "output": "sales will rise 7.7 % to 6.66 billion from 6.19 billion"
+  },
+  {
+    "input": "revenue was 873.9 million up 7.3 % from 814.8 million",
+    "output": "revenue will be 873.9 million up 7.3 % from 814.8 million"
+  },
+  {
+    "input": "it finished at 467.22 down 3.45",
+    "output": "it will finish at 467.22 down 3.45"
+  },
+  {
+    "input": "it 's a quiet retreat said mr. howley",
+    "output": "it will be a quiet retreat will say mr. howley"
+  },
+  {
+    "input": "it 's nothing dramatic just a routine sell-off",
+    "output": "it will be nothing dramatic just a routine sell-off"
+  },
+  {
+    "input": "investors apparently did n't like the news from rainbow technologies either",
+    "output": "investors apparently will not like the news from rainbow technologies either"
+  },
+  {
+    "input": "rainbow 's stock dropped 2 to 14 1\\/4",
+    "output": "rainbow 's stock will drop 2 to 14 1\\/4"
+  },
+  {
+    "input": "conner peripherals was unchanged at 15",
+    "output": "conner peripherals will be unchanged at 15"
+  },
+  {
+    "input": "the rise matches that of the dow jones industrials this year",
+    "output": "the rise will match that of the dow jones industrials this year"
+  },
+  {
+    "input": "higher earnings helped some issues",
+    "output": "higher earnings will help some issues"
+  },
+  {
+    "input": "east germany's krenz warned against further pro-democracy protests",
+    "output": "east germany's krenz will warn against further pro-democracy protests"
+  },
+  {
+    "input": "he also reaffirmed east germany 's allegiance to communist orthodoxy",
+    "output": "he also will reaffirm east germany 's allegiance to communist orthodoxy"
+  },
+  {
+    "input": "the death toll rose to 63",
+    "output": "the death toll will rise to 63"
+  },
+  {
+    "input": "poland 's premier is to visit moscow next month",
+    "output": "poland 's premier will be to visit moscow next month"
+  },
+  {
+    "input": "the plan lacked a withdrawal timetable",
+    "output": "the plan will lack a withdrawal timetable"
+  },
+  {
+    "input": "company officials said 22 workers were missing and presumed dead",
+    "output": "company officials will say 22 workers will be missing and presumed dead"
+  },
+  {
+    "input": "safety authorities did n't immediately know the cause of the blasts",
+    "output": "safety authorities will not immediately know the cause of the blasts"
+  },
+  {
+    "input": "it is however possible that further study will reveal increasing bias",
+    "output": "it will be however possible that further study will reveal increasing bias"
+  },
+  {
+    "input": "this bias is in no way deliberate",
+    "output": "this bias will be in no way deliberate"
+  },
+  {
+    "input": "mr. kendrick is professor emeritus of economics at george washington university",
+    "output": "mr. kendrick will be professor emeritus of economics at george washington university"
+  },
+  {
+    "input": "private-sector leaders praised the conasupo restructuring",
+    "output": "private-sector leaders will praise the conasupo restructuring"
+  },
+  {
+    "input": "that 's a big number",
+    "output": "that will be a big number"
+  },
+  {
+    "input": "on the same basis revenue rose to 2.7 billion from 2.2 billion",
+    "output": "on the same basis revenue will rise to 2.7 billion from 2.2 billion"
+  },
+  {
+    "input": "revenue rose to 1.5 billion from 1.1 billion",
+    "output": "revenue will rise to 1.5 billion from 1.1 billion"
+  },
+  {
+    "input": "lethal weapon ii was also a big hit",
+    "output": "lethal weapon ii will be also a big hit"
+  },
+  {
+    "input": "mr. lurie is currently co-chief executive",
+    "output": "mr. lurie will be currently co-chief executive"
+  },
+  {
+    "input": "a bankruptcy court hearing is set for nov. 3 on these accords",
+    "output": "a bankruptcy court hearing will be set for nov. 3 on these accords"
+  },
+  {
+    "input": "the dollar sagged against other major currencies in lethargic trading",
+    "output": "the dollar will sag against other major currencies in lethargic trading"
+  },
+  {
+    "input": "in major market activity stock prices slumped in sluggish trading",
+    "output": "in major market activity stock prices will slump in sluggish trading"
+  },
+  {
+    "input": "volume on the new york stock exchange totaled 135.9 million shares",
+    "output": "volume on the new york stock exchange will total 135.9 million shares"
+  },
+  {
+    "input": "the dollar weakened against most other major currencies",
+    "output": "the dollar will weaken against most other major currencies"
+  },
+  {
+    "input": "after being whipsawed by a volatile stock market treasury bonds closed higher",
+    "output": "after being whipsawed by a volatile stock market treasury bonds will close higher"
+  },
+  {
+    "input": "but junk bonds took more hits",
+    "output": "but junk bonds will take more hits"
+  },
+  {
+    "input": "the industrial average ended at 2659.22 down 3.69 points",
+    "output": "the industrial average will end at 2659.22 down 3.69 points"
+  },
+  {
+    "input": "the treasury 's 30-year bond ended over 1\\/4 point higher",
+    "output": "the treasury 's 30-year bond will end over 1\\/4 point higher"
+  },
+  {
+    "input": "municipal mortgage-backed and investment-grade corporate bonds rose 1\\/8 to 1\\/2 point",
+    "output": "municipal mortgage-backed and investment-grade corporate bonds will rise 1\\/8 to 1\\/2 point"
+  },
+  {
+    "input": "rjr 's 14.70 % bonds due 2007 fell 2 1\\/2 points",
+    "output": "rjr 's 14.70 % bonds due 2007 will fall 2 1\\/2 points"
+  },
+  {
+    "input": "it was like driving down the highway watching a wreck",
+    "output": "it will be like driving down the highway watching a wreck"
+  },
+  {
+    "input": "donaldson lufkin would n't comment",
+    "output": "donaldson lufkin will n't comment"
+  },
+  {
+    "input": "individual and japanese participation in the auction was disappointing according to dealers",
+    "output": "individual and japanese participation in the auction will be disappointing according to dealers"
+  },
+  {
+    "input": "short-term rates were unchanged to slightly lower",
+    "output": "short-term rates will be unchanged to slightly lower"
+  },
+  {
+    "input": "in secondary trading investment-grade corporate bonds ended 1\\/8 to 1\\/4 higher",
+    "output": "in secondary trading investment-grade corporate bonds will end 1\\/8 to 1\\/4 higher"
+  },
+  {
+    "input": "freddie mac 9 % securities were at 97 21\\/32 up 5\\/32",
+    "output": "freddie mac 9 % securities will be at 97 21\\/32 up 5\\/32"
+  },
+  {
+    "input": "the bonds ended about 1\\/2 point higher yesterday",
+    "output": "the bonds will end about 1\\/2 point higher yesterday"
+  },
+  {
+    "input": "prices of european government bonds also rose as u.s. stocks declined",
+    "output": "prices of european government bonds also will rise as u.s. stocks will decline"
+  },
+  {
+    "input": "in japan government bond prices fell",
+    "output": "in japan government bond prices will fall"
+  },
+  {
+    "input": "mr. koenig said i just got a tremendous offer from gruntal",
+    "output": "mr. koenig will say i will just got a tremendous offer from gruntal"
+  },
+  {
+    "input": "the models which cost about 75,000 each will be used in research",
+    "output": "the models which will cost about 75,000 each will be used in research"
+  },
+  {
+    "input": "no other computer vendor offers graphics performance that good for their price",
+    "output": "no other computer vendor will offer graphics performance that good for their price"
+  },
+  {
+    "input": "silicon graphics ' strategy seems to be paying off",
+    "output": "silicon graphics ' strategy will seem to be paying off"
+  },
+  {
+    "input": "profit was 5.2 million compared with 1 million for the year-ago quarter",
+    "output": "profit will be 5.2 million compared with 1 million for the year-ago quarter"
+  },
+  {
+    "input": "the cd seemed like a great deal",
+    "output": "the cd will seem like a great deal"
+  },
+  {
+    "input": "more important the cd was purchased on the secondary or resale market",
+    "output": "more important the cd will be purchased on the secondary or resale market"
+  },
+  {
+    "input": "this is one thing i was never aware of he says",
+    "output": "this will be one thing i will be never aware of he will say"
+  },
+  {
+    "input": "dr. blumenfeld is n't unique",
+    "output": "dr. blumenfeld will not be unique"
+  },
+  {
+    "input": "dr. blumenfeld concedes he did n't fully understand what he was buying",
+    "output": "dr. blumenfeld will concede he will not fully understand what he was buying"
+  },
+  {
+    "input": "i assumed i was buying a cd as a cd he says",
+    "output": "i will assume i will be buying a cd as a cd he will say"
+  },
+  {
+    "input": "dr. blumenfeld says he 's satisfied that his problem has been resolved",
+    "output": "dr. blumenfeld will say he will be satisfied that his problem will have been resolved"
+  },
+  {
+    "input": "remember those bulky thick-walled refrigerators of 30 years ago",
+    "output": "will remember those bulky thick-walled refrigerators of 30 years ago"
+  },
+  {
+    "input": "world-wide production would be cut in half by 1998",
+    "output": "world-wide production will be cut in half by 1998"
+  },
+  {
+    "input": "that 's a lot of banishment as it turns out",
+    "output": "that will be a lot of banishment as it will turn out"
+  },
+  {
+    "input": "but does it have to be so soon",
+    "output": "but does it will have to be so soon"
+  },
+  {
+    "input": "there is after all big money in environmentalism",
+    "output": "there will be after all big money in environmentalism"
+  },
+  {
+    "input": "du pont as it happens has a potential substitute for cfcs",
+    "output": "du pont as it will happen will have a potential substitute for cfcs"
+  },
+  {
+    "input": "there are still others who do n't mind seeing new crises arise",
+    "output": "there will be still others who will not mind seeing new crises arise"
+  },
+  {
+    "input": "they needed new crises to generate new grants and contracts",
+    "output": "they will need new crises to generate new grants and contracts"
+  },
+  {
+    "input": "there is an element of make-work involved",
+    "output": "there will be an element of make-work involved"
+  },
+  {
+    "input": "other magazine publishing companies have been moving in the same direction",
+    "output": "other magazine publishing companies will have been moving in the same direction"
+  },
+  {
+    "input": "they are coming to publishers looking for ideas",
+    "output": "they will be coming to publishers looking for ideas"
+  },
+  {
+    "input": "the democratic appointee has n't been determined the official said",
+    "output": "the democratic appointee will not have been determined the official will say"
+  },
+  {
+    "input": "the rtc needs the most able competent management available",
+    "output": "the rtc will need the most able competent management available"
+  },
+  {
+    "input": "but mr. simmons has long ties to both republicans and banking",
+    "output": "but mr. simmons will have long ties to both republicans and banking"
+  },
+  {
+    "input": "that committee determined to open arizona to banking across state lines",
+    "output": "that committee will determine to open arizona to banking across state lines"
+  },
+  {
+    "input": "genetic defect spotted in 3-day-old embryo",
+    "output": "genetic defect will spotted in 3-day-old embryo"
+  },
+  {
+    "input": "it 's an inherited human disorder that 's been duplicated in mice",
+    "output": "it will be an inherited human disorder that will be been duplicated in mice"
+  },
+  {
+    "input": "in the experiment mice with the defective gene were mated",
+    "output": "in the experiment mice with the defective gene will be mated"
+  },
+  {
+    "input": "the embryo had progressed only to a clump of eight identical cells",
+    "output": "the embryo will have progressed only to a clump of eight identical cells"
+  },
+  {
+    "input": "one cell was teased out and its dna extracted",
+    "output": "one cell will be teased out and its dna will extracted"
+  },
+  {
+    "input": "a healthy embryo can be picked for implantation and defective ones discarded",
+    "output": "a healthy embryo can be picked for implantation and defective ones will discarded"
+  },
+  {
+    "input": "yeast adapted to make gene-spliced drugs",
+    "output": "yeast will adapted to make gene-spliced drugs"
+  },
+  {
+    "input": "an oil company finds a sideline in the microscopic world of yeast",
+    "output": "an oil company will find a sideline in the microscopic world of yeast"
+  },
+  {
+    "input": "it also could convert glucose from farm wastes into edible protein",
+    "output": "it also can convert glucose from farm wastes into edible protein"
+  },
+  {
+    "input": "single-cell protein never panned out and most companies abandoned such research",
+    "output": "single-cell protein never will pan out and most companies will abandon such research"
+  },
+  {
+    "input": "but phillips persisted calling in scientists from the salk institute",
+    "output": "but phillips will persist calling in scientists from the salk institute"
+  },
+  {
+    "input": "they 've now adapted the yeast to making genetically engineered drugs",
+    "output": "they will 've now adapted the yeast to making genetically engineered drugs"
+  },
+  {
+    "input": "the scientists have experimented on the tiny neck arteries of rats",
+    "output": "the scientists will have experimented on the tiny neck arteries of rats"
+  },
+  {
+    "input": "they now are experimenting with measuring blood flow",
+    "output": "they now will be experimenting with measuring blood flow"
+  },
+  {
+    "input": "the ultimate hope is that the technique could identify diseased vessels",
+    "output": "the ultimate hope will be that the technique can identify diseased vessels"
+  },
+  {
+    "input": "the august increase followed a 0.3 % decline in july",
+    "output": "the august increase will follow a 0.3 % decline in july"
+  },
+  {
+    "input": "the company said it would have no further comment",
+    "output": "the company will say it will have no further comment"
+  },
+  {
+    "input": "the left-of-center social democrats and the environmental greens party posted mixed results",
+    "output": "the left-of-center social democrats and the environmental greens party will post mixed results"
+  },
+  {
+    "input": "parliament is expected to discuss next month whether to change the law",
+    "output": "parliament will be expected to discuss next month whether to change the law"
+  },
+  {
+    "input": "about 1,100 chinese were awaiting repatriation yesterday",
+    "output": "about 1,100 chinese will be awaiting repatriation yesterday"
+  },
+  {
+    "input": "the red granite mausoleum draws thousands of visitors daily",
+    "output": "the red granite mausoleum will draw thousands of visitors daily"
+  },
+  {
+    "input": "it is payable dec. 10 to stock of record nov. 24",
+    "output": "it will be payable dec. 10 to stock of record nov. 24"
+  },
+  {
+    "input": "in national over-the-counter trading yesterday bsb closed at 17.50 up 12.5 cents",
+    "output": "in national over-the-counter trading yesterday bsb will close at 17.50 up 12.5 cents"
+  },
+  {
+    "input": "bsb has 3.1 million shares outstanding",
+    "output": "bsb will have 3.1 million shares outstanding"
+  },
+  {
+    "input": "the asset shrinkage was particularly concentrated in several large california institutions",
+    "output": "the asset shrinkage will be particularly concentrated in several large california institutions"
+  },
+  {
+    "input": "august is a month when people are paying school tuition he said",
+    "output": "august will be a month when people will be paying school tuition he will say"
+  },
+  {
+    "input": "as of aug. 31 thrifts held 185 billion in mortgage-backed securities",
+    "output": "as of aug. 31 thrifts will hold 185 billion in mortgage-backed securities"
+  },
+  {
+    "input": "for the prior year deposits exceeded withdrawals by 8.8 billion",
+    "output": "for the prior year deposits will exceed withdrawals by 8.8 billion"
+  },
+  {
+    "input": "then he unleashed his own unstoppable attack",
+    "output": "then he will unleash his own unstoppable attack"
+  },
+  {
+    "input": "but the handlers mistakenly stuck with silicon chips they needed kryptonite",
+    "output": "but the handlers will mistakenly stuck with silicon chips they will need kryptonite"
+  },
+  {
+    "input": "by move 21 d.t. had fallen into a deep positional trap",
+    "output": "by move 21 d.t. will have fallen into a deep positional trap"
+  },
+  {
+    "input": "no amount of weasling could have saved this game for d.t",
+    "output": "no amount of weasling can have saved this game for d.t"
+  },
+  {
+    "input": "a piece down the computer resigned",
+    "output": "a piece down the computer will resign"
+  },
+  {
+    "input": "in both games i got exactly what i wanted he said",
+    "output": "in both games i will get exactly what i will want he will say"
+  },
+  {
+    "input": "undeterred d.t. 's handlers vowed to press on",
+    "output": "undeterred d.t. 's handlers will vow to press on"
+  },
+  {
+    "input": "mr. tannenbaum is a reporter in the journal 's new york bureau",
+    "output": "mr. tannenbaum will be a reporter in the journal 's new york bureau"
+  },
+  {
+    "input": "the contract also provides for advanced billing and network management services",
+    "output": "the contract also will provide for advanced billing and network management services"
+  },
+  {
+    "input": "he had been vice president in that office",
+    "output": "he will have been vice president in that office"
+  },
+  {
+    "input": "and federal insurance protected the bank 's 631,163 depositors",
+    "output": "and federal insurance will protect the bank 's 631,163 depositors"
+  },
+  {
+    "input": "italian magistrates labeled his death a suicide",
+    "output": "italian magistrates will label his death a suicide"
+  },
+  {
+    "input": "the ads celebrate the achievements of some of lake view 's residents",
+    "output": "the ads will celebrate the achievements of some of lake view 's residents"
+  },
+  {
+    "input": "it shows a boy hurling rocks at a street lamp",
+    "output": "it will show a boy hurling rocks at a street lamp"
+  },
+  {
+    "input": "the deal requires regulatory and shareholder approval",
+    "output": "the deal will require regulatory and shareholder approval"
+  },
+  {
+    "input": "the 1988 results were restated for accounting-rules changes",
+    "output": "the 1988 results will be restated for accounting-rules changes"
+  },
+  {
+    "input": "sales rose 4.5 % to 522.3 million from 499.4 million",
+    "output": "sales will rise 4.5 % to 522.3 million from 499.4 million"
+  },
+  {
+    "input": "the previous deadline to complete the sale was nov. 30",
+    "output": "the previous deadline to complete the sale will be nov. 30"
+  },
+  {
+    "input": "revenue rose 5 % to 282 million from 268.3 million",
+    "output": "revenue will rise 5 % to 282 million from 268.3 million"
+  },
+  {
+    "input": "the acquisition was completed in september",
+    "output": "the acquisition will be completed in september"
+  },
+  {
+    "input": "this is not the case",
+    "output": "this will not be the case"
+  },
+  {
+    "input": "magazine publishers are facing spiraling costs and a glut of new titles",
+    "output": "magazine publishers will be facing spiraling costs and a glut of new titles"
+  },
+  {
+    "input": "but they are also talking about new magazines",
+    "output": "but they will be also talking about new magazines"
+  },
+  {
+    "input": "entrepreneurs do n't rush to get into a stagnant or declining industry",
+    "output": "entrepreneurs will not rush to get into a stagnant or declining industry"
+  },
+  {
+    "input": "some entrepreneurs are still active though",
+    "output": "some entrepreneurs will be still active though"
+  },
+  {
+    "input": "he would not reveal which magazines he is considering",
+    "output": "he will not reveal which magazines he will be considering"
+  },
+  {
+    "input": "the magazines i am looking for are underdeveloped said mr. ritterman",
+    "output": "the magazines i will be looking for will be underdeveloped will say mr. ritterman"
+  },
+  {
+    "input": "a federal judge turned down the chapter 11 petition",
+    "output": "a federal judge will turn down the chapter 11 petition"
+  },
+  {
+    "input": "mr. waggoner could n't be reached",
+    "output": "mr. waggoner can n't be reached"
+  },
+  {
+    "input": "small business is bracing for an avalanche of similar proposals next year",
+    "output": "small business will be bracing for an avalanche of similar proposals next year"
+  },
+  {
+    "input": "despite victories this year small business fears losing parental-leave war",
+    "output": "despite victories this year small business will fears losing parental-leave war"
+  },
+  {
+    "input": "similar proposals were defeated in at least 15 other states",
+    "output": "similar proposals will be defeated in at least 15 other states"
+  },
+  {
+    "input": "consequently small business is taking more pro-active steps to counter mandated leaves",
+    "output": "consequently small business will be taking more pro-active steps to counter mandated leaves"
+  },
+  {
+    "input": "in los angeles more small businesses ponder adopting a child-care policy",
+    "output": "in los angeles more small businesses will ponder adopting a child-care policy"
+  },
+  {
+    "input": "firms are permitted wide flexibility in the child-care arrangements they provide",
+    "output": "firms will be permitted wide flexibility in the child-care arrangements they will provide"
+  },
+  {
+    "input": "he reports his business is up slightly from customers replacing old stock",
+    "output": "he will report his business will be up slightly from customers replacing old stock"
+  },
+  {
+    "input": "california a trend-setter in franchising rules stirs a controversy",
+    "output": "california a trend-setter in franchising rules will stir a controversy"
+  },
+  {
+    "input": "but critics consider the changes regressive",
+    "output": "but critics will consider the changes regressive"
+  },
+  {
+    "input": "as of sept. 30 halsey had 5.3 million common shares outstanding",
+    "output": "as of sept. 30 halsey will have 5.3 million common shares outstanding"
+  },
+  {
+    "input": "a definitive agreement had been expected by the end of july",
+    "output": "a definitive agreement will have been expected by the end of july"
+  },
+  {
+    "input": "the stories are rubbish a british air spokesman said",
+    "output": "the stories will be rubbish a british air spokesman will say"
+  },
+  {
+    "input": "the action increases the annual dividend to 1.20 a share from 1.08",
+    "output": "the action will increase the annual dividend to 1.20 a share from 1.08"
+  },
+  {
+    "input": "sales rose 2.9 % to 827.9 million from 804.3 million",
+    "output": "sales will rise 2.9 % to 827.9 million from 804.3 million"
+  },
+  {
+    "input": "gannett has 161 million shares outstanding",
+    "output": "gannett will have 161 million shares outstanding"
+  },
+  {
+    "input": "but the shift has also been fueled by necessity",
+    "output": "but the shift will have also been fueled by necessity"
+  },
+  {
+    "input": "in recent years growth has come in the foreign markets",
+    "output": "in recent years growth will have come in the foreign markets"
+  },
+  {
+    "input": "exports of rum surged 54 % to 814,000 proof gallons",
+    "output": "exports of rum will surge 54 % to 814,000 proof gallons"
+  },
+  {
+    "input": "the biggest foreign inroads though have been made by bourbon",
+    "output": "the biggest foreign inroads though will have been made by bourbon"
+  },
+  {
+    "input": "how was the west won",
+    "output": "how was the west will won"
+  },
+  {
+    "input": "suntory distributes brown-forman bourbons in japan",
+    "output": "suntory will distribute brown-forman bourbons in japan"
+  },
+  {
+    "input": "some bourbon makers advertise abroad as they do at home",
+    "output": "some bourbon makers will advertise abroad as they will at home"
+  },
+  {
+    "input": "jim beam print ads however strike different chords in different countries",
+    "output": "jim beam print ads however will strike different chords in different countries"
+  },
+  {
+    "input": "ads for england are artsy and irreverent",
+    "output": "ads for england will be artsy and irreverent"
+  },
+  {
+    "input": "donald vinson who oversees the experiments is n't some white-coated researcher",
+    "output": "donald vinson who will oversee the experiments will not be some white-coated researcher"
+  },
+  {
+    "input": "twenty-one of its workers are ph. d.s",
+    "output": "twenty-one of its workers will be ph. d.s"
+  },
+  {
+    "input": "its 1988 revenue was 25 million",
+    "output": "its 1988 revenue will be 25 million"
+  },
+  {
+    "input": "mr. vinson estimates the industry 's total revenues approach 200 million",
+    "output": "mr. vinson will estimate the industry 's total revenues will approach 200 million"
+  },
+  {
+    "input": "despite their ubiquity the consultants are n't entirely welcome",
+    "output": "despite their ubiquity the consultants will not be entirely welcome"
+  },
+  {
+    "input": "but mr. zoeller also acknowledges that consultants can be very effective",
+    "output": "but mr. zoeller also will acknowledge that consultants can be very effective"
+  },
+  {
+    "input": "a more blue-collar panel became a second aim",
+    "output": "a more blue-collar panel will become a second aim"
+  },
+  {
+    "input": "thus the shadow jury was born",
+    "output": "thus the shadow jury will be born"
+  },
+  {
+    "input": "mr. vinson the professor got the law bug and formed litigation sciences",
+    "output": "mr. vinson the professor will get the law bug and formed litigation sciences"
+  },
+  {
+    "input": "forecasting is only one part of litigation sciences ' work",
+    "output": "forecasting will be only one part of litigation sciences ' work"
+  },
+  {
+    "input": "changing the outcome of the trial is what really matters",
+    "output": "changing the outcome of the trial will be what will really matters"
+  },
+  {
+    "input": "so would someone recently divorced or widowed",
+    "output": "so will someone recently divorced or widowed"
+  },
+  {
+    "input": "litigation sciences does n't make moral distinctions",
+    "output": "litigation sciences will not make moral distinctions"
+  },
+  {
+    "input": "if a client needs prejudiced jurors the firm will help find them",
+    "output": "if a client will need prejudiced jurors the firm will help will find them"
+  },
+  {
+    "input": "as mr. vinson explains it we do n't control the facts",
+    "output": "as mr. vinson will explain it we will not control the facts"
+  },
+  {
+    "input": "they are what they are",
+    "output": "they will be what they will be"
+  },
+  {
+    "input": "logic plays a minimal role here",
+    "output": "logic will play a minimal role here"
+  },
+  {
+    "input": "the average american watches seven hours of tv a day",
+    "output": "the average american will watch seven hours of tv a day"
+  },
+  {
+    "input": "they are very visually sophisticated explains lsi graphics specialist robert seltzer",
+    "output": "they will be very visually sophisticated will explain lsi graphics specialist robert seltzer"
+  },
+  {
+    "input": "lawyers remain divided about whether anything is wrong with all this",
+    "output": "lawyers will remain divided about whether anything will be wrong with all this"
+  },
+  {
+    "input": "what you have here is intuition made manifest",
+    "output": "what you will have here will be intuition will make manifest"
+  },
+  {
+    "input": "litigation consulting is n't a guarantee of a favorable outcome",
+    "output": "litigation consulting will not be a guarantee of a favorable outcome"
+  },
+  {
+    "input": "but most lawyers accept that the marketplace has spoken",
+    "output": "but most lawyers will accept that the marketplace will have spoken"
+  },
+  {
+    "input": "there 's no reason to believe that juries rule inappropriately he says",
+    "output": "there will be no reason to believe that juries will rule inappropriately he will say"
+  },
+  {
+    "input": "what you then do is you make them think inappropriately",
+    "output": "what you then will will be you will make them will think inappropriately"
+  },
+  {
+    "input": "in most civil cases judges allow each side three such challenges",
+    "output": "in most civil cases judges will allow each side three such challenges"
+  },
+  {
+    "input": "for complex cases judges sometimes allow many more",
+    "output": "for complex cases judges sometimes will allow many more"
+  },
+  {
+    "input": "i believe that number reflects a slowing economy",
+    "output": "i will believe that number will reflect a slowing economy"
+  },
+  {
+    "input": "he said the normal ratio is five to six weeks",
+    "output": "he will say the normal ratio will be five to six weeks"
+  },
+  {
+    "input": "it takes three months to turn copper concentrate into cathodes he said",
+    "output": "it will take three months to turn copper concentrate into cathodes he will say"
+  },
+  {
+    "input": "if there is a recession that will change the statistical situation",
+    "output": "if there will be a recession that will change the statistical situation"
+  },
+  {
+    "input": "the report is n't generally available until late on tuesdays",
+    "output": "the report will not be generally available until late on tuesdays"
+  },
+  {
+    "input": "january platinum rose 2.30 an ounce to 488.60",
+    "output": "january platinum will rise 2.30 an ounce to 488.60"
+  },
+  {
+    "input": "mr. kaiser said there were no fundamental factors moving these markets",
+    "output": "mr. kaiser will say there will be no fundamental factors moving these markets"
+  },
+  {
+    "input": "the contract settled at 1,014 a ton off 13",
+    "output": "the contract will settled at 1,014 a ton off 13"
+  },
+  {
+    "input": "the economic loss jobs lost anguish frustration and humiliation are beyond measure",
+    "output": "the economic loss jobs will lost anguish frustration and humiliation will be beyond measure"
+  },
+  {
+    "input": "and most of these are absolutely unnecessary",
+    "output": "and most of these will be absolutely unnecessary"
+  },
+  {
+    "input": "i guess i was naive he said",
+    "output": "i will guess i will be naive he will say"
+  },
+  {
+    "input": "his humility gives him a much better chance of success",
+    "output": "his humility will give him a much better chance of success"
+  },
+  {
+    "input": "successful american business owners do the same thing",
+    "output": "successful american business owners will the same thing"
+  },
+  {
+    "input": "unfortunately they are in the minority",
+    "output": "unfortunately they will be in the minority"
+  },
+  {
+    "input": "it 's unfortunate so many must learn the hard way",
+    "output": "it will be unfortunate so many must learn the hard way"
+  },
+  {
+    "input": "estimated and actual results involving losses are omitted",
+    "output": "estimated and actual results involving losses will be omitted"
+  },
+  {
+    "input": "otherwise actual profit is compared with the 300-day estimate",
+    "output": "otherwise actual profit will be compared with the 300-day estimate"
+  },
+  {
+    "input": "sales rose 9.7 % to 351.5 million from 320.4 million",
+    "output": "sales will rise 9.7 % to 351.5 million from 320.4 million"
+  },
+  {
+    "input": "sun co. also reported higher earnings",
+    "output": "sun co. also will report higher earnings"
+  },
+  {
+    "input": "revenue declined 3.4 % to 8.4 billion from 8.7 billion",
+    "output": "revenue will decline 3.4 % to 8.4 billion from 8.7 billion"
+  },
+  {
+    "input": "revenue increased 11 % to 2.73 billion from 2.46 billion",
+    "output": "revenue will increase 11 % to 2.73 billion from 2.46 billion"
+  },
+  {
+    "input": "results declined however in sun 's refining and marketing and coal businesses",
+    "output": "results will decline however in sun 's refining and marketing and coal businesses"
+  },
+  {
+    "input": "revenue declined 518 million to 13.63 billion",
+    "output": "revenue will decline 518 million to 13.63 billion"
+  },
+  {
+    "input": "revenue rose 11 % to 8 billion from 7.2 billion",
+    "output": "revenue will rise 11 % to 8 billion from 7.2 billion"
+  },
+  {
+    "input": "chemical profits fell to 78 million from 98 million",
+    "output": "chemical profits will fall to 78 million from 98 million"
+  },
+  {
+    "input": "jeff rowe contributed to this article",
+    "output": "jeff rowe will contribute to this article"
+  },
+  {
+    "input": "the antibody then kills the cell",
+    "output": "the antibody then will kill the cell"
+  },
+  {
+    "input": "meanwhile fewer than 10 % of the healthy cells were killed",
+    "output": "meanwhile fewer than 10 % of the healthy cells will be killed"
+  },
+  {
+    "input": "officials with meredith did n't have any immediate comment on the suit",
+    "output": "officials with meredith will not have any immediate comment on the suit"
+  },
+  {
+    "input": "the stock closed down 8.375 at 170 after plunging 33 to 145",
+    "output": "the stock will close down 8.375 at 170 after plunging 33 to 145"
+  },
+  {
+    "input": "general motors continued to be hardest hit",
+    "output": "general motors will continue to be hardest hit"
+  },
+  {
+    "input": "excluding transportation items orders rose 1.8 %",
+    "output": "excluding transportation items orders will rise 1.8 %"
+  },
+  {
+    "input": "mobil shell and chevron had declines",
+    "output": "mobil shell and chevron will have declines"
+  },
+  {
+    "input": "the results show sears is struggling to attract shoppers",
+    "output": "the results will show sears will be struggling to attract shoppers"
+  },
+  {
+    "input": "since 1987 40 states have increased the speed limit on rural interstates",
+    "output": "since 1987 40 states will have increased the speed limit on rural interstates"
+  },
+  {
+    "input": "the following issues were recently filed with the securities and exchange commission",
+    "output": "the following issues will be recently filed with the securities and exchange commission"
+  },
+  {
+    "input": "at one point yesterday morning the dow was down 80.53 points",
+    "output": "at one point yesterday morning the dow will be down 80.53 points"
+  },
+  {
+    "input": "new york stock exchange volume was 237,960,000 shares",
+    "output": "new york stock exchange volume will be 237,960,000 shares"
+  },
+  {
+    "input": "declining issues swamped advancers 1,222 to 382",
+    "output": "declining issues will swamp advancers 1,222 to 382"
+  },
+  {
+    "input": "and there is more volatility to come",
+    "output": "and there will be more volatility to come"
+  },
+  {
+    "input": "people are fearful and sensitive",
+    "output": "people will be fearful and sensitive"
+  },
+  {
+    "input": "everybody 's finger is one inch closer to the button",
+    "output": "everybody 's finger will be one inch closer to the button"
+  },
+  {
+    "input": "i have never had as many calls as i had this morning",
+    "output": "i will have never had as many calls as i will have this morning"
+  },
+  {
+    "input": "volatility is here to stay",
+    "output": "volatility will be here to stay"
+  },
+  {
+    "input": "for many it began to look like a replay of oct. 13",
+    "output": "for many it will begin to look like a replay of oct. 13"
+  },
+  {
+    "input": "these guys wanted to do something to show how powerful they are",
+    "output": "these guys will want to do something to show how powerful they will be"
+  },
+  {
+    "input": "shearson lehman hutton declined to comment",
+    "output": "shearson lehman hutton will decline to comment"
+  },
+  {
+    "input": "officials at goldman sachs and salomon brothers were unavailable for comment",
+    "output": "officials at goldman sachs and salomon brothers will be unavailable for comment"
+  },
+  {
+    "input": "ual finally opened for trading at 10:08 a.m. at 150 down 28",
+    "output": "ual finally will open for trading at 10:08 a.m. at 150 down 28"
+  },
+  {
+    "input": "there was a seething mass of people said one floor trader",
+    "output": "there will be a seething mass of people will say one floor trader"
+  },
+  {
+    "input": "the 20-stock mmi mimics the dow jones industrial average",
+    "output": "the 20-stock mmi will mimics the dow jones industrial average"
+  },
+  {
+    "input": "by 10:30 a.m. the dow was down 62.70",
+    "output": "by 10:30 a.m. the dow will be down 62.70"
+  },
+  {
+    "input": "at this point the dow industrials were down 75.41 points and falling",
+    "output": "at this point the dow industrials will be down 75.41 points and falling"
+  },
+  {
+    "input": "it was whooosh said one futures trader",
+    "output": "it will be whooosh will say one futures trader"
+  },
+  {
+    "input": "in five minutes the dow industrials climbed almost 30 points",
+    "output": "in five minutes the dow industrials will climb almost 30 points"
+  },
+  {
+    "input": "traders said the futures buying was finely calculated by program traders",
+    "output": "traders will say the futures buying will be finely calculated by program traders"
+  },
+  {
+    "input": "some institutional traders loved the wild ride",
+    "output": "some institutional traders will love the wild ride"
+  },
+  {
+    "input": "but traders who risk money handling big blocks of stock were shaken",
+    "output": "but traders who will risk money handling big blocks of stock will be shaken"
+  },
+  {
+    "input": "analysts said a big japanese buy order was behind the rise",
+    "output": "analysts will say a big japanese buy order will be behind the rise"
+  },
+  {
+    "input": "ual finished at 170 off 8 3\\/8",
+    "output": "ual will finish at 170 off 8 3\\/8"
+  },
+  {
+    "input": "usair fell 2 1\\/2 to 40",
+    "output": "usair will fall 2 1\\/2 to 40"
+  },
+  {
+    "input": "goodyear tire & rubber tumbled 2 7\\/8 to 43 7\\/8",
+    "output": "goodyear tire & rubber will tumble 2 7\\/8 to 43 7\\/8"
+  },
+  {
+    "input": "stocks of california-based thrifts also were hard hit",
+    "output": "stocks of california-based thrifts also will be hard hit"
+  },
+  {
+    "input": "kellogg surged 4 1\\/4 to 75",
+    "output": "kellogg will surge 4 1\\/4 to 75"
+  },
+  {
+    "input": "norfolk southern went up 1 1\\/8 to 37 7\\/8",
+    "output": "norfolk southern will go up 1 1\\/8 to 37 7\\/8"
+  },
+  {
+    "input": "airborne freight climbed 1 1\\/8 to 38 1\\/2",
+    "output": "airborne freight will climb 1 1\\/8 to 38 1\\/2"
+  },
+  {
+    "input": "the amex market value index fell 3.10 to 376.36",
+    "output": "the amex market value index will fall 3.10 to 376.36"
+  },
+  {
+    "input": "the article is unfortunately replete with outrageous distortions",
+    "output": "the article will be unfortunately replete with outrageous distortions"
+  },
+  {
+    "input": "this is just not so",
+    "output": "this will be just not so"
+  },
+  {
+    "input": "the reality is that bank finances are rock solid",
+    "output": "the reality will be that bank finances will be rock solid"
+  },
+  {
+    "input": "this is an enviably low level",
+    "output": "this will be an enviably low level"
+  },
+  {
+    "input": "here too mr. roberts is way off the mark",
+    "output": "here too mr. roberts will be way off the mark"
+  },
+  {
+    "input": "by and large these efforts have borne fruit",
+    "output": "by and large these efforts will have borne fruit"
+  },
+  {
+    "input": "mr. roberts also takes a swipe at the bank 's adjustment lending",
+    "output": "mr. roberts also will take a swipe at the bank 's adjustment lending"
+  },
+  {
+    "input": "what are the facts on this type of lending",
+    "output": "what will be the facts on this type of lending"
+  },
+  {
+    "input": "the bank has been making adjustment loans for 10 years",
+    "output": "the bank will have been making adjustment loans for 10 years"
+  },
+  {
+    "input": "mr. fried also is the managing partner of albert fried & co",
+    "output": "mr. fried also will be the managing partner of albert fried & co"
+  },
+  {
+    "input": "bard\\/ems had 1988 sales of about 14 million birtcher said",
+    "output": "bard\\/ems will have 1988 sales of about 14 million birtcher will say"
+  },
+  {
+    "input": "the association said domestic demand grew 8.8 % in september",
+    "output": "the association will say domestic demand will grow 8.8 % in september"
+  },
+  {
+    "input": "minicar output more than tripled",
+    "output": "minicar output will more than tripled"
+  },
+  {
+    "input": "minitruck production fell 13 % to 94,243 units",
+    "output": "minitruck production will fall 13 % to 94,243 units"
+  },
+  {
+    "input": "the shipments went mostly to food-service distributors that supply pizzerias and restaurants",
+    "output": "the shipments will go mostly to food-service distributors that will supply pizzerias and restaurants"
+  },
+  {
+    "input": "he predicted the problem will be solved very soon",
+    "output": "he will predict the problem will be solved very soon"
+  },
+  {
+    "input": "american medical is being acquired",
+    "output": "american medical will be being acquired"
+  },
+  {
+    "input": "bush administration officials say inflation is under control",
+    "output": "bush administration officials will say inflation will be under control"
+  },
+  {
+    "input": "revenue rose 12 % to 1.63 billion from 1.46 billion",
+    "output": "revenue will rise 12 % to 1.63 billion from 1.46 billion"
+  },
+  {
+    "input": "revenue rose 11 % to 4.56 billion from 4.12 billion",
+    "output": "revenue will rise 11 % to 4.56 billion from 4.12 billion"
+  },
+  {
+    "input": "he declined to make a specific earnings estimate",
+    "output": "he will decline to make a specific earnings estimate"
+  },
+  {
+    "input": "sales rose 2.8 % to 864.1 million from 840.4 million",
+    "output": "sales will rise 2.8 % to 864.1 million from 840.4 million"
+  },
+  {
+    "input": "sales of parts for cars and construction vehicles rose",
+    "output": "sales of parts for cars and construction vehicles will rise"
+  },
+  {
+    "input": "the industrial average closed down only 3.69 points at 2659.22",
+    "output": "the industrial average will closed down only 3.69 points at 2659.22"
+  },
+  {
+    "input": "ual stock closed at 170 a share down 8.375",
+    "output": "ual stock will close at 170 a share down 8.375"
+  },
+  {
+    "input": "traders estimated that bear stearns bought more than 1 million shares",
+    "output": "traders will estimate that bear stearns will buy more than 1 million shares"
+  },
+  {
+    "input": "it would make sense for somebody to do it",
+    "output": "it will make sense for somebody to do it"
+  },
+  {
+    "input": "but those would require pilots ' cooperation",
+    "output": "but those will require pilots ' cooperation"
+  },
+  {
+    "input": "this deal is like a roach motel he said",
+    "output": "this deal will be like a roach motel he will say"
+  },
+  {
+    "input": "they check in but they ca n't check out",
+    "output": "they will check in but they ca n't check out"
+  },
+  {
+    "input": "but both the traders and the pilots remain interested in some transaction",
+    "output": "but both the traders and the pilots will remain interested in some transaction"
+  },
+  {
+    "input": "the company rejected those past proposals",
+    "output": "the company will reject those past proposals"
+  },
+  {
+    "input": "i 'm not interested said dallas investor harold simmons",
+    "output": "i will not be interested will say dallas investor harold simmons"
+  },
+  {
+    "input": "why ca n't we teach our children to read write and reckon",
+    "output": "why ca n't we will teach our children to read write and reckon"
+  },
+  {
+    "input": "it 's that we do n't want to",
+    "output": "it will be that we will not want to"
+  },
+  {
+    "input": "but what do we mean specifically by creativity",
+    "output": "but what do we will mean specifically by creativity"
+  },
+  {
+    "input": "it is not surprising that parents find this romantic extravagance so attractive",
+    "output": "it will be not surprising that parents will find this romantic extravagance so attractive"
+  },
+  {
+    "input": "they could all fairly be described as pap courses",
+    "output": "they can all fairly be described as pap courses"
+  },
+  {
+    "input": "but they need not be to do their jobs well",
+    "output": "but they need not will be to do their jobs well"
+  },
+  {
+    "input": "if he is competent and conscientious he serves us well",
+    "output": "if he will be competent and conscientious he will serve us well"
+  },
+  {
+    "input": "our teachers are not an important factor in our educational crisis",
+    "output": "our teachers will not be an important factor in our educational crisis"
+  },
+  {
+    "input": "community involvement is an even worse idea",
+    "output": "community involvement will be an even worse idea"
+  },
+  {
+    "input": "here the experience of new york city is decisive",
+    "output": "here the experience of new york city will be decisive"
+  },
+  {
+    "input": "that is the way the system works",
+    "output": "that will be the way the system will work"
+  },
+  {
+    "input": "students should move up the educational ladder as their academic potential allows",
+    "output": "students should move up the educational ladder as their academic potential will allow"
+  },
+  {
+    "input": "the notion that tracking is somehow undemocratic is absurd",
+    "output": "the notion that tracking will be somehow undemocratic will be absurd"
+  },
+  {
+    "input": "the latter are modish trendy often downright silly and at best insubstantial",
+    "output": "the latter will be modish trendy often downright silly and at best insubstantial"
+  },
+  {
+    "input": "with that authority of course goes an unambiguous accountability",
+    "output": "with that authority of course will go an unambiguous accountability"
+  },
+  {
+    "input": "but they disagree about the message these settlements give to the public",
+    "output": "but they will disagree about the message these settlements will give to the public"
+  },
+  {
+    "input": "that total would be important for drexel",
+    "output": "that total will be important for drexel"
+  },
+  {
+    "input": "new jersey for example was asked to accept 300,000 but refused",
+    "output": "new jersey for example will be asked to accept 300,000 but refused"
+  },
+  {
+    "input": "the state is n't ruling out revoking drexel 's brokerage license",
+    "output": "the state will not be ruling out revoking drexel 's brokerage license"
+  },
+  {
+    "input": "sci tv 's six stations once were part of storer communications",
+    "output": "sci tv 's six stations once will be part of storer communications"
+  },
+  {
+    "input": "but some militant sci tv junk-holders say that 's not enough",
+    "output": "but some militant sci tv junk-holders will say that will not be enough"
+  },
+  {
+    "input": "they contend that sci tv 's equity now is worthless",
+    "output": "they will contend that sci tv 's equity now will be worthless"
+  },
+  {
+    "input": "this could be the first major bankruptcy-law proceeding for kkr he adds",
+    "output": "this can be the first major bankruptcy-law proceeding for kkr he will add"
+  },
+  {
+    "input": "u.s. takeover-stock speculators now own an estimated 25 % of jaguar shares",
+    "output": "u.s. takeover-stock speculators now will own an estimated 25 % of jaguar shares"
+  },
+  {
+    "input": "in other words it was a better-than-average manhattan commute",
+    "output": "in other words it will be a better-than-average manhattan commute"
+  },
+  {
+    "input": "not that getting into town was easy",
+    "output": "not that getting into town will be easy"
+  },
+  {
+    "input": "bus schedules were sometimes in disarray stranding commuters such as marilyn sullivan",
+    "output": "bus schedules will be sometimes in disarray stranding commuters such as marilyn sullivan"
+  },
+  {
+    "input": "it 's worse than i thought she said",
+    "output": "it will be worse than i will think she will say"
+  },
+  {
+    "input": "i do n't know where all the buses are",
+    "output": "i will not know where all the buses are"
+  },
+  {
+    "input": "it looks like a holiday",
+    "output": "it will look like a holiday"
+  },
+  {
+    "input": "i think a lot of people got scared and stayed home",
+    "output": "i will think a lot of people will get scared and stayed home"
+  },
+  {
+    "input": "he succeeds paul j. montle 42 who will remain chairman",
+    "output": "he will succeed paul j. montle 42 who will remain chairman"
+  },
+  {
+    "input": "national environmental formerly yankee cos. is a sludge treatment company",
+    "output": "national environmental formerly yankee cos. will be a sludge treatment company"
+  },
+  {
+    "input": "i think it 's more an issue of style",
+    "output": "i will think it will be more an issue of style"
+  },
+  {
+    "input": "i would view it as a net positive",
+    "output": "i will view it as a net positive"
+  },
+  {
+    "input": "they 're in the midst of a turnaround she noted",
+    "output": "they will be in the midst of a turnaround she will note"
+  },
+  {
+    "input": "earnings have rebounded in 1989 after a 20 % decline last year",
+    "output": "earnings will have rebounded in 1989 after a 20 % decline last year"
+  },
+  {
+    "input": "reebok added that mr. fireman will assume the title of president",
+    "output": "reebok will add that mr. fireman will assume the title of president"
+  },
+  {
+    "input": "we will not be commenting beyond the news release the spokesman said",
+    "output": "we will not be commenting beyond the news release the spokesman will say"
+  },
+  {
+    "input": "the park is slated to open in 1992",
+    "output": "the park will be slated to open in 1992"
+  },
+  {
+    "input": "most of the buying was institutional he added",
+    "output": "most of the buying will be institutional he will add"
+  },
+  {
+    "input": "per-share net rose to 55.10 yen from 54.51 yen",
+    "output": "per-share net will rise to 55.10 yen from 54.51 yen"
+  },
+  {
+    "input": "per-share net rose to 62.04 yen from 51.50 yen",
+    "output": "per-share net will rise to 62.04 yen from 51.50 yen"
+  },
+  {
+    "input": "per-share net rose to 47.46 yen from 39.31 yen",
+    "output": "per-share net will rise to 47.46 yen from 39.31 yen"
+  },
+  {
+    "input": "per-share net rose to 44.08 yen from 36.13 yen",
+    "output": "per-share net will rise to 44.08 yen from 36.13 yen"
+  },
+  {
+    "input": "why did east bloc participants unanimously endorse market-based pollution approaches",
+    "output": "why did east bloc participants will unanimously endorse market-based pollution approaches"
+  },
+  {
+    "input": "a revolution takes more than conference manifestos",
+    "output": "a revolution will take more than conference manifestos"
+  },
+  {
+    "input": "the russians are talking peace",
+    "output": "the russians will be talking peace"
+  },
+  {
+    "input": "the palestinians are talking elections",
+    "output": "the palestinians will be talking elections"
+  },
+  {
+    "input": "and the poles are engaged in commerce",
+    "output": "and the poles will be engaged in commerce"
+  },
+  {
+    "input": "east bloc pollution data typically have been state secrets",
+    "output": "east bloc pollution data typically will have been state secrets"
+  },
+  {
+    "input": "officials at carnival declined to comment",
+    "output": "officials at carnival will decline to comment"
+  },
+  {
+    "input": "that lawsuit is still pending",
+    "output": "that lawsuit will be still pending"
+  },
+  {
+    "input": "jerell could n't immediately be reached for comment",
+    "output": "jerell can n't immediately be reached for comment"
+  },
+  {
+    "input": "ms. garratt 's assets and liabilities were n't disclosed",
+    "output": "ms. garratt 's assets and liabilities will not be disclosed"
+  },
+  {
+    "input": "revenue reached 1.1 billion from 1.01 billion",
+    "output": "revenue will reach 1.1 billion from 1.01 billion"
+  },
+  {
+    "input": "the parent also publishes weeklies shopping guides and specialty magazines",
+    "output": "the parent also will publish weeklies shopping guides and specialty magazines"
+  },
+  {
+    "input": "revenue eased 0.3 % to 3.45 billion from 3.46 billion",
+    "output": "revenue will ease 0.3 % to 3.45 billion from 3.46 billion"
+  },
+  {
+    "input": "terms of the transaction were n't disclosed",
+    "output": "terms of the transaction will not be disclosed"
+  },
+  {
+    "input": "minority recruiting has yet to meet hopes raised by bush administration",
+    "output": "minority recruiting will have yet to meet hopes will raised by bush administration"
+  },
+  {
+    "input": "the perception lingers says an official at a major industrial company",
+    "output": "the perception will linger will say an official at a major industrial company"
+  }
+]

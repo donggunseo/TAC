@@ -1,0 +1,422 @@
+[
+  {
+    "input": "the good news is it 's not your fault ;  news word ",
+    "output": "the good news word is it 's not your fault"
+  },
+  {
+    "input": "the offering series 1989-84 is backed by fannie mae 9 % securities ;  security standing ",
+    "output": "the offering series 1989 84 is backed by fannie mae 9 percent standing securities"
+  },
+  {
+    "input": "the work force provides the third arm of the alliance ;  work on column ",
+    "output": "the on work force provides the third arm of the alliance column"
+  },
+  {
+    "input": "gm confirmed it received u.s. antitrust clearance to boost its holding ;  business sign says clearance ",
+    "output": "gm confirmed it received a us antitrust business sign that says clearance to boost its holding"
+  },
+  {
+    "input": "the work force provides the third arm of the alliance ;  work iron ",
+    "output": "the iron work force provides the third arm of the alliance"
+  },
+  {
+    "input": "on the close can be added to many types of orders ;  type of pavillion ",
+    "output": "on the close can be added to many types of pavilion orders"
+  },
+  {
+    "input": "both men are 44 years old ;  men on elephants ",
+    "output": "both men on elephants are 44 years old"
+  },
+  {
+    "input": "she only put her foot down twice he continues ;  foot on surfboard ",
+    "output": "she only put her foot on the surfboard down twice he continues"
+  },
+  {
+    "input": "the work force provides the third arm of the alliance ;  force black ",
+    "output": "the work force provides the third arm of the black alliance force"
+  },
+  {
+    "input": "she only put her foot down twice he continues ;  foot bare ",
+    "output": "she only put her bare foot down twice he continues"
+  },
+  {
+    "input": "yet mr. rosen has turned the import phenomenon to his advantage ;  sign says advantage ",
+    "output": "yet mr rosen has turned the import phenomenon to his advantage says the sign"
+  },
+  {
+    "input": "on the close can be added to many types of orders ;  order containing fries ",
+    "output": "on the close can be added to many types of orders containing fries"
+  },
+  {
+    "input": "about 130,000 vehicles cross during a 24-hour period ;  vehicle has hood ",
+    "output": "about 130,000 hooded vehicles cross during a 24-hour period"
+  },
+  {
+    "input": "on the close can be added to many types of orders ;  order ready ",
+    "output": "on the close can be added to many types of ready orders"
+  },
+  {
+    "input": "the work force provides the third arm of the alliance ;  arm extended ",
+    "output": "the work force provides the third extended arm of the alliance"
+  },
+  {
+    "input": "but margins will be helped too by some other cost-saving steps ;  margin separating photo ",
+    "output": "but the margins separating photos will be helped too by some other cost-saving steps"
+  },
+  {
+    "input": "why did east bloc participants unanimously endorse market-based pollution approaches ;  participant at top of ramp ",
+    "output": "why did east bloc participants at the top of the ramp unanimously endorse market based pollution approaches"
+  },
+  {
+    "input": "but margins will be helped too by some other cost-saving steps ;  margin thick ",
+    "output": "but a thick margin will be helped too by some other cost-saving steps"
+  },
+  {
+    "input": "bigger than a breadbox was this cash hoarder 's reputation for honesty ;  breadbox metal ",
+    "output": "bigger than a metal breadbox was this cash hoarders reputation for honesty"
+  },
+  {
+    "input": "but margins will be helped too by some other cost-saving steps ;  step concrete ",
+    "output": "but margins will be helped too by some other cost-saving concrete steps"
+  },
+  {
+    "input": "and some fund groups said investors actually became net buyers ;  buyer looking at goods ",
+    "output": "and some fund groups said investors actually became net buyers looking at goods"
+  },
+  {
+    "input": "sales rose 7.4 % to 1.255 trillion yen from 1.168 trillion yen ;  sale at company ",
+    "output": "sales at the company went up 7.4% to 1.255 trillion yen from 1.168 trillion yen."
+  },
+  {
+    "input": "the airline also named mickey foret as president ;  airline parked at airport ",
+    "output": "the airline parked at the airport named mickey foret as president"
+  },
+  {
+    "input": "what we want to do is take a more aggressive stance ;  batter with stance ",
+    "output": "what we want to do is take a more aggressive stance with the batter."
+  },
+  {
+    "input": "the airline also named mickey foret as president ;  airline emirates ",
+    "output": "the emirates airline also named mickey foret as president"
+  },
+  {
+    "input": "the protesters point out that galileo also could crash to earth then ;  protester holding sign ",
+    "output": "the protestor holding a sign point out that galileo also could crash to earth then"
+  },
+  {
+    "input": "the suit seeks in excess of 350,000 in damages ;  suit has logo ",
+    "output": "the suit that has a logo seeks in excess of 350000 damages"
+  },
+  {
+    "input": "my vision is to change human consciousness towards touch ;  vision on banner ",
+    "output": "my vision on the banner is to change human consciousness towards touch"
+  },
+  {
+    "input": "the bonds are insured and rated triple-a by moody 's and s&p ;  bond black  ",
+    "output": "the black bonds are insured and rated triple-a by moody's and s&p"
+  },
+  {
+    "input": "the airline also named mickey foret as president ;  president  united states ",
+    "output": "the airline also named mickey foret as united states president"
+  },
+  {
+    "input": "now the personal-computer revolution is finally reaching japan ;  word says revolution ",
+    "output": "now the personal computer revolution says word is finally reaching japan"
+  },
+  {
+    "input": "one team pays so much and the other pays more ;  team has dugout ",
+    "output": "one team that has a dugout pays so much and the other pays more"
+  },
+  {
+    "input": "the notice also grants relief for certain estate-tax returns ;  notice on pole ",
+    "output": "the notice on the pole also grants relief for certain estate tax returns"
+  },
+  {
+    "input": "where had all the money come from ;  money under card ",
+    "output": "where had all the money under the card come from"
+  },
+  {
+    "input": "where had all the money come from ;  money paper ",
+    "output": "where had all the paper money come from"
+  },
+  {
+    "input": "the suit seeks in excess of 350,000 in damages ;  damage moisture ",
+    "output": "the suit seeks in excess of 350,000 in moisture damage"
+  },
+  {
+    "input": "at that rate the defense plan is underfunded by 48 billion ;  plan air ",
+    "output": "the defense air plan has 48 billion less than necessary, at that rate."
+  },
+  {
+    "input": "manufacturers have survived the turmoil in china largely unscathed ;  manufacturer of truck ",
+    "output": "manufacturers of trucks have survived the turmoil in china largely unscathed"
+  },
+  {
+    "input": "i want to add one more truck mr. huber says ;  truck behind plane ",
+    "output": "i want to add one more truck behind the plane mr huber says"
+  },
+  {
+    "input": "i want to add one more truck mr. huber says ;  truck white ",
+    "output": "i want to add one more white truck mr. huber says"
+  },
+  {
+    "input": "still employees do occasionally try to smuggle out a gem or two ;  employee eating a burrito ",
+    "output": "still employees eating a burrito do occasionally try to smuggle out a gem or two"
+  },
+  {
+    "input": "the filing said the group continues to hold 3,481,887 remaining shares ;  group large ",
+    "output": "the filing said the large group continues to hold 3481887 remaining shares"
+  },
+  {
+    "input": "still employees do occasionally try to smuggle out a gem or two ;  employee airport ",
+    "output": "still airport employees do occasionally try to smuggle out a gem or two"
+  },
+  {
+    "input": "many people here expect a room-rate war as the new projects open ;  war on sign ",
+    "output": "many people here expect to see a room-rate war on the sign as the new projects open"
+  },
+  {
+    "input": "still employees do occasionally try to smuggle out a gem or two ;  gem on hat ",
+    "output": "still employees do occasionally try to smuggle out a gem on a hat or two"
+  },
+  {
+    "input": "many people here expect a room-rate war as the new projects open ;  war word ",
+    "output": "many people here expect a room-rate word war as the new projects open"
+  },
+  {
+    "input": "several other banks have similar applications pending ;  bank grassy ",
+    "output": "several other grassy banks have similar applications pending"
+  },
+  {
+    "input": "many people here expect a room-rate war as the new projects open ;  he discussing project ",
+    "output": "many people here expect a room rate war as the new projects he was discussing open"
+  },
+  {
+    "input": "still employees do occasionally try to smuggle out a gem or two ;  gem blue ",
+    "output": "still employees do occasionally try to smuggle out a blue gem or two"
+  },
+  {
+    "input": "several other banks have similar applications pending ;  application on a cellphone ",
+    "output": "several other banks have similar applications on a cellphone pending"
+  },
+  {
+    "input": "many people here expect a room-rate war as the new projects open ;  project sewing ",
+    "output": "many people here expect a room-rate war as the new sewing projects open"
+  },
+  {
+    "input": "the quarter was terrible and the future looks anything but encouraging ;  quarter of sandwich ",
+    "output": "the quarter of the sandwich was terrible and the future looks anything but encouraging"
+  },
+  {
+    "input": "several other banks have similar applications pending ;  application loaded ",
+    "output": "several other banks have similar loaded applications pending"
+  },
+  {
+    "input": "the answer will be obvious ;  test questions with answer ",
+    "output": "the test questions with an answer will be obvious"
+  },
+  {
+    "input": "the transaction represents lynch 's entry into the telephone business ;  entry dark ",
+    "output": "the transaction represents lynch's dark entry into the telephone business"
+  },
+  {
+    "input": "i care very much for this post he says ;  post on concrete ",
+    "output": "i care very much for this post on the concrete he says"
+  },
+  {
+    "input": "first the price of natural gas will have to almost double ;  price written ",
+    "output": "first the written price of natural gas will have to almost double"
+  },
+  {
+    "input": "i much prefer money i can put my hands on ;  money paper ",
+    "output": "i much prefer paper money i can put my hands on"
+  },
+  {
+    "input": "the transaction represents lynch 's entry into the telephone business ;  business here ",
+    "output": "the business transaction here represents lynch's entry into the telephone business"
+  },
+  {
+    "input": "andy zipser in dallas contributed to this article ;  article on screen ",
+    "output": "andy zipser in dallas contributed to this article on screen"
+  },
+  {
+    "input": "first the price of natural gas will have to almost double ;  gas range stove ",
+    "output": "first the price of a natural gas range stove will have to almost double"
+  },
+  {
+    "input": "i much prefer money i can put my hands on ;  hand of stuffed animal ",
+    "output": "i much prefer money i can put my hands of stuffed animals on"
+  },
+  {
+    "input": "i much prefer money i can put my hands on ;  hand black ",
+    "output": "i much prefer money i can put my black hands on"
+  },
+  {
+    "input": "they are starting to buy growth stocks ;  stock green ",
+    "output": "they are starting to buy green growth stocks"
+  },
+  {
+    "input": "but going against the grain has never bothered mr. andersson ;  grain of wood ",
+    "output": "going against the grain of wood has never been an issue for mr. andersson."
+  },
+  {
+    "input": "but going against the grain has never bothered mr. andersson ;  grain wood ",
+    "output": "but going against the wood grain has never bothered mr. andersson"
+  },
+  {
+    "input": "people in the phone business call this technology 900 click ;  phone in hands ",
+    "output": "people in the hands phone business call this technology 900 click"
+  },
+  {
+    "input": "he reports his business is up slightly from customers replacing old stock ;  business here ",
+    "output": "he reports his business here is up slightly from customers replacing old stock"
+  },
+  {
+    "input": "east germans rallied in three cities to demand democratic freedoms ;  city near water ",
+    "output": "east germans rallied in three cities near water to demand democratic freedoms"
+  },
+  {
+    "input": "people in the phone business call this technology 900 click ;  phone black ",
+    "output": "people in the black phone business call this technology 900 click"
+  },
+  {
+    "input": "he reports his business is up slightly from customers replacing old stock ;  customer waiting to buy seafood ",
+    "output": "he reports his business is up slightly from customers waiting to buy seafood and replacing old stock"
+  },
+  {
+    "input": "he reports his business is up slightly from customers replacing old stock ;  customer waiting ",
+    "output": "he reports his waiting business is up slightly from customers replacing old stock"
+  },
+  {
+    "input": "people in the phone business call this technology 900 click ;  technology has dial ",
+    "output": "people in the phone business call this technology that has a dial 900 click"
+  },
+  {
+    "input": "people in the phone business call this technology 900 click ;  technology silver ",
+    "output": "people in the phone business call this silver technology 900 click"
+  },
+  {
+    "input": "the department also said it takes four months to establish a trend ;  department british police  ",
+    "output": "the british police department also said it takes four months to establish a trend"
+  },
+  {
+    "input": "was 300 ft. out on a pier in san rafael ;  pier near boats ",
+    "output": "was 300 ft out on a pier near the boats in san rafael"
+  },
+  {
+    "input": "many called it simply a contrast in styles ;  style old ",
+    "output": "many called it simply a contrast in old styles"
+  },
+  {
+    "input": "was 300 ft. out on a pier in san rafael ;  pier wooden ",
+    "output": "was 300 ft. out on a wooden pier in san rafael"
+  },
+  {
+    "input": "west german bond prices ended lower after a day of aimless trading ;  price of hot dog ",
+    "output": "west german bond prices of hot dogs ended lower after a day of aimless trading"
+  },
+  {
+    "input": "this untried concept would expose these firms to potentially astronomical punitive damages ;  damage moisture ",
+    "output": "this untried concept would expose these firms to potentially astronomical punitive damages from moisture"
+  },
+  {
+    "input": "i do n't think anyone left the place whistling dixie ;  place full ",
+    "output": "i do not think anyone left the full place whistling dixie"
+  },
+  {
+    "input": "in over-the-counter trading monday the stock closed at 10.625 off 37.5 cents ;  red t in trading ",
+    "output": "in over the counter trading in red t monday the stock closed at 10.625 off 37.5 cents"
+  },
+  {
+    "input": "west german bond prices ended lower after a day of aimless trading ;  price written ",
+    "output": "west german bond prices when written ended lower after a day of aimless trading"
+  },
+  {
+    "input": "judges will write the real bill as suits roll through the courts ;  judge wears sneaker ",
+    "output": "judges who wear sneakers will write the real bill as suits roll through the courts"
+  },
+  {
+    "input": "fluor corp. a construction engineering firm gained 75 cents to 33.375 ;  construction gate ",
+    "output": "fluor corp. a construction gate engineering firm gained 75 cents to 33.375"
+  },
+  {
+    "input": "its many lively stories include the gutfreund-postel holiday cheer imbroglio ;  story on church ",
+    "output": "its many lively stories on the church include the gutfreund postel holiday cheer imbroglio"
+  },
+  {
+    "input": "west german bond prices ended lower after a day of aimless trading ;  day with tower ",
+    "output": "west german bond prices ended lower after a day that has a tower of aimless trading"
+  },
+  {
+    "input": "in over-the-counter trading monday the stock closed at 10.625 off 37.5 cents ;  stock of broccoli ",
+    "output": "in  over the counter trading monday the broccoli stock closed at 10.625 off 37.5 cents"
+  },
+  {
+    "input": "in over-the-counter trading monday the stock closed at 10.625 off 37.5 cents ;  stock green ",
+    "output": "in over the counter trading monday the green stock closed at 10.625 off 37.5 cents"
+  },
+  {
+    "input": "its many lively stories include the gutfreund-postel holiday cheer imbroglio ;  printed happy holiday ",
+    "output": "its many lively stories include the gutfreund-postel happy holiday cheer imbroglio they had printed"
+  },
+  {
+    "input": "west german bond prices ended lower after a day of aimless trading ;  day sunny ",
+    "output": "west german bond prices ended lower after a sunny day of aimless trading"
+  },
+  {
+    "input": "the reputed wealth of the unification church is another matter of contention ;  matter has surfaces ",
+    "output": "the reputed wealth of the unification church is another matter that has surfaces of contention"
+  },
+  {
+    "input": "judges will write the real bill as suits roll through the courts ;  bill orange ",
+    "output": "judges will write the real orange bill as suits roll through the courts"
+  },
+  {
+    "input": "the tape was on tv before the night was out ;  tape by truck ",
+    "output": "the tape by the truck was on tv before the night was out"
+  },
+  {
+    "input": "in some cases competition has squeezed margins ;  case of pastries ",
+    "output": "in some cases of pastries competition has squeezed margins"
+  },
+  {
+    "input": "the tape was on tv before the night was out ;  tape yellow ",
+    "output": "the yellow tape was on tv before the night was out"
+  },
+  {
+    "input": "i ca n't do anything score-wise but i like meeting the girls ;  girl little ",
+    "output": "i can't do anything score-wise but i like meeting the little girls"
+  },
+  {
+    "input": "judges will write the real bill as suits roll through the courts ;  court has a line ",
+    "output": "judges will write the real bill as suits roll through the courts, which have a line"
+  },
+  {
+    "input": "the tape was on tv before the night was out ;  tv black ",
+    "output": "the tape was on the black tv before the night was out"
+  },
+  {
+    "input": "the issue includes 100 million of insured senior lien bonds ;  lien part ",
+    "output": "the issue includes 100 million of insured senior part lien bonds"
+  },
+  {
+    "input": "the tape was on tv before the night was out ;  night black sky ",
+    "output": "the tape was on tv before the black night sky was out"
+  },
+  {
+    "input": "but not everybody was making money ;  everybody wearing sunglasses ",
+    "output": "but not everybody wearing sunglasses was making money"
+  },
+  {
+    "input": "in some cases competition has squeezed margins ;  margin separating photo ",
+    "output": "in some cases competition has squeezed margins which are separating photos"
+  },
+  {
+    "input": "in friday 's edition the name of the unit was misstated ;  name of a player ",
+    "output": "in friday's edition the name of a player was misstated"
+  },
+  {
+    "input": "here they are searching for a higher price ;  price for peppers ",
+    "output": "here they are searching for a higher price for peppers"
+  }
+]

@@ -440,7 +440,7 @@ if __name__ == "__main__":
         val_dataset = val_dataset.map(transform, remove_columns=["translation"])
         test_dataset = test_dataset.map(transform, remove_columns=["translation"])
     elif args.dataset_name == "wmt19_en-de":
-        dataset = load_dataset("wmt/wmt19", "en-de")
+        dataset = load_dataset("wmt/wmt19", "de-en")
         train_dataset = dataset['train']
         test_dataset = dataset['validation']
         ds = train_dataset.train_test_split(test_size = 300)

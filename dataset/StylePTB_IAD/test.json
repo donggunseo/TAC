@@ -1,0 +1,426 @@
+[
+  {
+    "input": "but not everybody was making money ;  money paper ",
+    "output": "but not everybody was making paper money"
+  },
+  {
+    "input": "in friday 's edition the name of the unit was misstated ;  unit with drawers ",
+    "output": "in friday 's edition the name of the unit with drawers was misstated"
+  },
+  {
+    "input": "he was later shown on television fielding questions ;  television on wall ",
+    "output": "he was later shown on the television on the wall fielding questions"
+  },
+  {
+    "input": "in friday 's edition the name of the unit was misstated ;  unit white ",
+    "output": "in friday's edition the name of the white unit was misstated"
+  },
+  {
+    "input": "he was later shown on television fielding questions ;  television black ",
+    "output": "he was later shown on the black television fielding questions"
+  },
+  {
+    "input": "so far no one has ;  one white ",
+    "output": "so far no white one has"
+  },
+  {
+    "input": "sales rose 14 % to 715 million from 625.4 million ;  sale red ",
+    "output": "red sales rose 14 percent to 715 million from 625.4 million"
+  },
+  {
+    "input": "everyone around me lives well ;  everyone on sidewalk ",
+    "output": "everyone on the sidewalk around me lives well"
+  },
+  {
+    "input": "mr. schwarz says the competition broadens the base of opportunity for us ;  man in competition ",
+    "output": "mr. schwarz says the man in competition broadens the base of opportunity for us"
+  },
+  {
+    "input": "i 'm ashamed i own the stupid thing ;  thing on pavement ",
+    "output": "i'm ashamed i own the stupid thing on the pavement"
+  },
+  {
+    "input": "everyone around me lives well ;  everyone smiling ",
+    "output": "everyone that's smiling around me lives well"
+  },
+  {
+    "input": "i 'm ashamed i own the stupid thing ;  thing black ",
+    "output": "i'm ashamed i own the stupid black thing"
+  },
+  {
+    "input": "mr. schwarz says the competition broadens the base of opportunity for us ;  base on ground ",
+    "output": "mr schwarz says the competition broadens the base on the ground of opportunity for us"
+  },
+  {
+    "input": "on some days the nucor plant does n't produce anything ;  day within lake ",
+    "output": "on some days within the nucor lake  plant does n't produce anything"
+  },
+  {
+    "input": "all anyone need do is hang up a shingle and start planning ;  shingle on roof ",
+    "output": "all anyone need do is hang up a shingle on the roof and start planning"
+  },
+  {
+    "input": "customized baskets of fewer stocks will also be available ;  stock green ",
+    "output": "customized baskets of fewer green stocks will also be available"
+  },
+  {
+    "input": "all anyone need do is hang up a shingle and start planning ;  shingle gray ",
+    "output": "all anyone need do is hang up a gray shingle and start planning"
+  },
+  {
+    "input": "on some days the nucor plant does n't produce anything ;  day sunny ",
+    "output": "on some sunny days the nucor plant doesn't produce anything"
+  },
+  {
+    "input": "in addition global petroleum demand has been climbing ;  addition to sign ",
+    "output": "in addition to the sign global petroleum demand has been climbing"
+  },
+  {
+    "input": "for women dressing for success in a real structured way is over ;  woman standing ",
+    "output": "for standing women dressing for success in a real structured way is over"
+  },
+  {
+    "input": "the result according to many analysts is higher prices and less innovation ;  price on sign ",
+    "output": "the result according to many analysts is higher prices on signs and less innovation"
+  },
+  {
+    "input": "advertisers attribute this shared loyalty to the striking similarity among brands ;  advertiser on train ",
+    "output": "advertisers on the train attribute this shared loyalty to the striking similarity among brands"
+  },
+  {
+    "input": "the result according to many analysts is higher prices and less innovation ;  price written ",
+    "output": "the result according to many analysts is higher written prices and less innovation"
+  },
+  {
+    "input": "advertisers attribute this shared loyalty to the striking similarity among brands ;  brand of cell phone ",
+    "output": "advertisers attribute this shared loyalty to the striking similarity among brands of cell phones"
+  },
+  {
+    "input": "on some days the nucor plant does n't produce anything ;  part of a speaker not connected to anything ",
+    "output": "on some days the nucor plant does not produce a part of anything"
+  },
+  {
+    "input": "but burger king operators independently confirm using michael 's product ;  product on shelf ",
+    "output": "but burger king on shelf operators independently confirm using michael 's product"
+  },
+  {
+    "input": "but burger king operators independently confirm using michael 's product ;  product bathroom ",
+    "output": "but burger king operators independently confirm using michael 's bathroom product"
+  },
+  {
+    "input": "there is no justification on the fundamental level for this crash ;  level upper ",
+    "output": "there is no justification on the fundamental upper level for this crash"
+  },
+  {
+    "input": "advertisers attribute this shared loyalty to the striking similarity among brands ;  brand advertising ",
+    "output": "advertisers attribute this shared loyalty to the striking similarity among avertising brands"
+  },
+  {
+    "input": "the new facility is expected to begin operations in early 1991 ;  facility for giraffe ",
+    "output": "the new facility for giraffes is expected to begin operations in early 1991"
+  },
+  {
+    "input": "conservatives have an important decision to make this fall ;  fall at park ",
+    "output": "conservatives have an important decision to make this fall at the park"
+  },
+  {
+    "input": "what 's more it represents an important step for the alley theater ;  step concrete ",
+    "output": "what's more it represents an important concrete step for the alley theater"
+  },
+  {
+    "input": "and short-term the technicians may have their way ;  way scrapped on bus ",
+    "output": "and short term the technicians may have their way scrapped on the bus"
+  },
+  {
+    "input": "the new facility is expected to begin operations in early 1991 ;  facility skateboarding ",
+    "output": "the new facility is expected to begin skateboarding operations in early 1991"
+  },
+  {
+    "input": "but some players were quick to seize the moment ;  player with bat ",
+    "output": "but some players with bats were quick to seize the moment"
+  },
+  {
+    "input": "the company paid five cents a share in april ;  company calls flowering mills ",
+    "output": "the company called flowering mills paid five cents a share in april"
+  },
+  {
+    "input": "then they said by the way two of the doors are locked ;  way to house ",
+    "output": "then they said by the way two of the house doors are locked"
+  },
+  {
+    "input": "then they said by the way two of the doors are locked ;  way walk ",
+    "output": "then they said by the walkway two of the doors are locked."
+  },
+  {
+    "input": "but some players were quick to seize the moment ;  player baseball ",
+    "output": "but some baseball players were quick to seize the moment"
+  },
+  {
+    "input": "then they said by the way two of the doors are locked ;  door white ",
+    "output": "then they said by the way two of the white doors are locked"
+  },
+  {
+    "input": "more-detailed reports followed and attracted even less notice ;  report on green paper ",
+    "output": "more-detailed reports on green paper followed and attracted even less notice"
+  },
+  {
+    "input": "more-detailed reports followed and attracted even less notice ;  notice on board ",
+    "output": "more detailed reports followed and attracted even less notice on the board"
+  },
+  {
+    "input": "more-detailed reports followed and attracted even less notice ;  notice white ",
+    "output": "more detailed reports followed and attracted even less white notice"
+  },
+  {
+    "input": "you stay out of it author whitford quotes mr. clements as saying ;  author christopher paolini ",
+    "output": "you stay out of it author christopher paolini whitford quotes mr. clements as saying"
+  },
+  {
+    "input": "but there are no scientific data on this question ;  data on black screen ",
+    "output": "but there are no scientific data on the black screen on this question"
+  },
+  {
+    "input": "expansion plans also include acquisitions in growing foreign markets ;  plan on ground ",
+    "output": "expansion plans on the ground also include acquisitions in growing foreign markets"
+  },
+  {
+    "input": "coal earnings rose to 26 million from 21 million ;  coal black ",
+    "output": "black coal earnings rose to 26 million from 21 million"
+  },
+  {
+    "input": "but there are no scientific data on this question ;  data green ",
+    "output": "but there are no scientific green data on this question"
+  },
+  {
+    "input": "expansion plans also include acquisitions in growing foreign markets ;  plan air ",
+    "output": "expansion plans in the air also include acquisitions in growing foreign markets"
+  },
+  {
+    "input": "in short rey found companies with weak earnings but rich assets ;  company at bottom ",
+    "output": "in short rey found companies at the bottom with weak earnings with rich assets"
+  },
+  {
+    "input": "in short rey found companies with weak earnings but rich assets ;  company name ",
+    "output": "in short rey found company names with weak earnings but rich assets"
+  },
+  {
+    "input": "but when the judge received his payment book he disavowed the deal ;  judge tennis line ",
+    "output": "but when the tennis line judge received his payment book he disavowed the deal"
+  },
+  {
+    "input": "the company said a new chief operating officer wo n't be appointed ;  company on corner ",
+    "output": "the company on the corner said a new chief operating office would not be appointed"
+  },
+  {
+    "input": "it 's a baptism of fire for corry says one usx executive ;  fire in fireplace ",
+    "output": "it's a baptism of fire in the fireplace for corry says one usx executive"
+  },
+  {
+    "input": "some even claim the group has become a lagging not leading indicator ;  group large ",
+    "output": "some even claim the large group has become a lagging not leading indicator"
+  },
+  {
+    "input": "but the production is the equal of any local program ;  program on a television ",
+    "output": "but the production on a television is the equal of any local program"
+  },
+  {
+    "input": "it 's a baptism of fire for corry says one usx executive ;  fire orange ",
+    "output": "it's a baptism of orange fire for corry says one usx executive"
+  },
+  {
+    "input": "some even claim the group has become a lagging not leading indicator ;  indicator of bus ",
+    "output": "some even claim the group has become a lagging not leading indicator of the bus"
+  },
+  {
+    "input": "some even claim the group has become a lagging not leading indicator ;  indicator red ",
+    "output": "some even claim the group has become a lagging not leading red indicator"
+  },
+  {
+    "input": "but when the judge received his payment book he disavowed the deal ;  deal great ",
+    "output": "but when the judge received his payment book he disavowed the great deal"
+  },
+  {
+    "input": "it 's a baptism of fire for corry says one usx executive ;  executive in white ",
+    "output": "it's a baptism of fire for corry says one usx executive in white"
+  },
+  {
+    "input": "whether she can meet that ambitious goal is still far from certain ;  goal white ",
+    "output": "whether she can meet that ambitious white goal is still far from certain"
+  },
+  {
+    "input": "a further problem is razor-thin profits ;  plane has problem ",
+    "output": "a further problem the plane has is razor-thin profits"
+  },
+  {
+    "input": "there is a small renoir on the wall ;  wall behind toiilet ",
+    "output": "there is a small renoir on the wall behind the toilet"
+  },
+  {
+    "input": "we 'll have to wait and see how the plan develops ;  plan behind guy ",
+    "output": "we will have to wait and see how the guy behind the plan develops"
+  },
+  {
+    "input": "there is a small renoir on the wall ;  wall white ",
+    "output": "there is a small renoir on the white wall"
+  },
+  {
+    "input": "learning aids lists films pamphlets brochures videos and other educational data ;  film in middle ",
+    "output": "learning aids lists films in the middle in pamphlets brochures videos and other educational data"
+  },
+  {
+    "input": "a thin man in a gray suit looks up from a newspaper ;  man wearing shirt ",
+    "output": "a thin man wearing a shirt in a gray suit looks up from a newspaper"
+  },
+  {
+    "input": "profit from continuing operations in the year-earlier period was 402.7 million ;  period red ",
+    "output": "profit from continuing operations in the year-earlier red period was 402.7 million"
+  },
+  {
+    "input": "learning aids lists films pamphlets brochures videos and other educational data ;  pamphlet lying on floor ",
+    "output": "learning aids lists films pamphlets lying on the floor brochures videos and other educational data"
+  },
+  {
+    "input": "complete details were n't immediately available ;  detail in building ",
+    "output": "complete details in the building were not immediately available"
+  },
+  {
+    "input": "learning aids lists films pamphlets brochures videos and other educational data ;  pamphlet blue ",
+    "output": "learning aids lists films blue pamphlets brochures videos and other educational data"
+  },
+  {
+    "input": "union officials could n't be reached for comment ;  official has shirt ",
+    "output": "union officials that have a shirt could not be reached for comment"
+  },
+  {
+    "input": "a thin man in a gray suit looks up from a newspaper ;  suit black ",
+    "output": "a thin man in a black and gray suit looks up from a newspaper"
+  },
+  {
+    "input": "learning aids lists films pamphlets brochures videos and other educational data ;  brochure on shelf ",
+    "output": "learning aids lists films pamphlets brochures on the shelf videos and other educational data"
+  },
+  {
+    "input": "union officials could n't be reached for comment ;  official tennis ",
+    "output": "union tennis officials couldn't be reached for comment"
+  },
+  {
+    "input": "learning aids lists films pamphlets brochures videos and other educational data ;  brochure white ",
+    "output": "learning aids lists films pamphlets white brochures videos and other educational data"
+  },
+  {
+    "input": "learning aids lists films pamphlets brochures videos and other educational data ;  video on laptop ",
+    "output": "learning aids lists films pamphlets brochures videos on laptops and other educational data"
+  },
+  {
+    "input": "a thin man in a gray suit looks up from a newspaper ;  newspaper folded ",
+    "output": "a thin man in a gray suit looks up from a folded newspaper"
+  },
+  {
+    "input": "the board has 10 business days to respond ;  business has entrance ",
+    "output": "the board business that has an entrance has 10 business days to respond"
+  },
+  {
+    "input": "learning aids lists films pamphlets brochures videos and other educational data ;  video halfway ",
+    "output": "learning aids lists films pamphlets brochures halfway videos and other educational data"
+  },
+  {
+    "input": "learning aids lists films pamphlets brochures videos and other educational data ;  data on screen ",
+    "output": "learning aids lists films pamphlets brochures videos and other educational data seen on screen"
+  },
+  {
+    "input": "golenbock with 35 lawyers has lost several partners during the past year ;  lawyer showing a paper ",
+    "output": "golenbock with 35 lawyers showing a paper has lost several partners during the past year"
+  },
+  {
+    "input": "golenbock with 35 lawyers has lost several partners during the past year ;  partner playing on tennis court ",
+    "output": "golenbock with 35 lawyers has lost several partners while playing on the tennis court during the past year"
+  },
+  {
+    "input": "learning aids lists films pamphlets brochures videos and other educational data ;  data green ",
+    "output": "learning aids lists films pamphlets brochures videos and other educational green data"
+  },
+  {
+    "input": "the numbers were adjusted for usual seasonal fluctuations ;  number black ",
+    "output": "the numbers were adjusted for the usual black seasonal number fluctuations"
+  },
+  {
+    "input": "but only four days after that mr. bush resurrected the veto threat ;  day sunny ",
+    "output": "but only four sunny days after that mr. bush resurrected the veto threat"
+  },
+  {
+    "input": "at that time tasks were assigned strictly on the basis of seniority ;  time on ticket ",
+    "output": "at that time on the ticket tasks were assigned strictly on the basis of seniority"
+  },
+  {
+    "input": "golenbock with 35 lawyers has lost several partners during the past year ;  year on bench ",
+    "output": "golenbock with 35 lawyers has lost several partners during the past year on the bench"
+  },
+  {
+    "input": "the board has 10 business days to respond ;  day sunny ",
+    "output": "the board has 10 sunny business days to respond"
+  },
+  {
+    "input": "fundamental factors are at work as well ;  work on clock ",
+    "output": "fundamental factors are at work on the clock as well"
+  },
+  {
+    "input": "individual and japanese participation in the auction was disappointing according to dealers ;  individual smiling ",
+    "output": "smiling individual and japanese participation in the auction was disappointing according to dealers."
+  },
+  {
+    "input": "there is after all big money in environmentalism ;  money under card ",
+    "output": "there is after all big money under the card in environmentalism"
+  },
+  {
+    "input": "individual and japanese participation in the auction was disappointing according to dealers ;  dealer wearing glasses ",
+    "output": "individual and japanese participation in the auction was disappointing according to the dealer wearing glasses"
+  },
+  {
+    "input": "our computer model has a certain trigger point he said ;  computer laptop ",
+    "output": "our laptop computer model has a certain trigger point he said"
+  },
+  {
+    "input": "there is after all big money in environmentalism ;  money paper ",
+    "output": "there is after all big paper money in environmentalism"
+  },
+  {
+    "input": "individual and japanese participation in the auction was disappointing according to dealers ;  dealer female ",
+    "output": "individual and japanese participation in the auction was disappointing according to the female dealer"
+  },
+  {
+    "input": "he pampers them he invites them to fabulous parties he strokes them ;  party at a house ",
+    "output": "he pampers them he invites them to fabulous parties at a house and he strokes them"
+  },
+  {
+    "input": "most bills are drafted by bureaucrats not politicians ;  bill orange ",
+    "output": "most orange bills are drafted by bureaucrats not politicians"
+  },
+  {
+    "input": "indeed the insurance adjusters had already bolted out of the courtroom ;  adjuster on post ",
+    "output": "indeed the insurance adjusters on the post had already bolted out of the courtroom"
+  },
+  {
+    "input": "our computer model has a certain trigger point he said ;  model red ",
+    "output": "our red computer model has a certain trigger point he said"
+  },
+  {
+    "input": "he pampers them he invites them to fabulous parties he strokes them ;  party birthday ",
+    "output": "he pampers them he invites them to fabulous birthday parties  he strokes them"
+  },
+  {
+    "input": "they currently have large orders for cargo planes ;  order ready ",
+    "output": "they have large orders for cargo planes currently ready."
+  },
+  {
+    "input": "most other bonds however would probably not have fared much better ;  bond black  ",
+    "output": "most other black bonds however would probably not have fared much better"
+  },
+  {
+    "input": "the interviews took place two years ago ;  interview in background ",
+    "output": "the interview in the background took place two years ago"
+  },
+  {
+    "input": "the big one is still due mr. johnson predicted in an interview ;  interview in background ",
+    "output": "the big one is still due mr jackson predicted in an interview in the background"
+  }
+]

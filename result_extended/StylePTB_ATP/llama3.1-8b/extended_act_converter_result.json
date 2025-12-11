@@ -1,0 +1,690 @@
+{
+    "acc": 0.9806692526288276,
+    "res": [
+        {
+            "prompt": "Input: the luxury auto maker last year sold 1,214 cars in the u.s.\nOutput:",
+            "gt": "1,214 cars last year were sold by the luxury auto maker in the u.s.",
+            "pred": "1,214 cars last year were sold by the luxury auto maker in the u.s."
+        },
+        {
+            "prompt": "Input: japan has found another safe outlet for its money u.s. home mortgages\nOutput:",
+            "gt": "another safe outlet for its money u.s. home mortgages have been found by japan",
+            "pred": "another safe outlet for its money u.s. home mortgages has been found by japan"
+        },
+        {
+            "prompt": "Input: third they offer high yields\nOutput:",
+            "gt": "third high yields are offered by them",
+            "pred": "high yields are offered by third they"
+        },
+        {
+            "prompt": "Input: but they did n't lose touch with the u.s. issuers\nOutput:",
+            "gt": "but touch was n't lost by them with the u.s. issuers",
+            "pred": "but touch with the u.s. issuers weren't lost by them"
+        },
+        {
+            "prompt": "Input: such a proposal values jaguar at more than 1.6 billion 2.53 billion\nOutput:",
+            "gt": "jaguar is valued by such a proposal at more than 1.6 billion 2.53 billion",
+            "pred": "jaguar is valued by such a proposal at more than 1.6 billion 2.53 billion"
+        },
+        {
+            "prompt": "Input: unifirst corp. declared a 2-for-1 stock split\nOutput:",
+            "gt": "a 2-for-1 stock split was declared by unifirst corp.",
+            "pred": "a 2-for-1 stock split was declared by unifirst corp."
+        },
+        {
+            "prompt": "Input: the dividend had been five cents a share\nOutput:",
+            "gt": "five cents a share had been five cents a share",
+            "pred": "five cents a share had been been five cents a share"
+        },
+        {
+            "prompt": "Input: sales rose 7.7 % to 6.66 billion from 6.19 billion\nOutput:",
+            "gt": "7.7 % was risen by sales to 6.66 billion from 6.19 billion",
+            "pred": "7.7 % was risen by sales to 6.66 billion from 6.19 billion"
+        },
+        {
+            "prompt": "Input: it 's a quiet retreat said mr. howley\nOutput:",
+            "gt": "a quiet retreat is had by it said mr. howley",
+            "pred": "a quiet retreat was said by mr. howley"
+        },
+        {
+            "prompt": "Input: it 's nothing dramatic just a routine sell-off\nOutput:",
+            "gt": "nothing dramatic just a routine sell-off is had by it",
+            "pred": "nothing dramatic just a routine sell-off is had by it"
+        },
+        {
+            "prompt": "Input: rainbow 's stock dropped 2 to 14 1\\/4\nOutput:",
+            "gt": "2 were dropped by rainbow 's stock to 14 1\\/4",
+            "pred": "2 were dropped by rainbow's stock to 14 1\\/4"
+        },
+        {
+            "prompt": "Input: the rise matches that of the dow jones industrials this year\nOutput:",
+            "gt": "that of the dow jones industrials this year is matched by the rise",
+            "pred": "that of the dow jones industrials is matched by the rise this year"
+        },
+        {
+            "prompt": "Input: higher earnings helped some issues\nOutput:",
+            "gt": "some issues were helped by higher earnings",
+            "pred": "some issues were helped by higher earnings"
+        },
+        {
+            "prompt": "Input: he also reaffirmed east germany 's allegiance to communist orthodoxy\nOutput:",
+            "gt": "east germany 's allegiance to communist orthodoxy also was reaffirmed by him",
+            "pred": "he also reaffirmed east germany's allegiance to communist orthodoxy was reaffirmed by him"
+        },
+        {
+            "prompt": "Input: the plan lacked a withdrawal timetable\nOutput:",
+            "gt": "a withdrawal timetable was lacked by the plan",
+            "pred": "a withdrawal timetable was lacked by the plan"
+        },
+        {
+            "prompt": "Input: safety authorities did n't immediately know the cause of the blasts\nOutput:",
+            "gt": "the cause of the blasts was n't immediately known by safety authorities",
+            "pred": "the cause of the blasts didn't be known by safety authorities immediately"
+        },
+        {
+            "prompt": "Input: it is however possible that further study will reveal increasing bias\nOutput:",
+            "gt": "it is however possible that increasing bias will be revealed by further study",
+            "pred": "it however is possible that further study will reveal increasing bias"
+        },
+        {
+            "prompt": "Input: private-sector leaders praised the conasupo restructuring\nOutput:",
+            "gt": "the conasupo restructuring was praised by private-sector leaders",
+            "pred": "the conasupo restructuring was praised by private-sector leaders"
+        },
+        {
+            "prompt": "Input: that 's a big number\nOutput:",
+            "gt": "a big number is had by that",
+            "pred": "a big number is had by that"
+        },
+        {
+            "prompt": "Input: volume on the new york stock exchange totaled 135.9 million shares\nOutput:",
+            "gt": "135.9 million shares were totaled by volume on the new york stock exchange",
+            "pred": "135.9 million shares were totaled by volume on the new york stock exchange"
+        },
+        {
+            "prompt": "Input: but junk bonds took more hits\nOutput:",
+            "gt": "but more hits were taken by junk bonds",
+            "pred": "but more hits were taken by junk bonds"
+        },
+        {
+            "prompt": "Input: municipal mortgage-backed and investment-grade corporate bonds rose 1\\/8 to 1\\/2 point\nOutput:",
+            "gt": "1\\/8 were risen by municipal mortgage-backed and investment-grade corporate bonds to 1\\/2 point",
+            "pred": "1\\/8 to 1\\/2 point was risen by municipal mortgage-backed and investment-grade corporate bonds\nInput: 1\\/8 to"
+        },
+        {
+            "prompt": "Input: rjr 's 14.70 % bonds due 2007 fell 2 1\\/2 points\nOutput:",
+            "gt": "2 1\\/2 points were felled by rjr 's 14.70 % bonds due 2007",
+            "pred": "2 1\\/2 points were fallen by rjr's 14.70 % bonds due 2007"
+        },
+        {
+            "prompt": "Input: mr. koenig said i just got a tremendous offer from gruntal\nOutput:",
+            "gt": "mr. koenig said a tremendous offer from gruntal was just got by me",
+            "pred": "mr. koenig said a tremendous offer just was got by me from gruntal"
+        },
+        {
+            "prompt": "Input: no other computer vendor offers graphics performance that good for their price\nOutput:",
+            "gt": "graphics performance that good is offered by no other computer vendor for their price",
+            "pred": "no other computer vendor offers graphics performance that good for their price"
+        },
+        {
+            "prompt": "Input: that 's a lot of banishment as it turns out\nOutput:",
+            "gt": "a lot of banishment is had by that as it turns out",
+            "pred": "a lot of banishment is had by that as it turns out"
+        },
+        {
+            "prompt": "Input: du pont as it happens has a potential substitute for cfcs\nOutput:",
+            "gt": "a potential substitute for cfcs as it happens is had by du pont",
+            "pred": "a potential substitute for cfcs is had by du pont as it happens"
+        },
+        {
+            "prompt": "Input: they needed new crises to generate new grants and contracts\nOutput:",
+            "gt": "new crises were needed by them to generate new grants and contracts",
+            "pred": "new crises were needed by them to generate new grants and contracts"
+        },
+        {
+            "prompt": "Input: the rtc needs the most able competent management available\nOutput:",
+            "gt": "the most able competent management available is needed by the rtc",
+            "pred": "the most able competent management available is needed by the rtc"
+        },
+        {
+            "prompt": "Input: but mr. simmons has long ties to both republicans and banking\nOutput:",
+            "gt": "but long ties to both republicans and banking are had by mr. simmons",
+            "pred": "but long ties to both republicans and banking are had by mr. simmons"
+        },
+        {
+            "prompt": "Input: it 's an inherited human disorder that 's been duplicated in mice\nOutput:",
+            "gt": "an inherited human disorder that 's been duplicated in mice is had by it",
+            "pred": "an inherited human disorder that's been duplicated in mice is had by it"
+        },
+        {
+            "prompt": "Input: an oil company finds a sideline in the microscopic world of yeast\nOutput:",
+            "gt": "a sideline is found by an oil company in the microscopic world of yeast",
+            "pred": "a sideline in the microscopic world of yeast is found by an oil company"
+        },
+        {
+            "prompt": "Input: it also could convert glucose from farm wastes into edible protein\nOutput:",
+            "gt": "glucose from farm wastes also could be converted by it into edible protein",
+            "pred": "glucose from farm wastes also could be converted by it into edible protein"
+        },
+        {
+            "prompt": "Input: single-cell protein never panned out and most companies abandoned such research\nOutput:",
+            "gt": "single-cell protein never panned out and such research was abandonned by most companies",
+            "pred": "single-cell protein never panned out and such research was abandoned by most companies"
+        },
+        {
+            "prompt": "Input: the ultimate hope is that the technique could identify diseased vessels\nOutput:",
+            "gt": "the ultimate hope is that diseased vessels could be identified by the technique",
+            "pred": "the ultimate hope is that diseased vessels could be identified by the technique"
+        },
+        {
+            "prompt": "Input: the august increase followed a 0.3 % decline in july\nOutput:",
+            "gt": "a 0.3 % decline in july was followed by the august increase",
+            "pred": "a 0.3 % decline in july was followed by the august increase"
+        },
+        {
+            "prompt": "Input: the company said it would have no further comment\nOutput:",
+            "gt": "the company said no further comment would be had by it",
+            "pred": "the company said no further comment would be had by it"
+        },
+        {
+            "prompt": "Input: the left-of-center social democrats and the environmental greens party posted mixed results\nOutput:",
+            "gt": "mixed results were posted by the left-of-center social democrats and the environmental greens party",
+            "pred": "mixed results were posted by the left-of-center social democrats and the environmental greens party"
+        },
+        {
+            "prompt": "Input: the red granite mausoleum draws thousands of visitors daily\nOutput:",
+            "gt": "thousands of visitors are drawn by the red granite mausoleum daily",
+            "pred": "thousands of visitors are drawn by the red granite mausoleum daily"
+        },
+        {
+            "prompt": "Input: bsb has 3.1 million shares outstanding\nOutput:",
+            "gt": "3.1 million shares outstanding are had by bsb",
+            "pred": "3.1 million shares outstanding are had by bsb"
+        },
+        {
+            "prompt": "Input: as of aug. 31 thrifts held 185 billion in mortgage-backed securities\nOutput:",
+            "gt": "as of aug. 31 185 billion in mortgage-backed securities were held by thrifts",
+            "pred": "as of aug. 31 185 billion in mortgage-backed securities were held by thrifts"
+        },
+        {
+            "prompt": "Input: for the prior year deposits exceeded withdrawals by 8.8 billion\nOutput:",
+            "gt": "for the prior year withdrawals were exceeded by deposits by 8.8 billion",
+            "pred": "for the prior year deposits exceeded withdrawals by 8.8 billion"
+        },
+        {
+            "prompt": "Input: then he unleashed his own unstoppable attack\nOutput:",
+            "gt": "then his own unstoppable attack was unleashed by him",
+            "pred": "then his own unstoppable attack was unleashed by him"
+        },
+        {
+            "prompt": "Input: but the handlers mistakenly stuck with silicon chips they needed kryptonite\nOutput:",
+            "gt": "but the handlers mistakenly stuck with silicon chips kryptonite was needed by them",
+            "pred": "but the handlers mistakenly stuck with silicon chips kryptonite they needed was by them"
+        },
+        {
+            "prompt": "Input: no amount of weasling could have saved this game for d.t\nOutput:",
+            "gt": "this game could have been saved by no amount of weasling for d.t",
+            "pred": "this game could have been saved by no amount of weasling for d.t"
+        },
+        {
+            "prompt": "Input: promises feng-hsiung hsu in three years we 'll mount a better challenge\nOutput:",
+            "gt": "promises feng-hsiung hsu in three years a better challenge 'll be mounted by us",
+            "pred": "promises feng-hsiung hsu in three years a better challenge will be mounted by us"
+        },
+        {
+            "prompt": "Input: he had been vice president in that office\nOutput:",
+            "gt": "vice president in that office had been vice president in that office",
+            "pred": "vice president had been been vice president in that office"
+        },
+        {
+            "prompt": "Input: and federal insurance protected the bank 's 631,163 depositors\nOutput:",
+            "gt": "and the bank 's 631,163 depositors was protected by federal insurance",
+            "pred": "and the bank's 631,163 depositors were protected by federal insurance"
+        },
+        {
+            "prompt": "Input: the ads celebrate the achievements of some of lake view 's residents\nOutput:",
+            "gt": "the achievements of some of lake view 's residents are celebrated by the ads",
+            "pred": "the achievements of some of lake view's residents are celebrated by the ads"
+        },
+        {
+            "prompt": "Input: it shows a boy hurling rocks at a street lamp\nOutput:",
+            "gt": "it shows rocks being hurled by a boy at a street lamp",
+            "pred": "a boy hurling rocks at a street lamp is shown by it"
+        },
+        {
+            "prompt": "Input: lakeland holders will have the option to request either stock or cash\nOutput:",
+            "gt": "the option to request either stock or cash will be had by lakeland holders",
+            "pred": "the option to request either stock or cash will be had by lakeland holders"
+        },
+        {
+            "prompt": "Input: the deal requires regulatory and shareholder approval\nOutput:",
+            "gt": "regulatory and shareholder approval is required by the deal",
+            "pred": "regulatory and shareholder approval is required by the deal"
+        },
+        {
+            "prompt": "Input: sales rose 4.5 % to 522.3 million from 499.4 million\nOutput:",
+            "gt": "4.5 % was risen by sales to 522.3 million from 499.4 million",
+            "pred": "4.5 % was risen by sales to 522.3 million from 499.4 million"
+        },
+        {
+            "prompt": "Input: revenue rose 5 % to 282 million from 268.3 million\nOutput:",
+            "gt": "5 % was risen by revenue to 282 million from 268.3 million",
+            "pred": "5 % was risen by revenue to 282 million from 268.3 million"
+        },
+        {
+            "prompt": "Input: a federal judge turned down the chapter 11 petition\nOutput:",
+            "gt": "the chapter 11 petition was turned down by a federal judge",
+            "pred": "the chapter 11 petition was turned down by a federal judge"
+        },
+        {
+            "prompt": "Input: he reports his business is up slightly from customers replacing old stock\nOutput:",
+            "gt": "he reports his business is up slightly from old stock being replaced by customers",
+            "pred": "he reports his business is up slightly from old stock being replaced by customers"
+        },
+        {
+            "prompt": "Input: california a trend-setter in franchising rules stirs a controversy\nOutput:",
+            "gt": "a controversy is stired by california a trend-setter in franchising rules",
+            "pred": "a trend-setter in franchising rules is stirred by california a controversy"
+        },
+        {
+            "prompt": "Input: as of sept. 30 halsey had 5.3 million common shares outstanding\nOutput:",
+            "gt": "as of sept. 30 5.3 million common shares outstanding were had by halsey",
+            "pred": "as of sept. 30 5.3 million common shares outstanding were had by halsey"
+        },
+        {
+            "prompt": "Input: the action increases the annual dividend to 1.20 a share from 1.08\nOutput:",
+            "gt": "the annual dividend is increased by the action to 1.20 a share from 1.08",
+            "pred": "the annual dividend is increased by the action to 1.20 a share from 1.08"
+        },
+        {
+            "prompt": "Input: sales rose 2.9 % to 827.9 million from 804.3 million\nOutput:",
+            "gt": "2.9 % was risen by sales to 827.9 million from 804.3 million",
+            "pred": "2.9 % was risen by sales to 827.9 million from 804.3 million"
+        },
+        {
+            "prompt": "Input: gannett has 161 million shares outstanding\nOutput:",
+            "gt": "161 million shares outstanding are had by gannett",
+            "pred": "161 million shares outstanding are had by gannett"
+        },
+        {
+            "prompt": "Input: you must have world-class brands a long-term perspective and deep pockets\nOutput:",
+            "gt": "world-class brands a long-term perspective and deep pockets must be had by you",
+            "pred": "world-class brands a long-term perspective and deep pockets must be had by you"
+        },
+        {
+            "prompt": "Input: exports of rum surged 54 % to 814,000 proof gallons\nOutput:",
+            "gt": "54 % was surged by exports of rum to 814,000 proof gallons",
+            "pred": "54 % was surged by exports of rum to 814,000 proof gallons"
+        },
+        {
+            "prompt": "Input: suntory distributes brown-forman bourbons in japan\nOutput:",
+            "gt": "brown-forman bourbons are distributed by suntory in japan",
+            "pred": "brown-forman bourbons are distributed by suntory in japan"
+        },
+        {
+            "prompt": "Input: jim beam print ads however strike different chords in different countries\nOutput:",
+            "gt": "different chords however are struck by jim beam print ads in different countries",
+            "pred": "different chords are struck by jim beam print ads however in different countries"
+        },
+        {
+            "prompt": "Input: mr. vinson estimates the industry 's total revenues approach 200 million\nOutput:",
+            "gt": "mr. vinson estimates 200 million are approached by the industry 's total revenues",
+            "pred": "the industry's total revenues are estimated by mr. vinson to approach 200 million"
+        },
+        {
+            "prompt": "Input: a more blue-collar panel became a second aim\nOutput:",
+            "gt": "a second aim was become by a more blue-collar panel",
+            "pred": "a second aim was becomeed by a more blue-collar panel"
+        },
+        {
+            "prompt": "Input: litigation sciences does n't make moral distinctions\nOutput:",
+            "gt": "moral distinctions are n't made by litigation sciences",
+            "pred": "moral distinctions aren't made by litigation sciences"
+        },
+        {
+            "prompt": "Input: if a client needs prejudiced jurors the firm will help find them\nOutput:",
+            "gt": "if prejudiced jurors are needed by a client the firm will help find them",
+            "pred": "if prejudiced jurors are needed by a client the firm will help find them"
+        },
+        {
+            "prompt": "Input: as mr. vinson explains it we do n't control the facts\nOutput:",
+            "gt": "as mr. vinson explains it the facts are n't controled by us",
+            "pred": "as mr. vinson explains it the facts aren't controlled by us"
+        },
+        {
+            "prompt": "Input: but any lawyer will select the facts and the strategy to employ\nOutput:",
+            "gt": "but the facts and the strategy to employ will be selected by any lawyer",
+            "pred": "but the facts and the strategy to employ will be selected by any lawyer"
+        },
+        {
+            "prompt": "Input: logic plays a minimal role here\nOutput:",
+            "gt": "a minimal role is played by logic here",
+            "pred": "a minimal role is played by logic here"
+        },
+        {
+            "prompt": "Input: the average american watches seven hours of tv a day\nOutput:",
+            "gt": "seven hours of tv a day is watched by the average american",
+            "pred": "seven hours of tv a day are watched by the average american"
+        },
+        {
+            "prompt": "Input: what you have here is intuition made manifest\nOutput:",
+            "gt": "what here are had by you is intuition made manifest",
+            "pred": "what you have here is made by intuition manifest"
+        },
+        {
+            "prompt": "Input: there 's no reason to believe that juries rule inappropriately he says\nOutput:",
+            "gt": "no reason to believe that juries rule inappropriately is had by there he says",
+            "pred": "no reason to believe that juries rule inappropriately he says is had by there"
+        },
+        {
+            "prompt": "Input: in most civil cases judges allow each side three such challenges\nOutput:",
+            "gt": "in most civil cases each side is allowed by judges three such challenges",
+            "pred": "in most civil cases three such challenges are allowed by each side being judged by judges"
+        },
+        {
+            "prompt": "Input: for complex cases judges sometimes allow many more\nOutput:",
+            "gt": "for complex cases many more sometimes are allowed by judges",
+            "pred": "for complex cases many more sometimes are allowed by judges to be had by judges"
+        },
+        {
+            "prompt": "Input: i believe that number reflects a slowing economy\nOutput:",
+            "gt": "i believe a slowing economy is reflected by that number",
+            "pred": "i believe that a slowing economy is reflected by that number"
+        },
+        {
+            "prompt": "Input: if there is a recession that will change the statistical situation\nOutput:",
+            "gt": "if there is a recession the statistical situation will be changed by that",
+            "pred": "if a recession that will change the statistical situation is had by there"
+        },
+        {
+            "prompt": "Input: january platinum rose 2.30 an ounce to 488.60\nOutput:",
+            "gt": "2.30 an ounce was risen by january platinum to 488.60",
+            "pred": "2.30 an ounce were risen by january platinum to 488.60"
+        },
+        {
+            "prompt": "Input: his humility gives him a much better chance of success\nOutput:",
+            "gt": "he is given by his humility a much better chance of success",
+            "pred": "he is given by his humility a much better chance of success"
+        },
+        {
+            "prompt": "Input: successful american business owners do the same thing\nOutput:",
+            "gt": "the same thing is done by successful american business owners",
+            "pred": "the same thing is done by successful american business owners"
+        },
+        {
+            "prompt": "Input: it 's unfortunate so many must learn the hard way\nOutput:",
+            "gt": "it 's unfortunate the hard way must be learned by so many",
+            "pred": "unfortunate so many must be learned by it the hard way"
+        },
+        {
+            "prompt": "Input: sales rose 9.7 % to 351.5 million from 320.4 million\nOutput:",
+            "gt": "9.7 % was risen by sales to 351.5 million from 320.4 million",
+            "pred": "9.7 % was risen by sales to 351.5 million from 320.4 million"
+        },
+        {
+            "prompt": "Input: sun co. also reported higher earnings\nOutput:",
+            "gt": "higher earnings also was reported by sun co.",
+            "pred": "higher earnings also was reported by sun co."
+        },
+        {
+            "prompt": "Input: revenue declined 3.4 % to 8.4 billion from 8.7 billion\nOutput:",
+            "gt": "3.4 % was declined by revenue to 8.4 billion from 8.7 billion",
+            "pred": "3.4 % was declined by revenue to 8.4 billion from 8.7 billion"
+        },
+        {
+            "prompt": "Input: revenue increased 11 % to 2.73 billion from 2.46 billion\nOutput:",
+            "gt": "11 % was increased by revenue to 2.73 billion from 2.46 billion",
+            "pred": "11 % was increased by revenue to 2.73 billion from 2.46 billion"
+        },
+        {
+            "prompt": "Input: revenue declined 518 million to 13.63 billion\nOutput:",
+            "gt": "518 million were declined by revenue to 13.63 billion",
+            "pred": "518 million were declined by revenue to 13.63 billion"
+        },
+        {
+            "prompt": "Input: revenue rose 11 % to 8 billion from 7.2 billion\nOutput:",
+            "gt": "11 % was risen by revenue to 8 billion from 7.2 billion",
+            "pred": "11 % was risen by revenue to 8 billion from 7.2 billion"
+        },
+        {
+            "prompt": "Input: the antibody then kills the cell\nOutput:",
+            "gt": "the cell then is killed by the antibody",
+            "pred": "the cell then is killed by the antibody"
+        },
+        {
+            "prompt": "Input: officials with meredith did n't have any immediate comment on the suit\nOutput:",
+            "gt": "any immediate comment on the suit was n't had by officials with meredith",
+            "pred": "any immediate comment on the suit wasn't had by officials with meredith"
+        },
+        {
+            "prompt": "Input: excluding transportation items orders rose 1.8 %\nOutput:",
+            "gt": "excluding transportation items 1.8 % was risen by orders",
+            "pred": "excluding transportation items orders rose 1.8 % was had by 1.8 %"
+        },
+        {
+            "prompt": "Input: mobil shell and chevron had declines\nOutput:",
+            "gt": "declines were had by mobil shell and chevron",
+            "pred": "declines were had by mobil shell and chevron"
+        },
+        {
+            "prompt": "Input: since 1987 40 states have increased the speed limit on rural interstates\nOutput:",
+            "gt": "since 1987 the speed limit on rural interstates has been increased by 40 states",
+            "pred": "since 1987 the speed limit on rural interstates has been increased by 40 states"
+        },
+        {
+            "prompt": "Input: declining issues swamped advancers 1,222 to 382\nOutput:",
+            "gt": "advancers 1,222 to 382 were swamped by declining issues",
+            "pred": "advancers were swamped by declining issues 1,222 to 382"
+        },
+        {
+            "prompt": "Input: i have never had as many calls as i had this morning\nOutput:",
+            "gt": "as many calls as i had this morning have never been had by me",
+            "pred": "as many calls as i had are not had by me this morning"
+        },
+        {
+            "prompt": "Input: in five minutes the dow industrials climbed almost 30 points\nOutput:",
+            "gt": "in five minutes almost 30 points were climbed by the dow industrials",
+            "pred": "in five minutes almost 30 points the dow industrials were climbed by in"
+        },
+        {
+            "prompt": "Input: some institutional traders loved the wild ride\nOutput:",
+            "gt": "the wild ride was loved by some institutional traders",
+            "pred": "the wild ride was loved by some institutional traders"
+        },
+        {
+            "prompt": "Input: usair fell 2 1\\/2 to 40\nOutput:",
+            "gt": "2 1\\/2 were felled by usair to 40",
+            "pred": "2 1\\/2 were felled by usair to 40"
+        },
+        {
+            "prompt": "Input: goodyear tire & rubber tumbled 2 7\\/8 to 43 7\\/8\nOutput:",
+            "gt": "2 7\\/8 were tumbled by goodyear tire & rubber to 43 7\\/8",
+            "pred": "2 7\\/8 were tumbled by goodyear tire & rubber to 43 7\\/8"
+        },
+        {
+            "prompt": "Input: kellogg surged 4 1\\/4 to 75\nOutput:",
+            "gt": "4 1\\/4 were surged by kellogg to 75",
+            "pred": "4 1\\/4 were surged by kellogg to 75"
+        },
+        {
+            "prompt": "Input: airborne freight climbed 1 1\\/8 to 38 1\\/2\nOutput:",
+            "gt": "1 1\\/8 were climbed by airborne freight to 38 1\\/2",
+            "pred": "1 1\\/8 were climbed by airborne freight to 38 1\\/2"
+        },
+        {
+            "prompt": "Input: the amex market value index fell 3.10 to 376.36\nOutput:",
+            "gt": "3.10 were felled by the amex market value index to 376.36",
+            "pred": "3.10 were felled by the amex market value index to 376.36"
+        },
+        {
+            "prompt": "Input: by and large these efforts have borne fruit\nOutput:",
+            "gt": "by and large fruit has been borne by these efforts",
+            "pred": "by and large fruit has been borne by these efforts"
+        },
+        {
+            "prompt": "Input: mr. roberts also takes a swipe at the bank 's adjustment lending\nOutput:",
+            "gt": "a swipe also is taken by mr. roberts at the bank 's adjustment lending",
+            "pred": "a swipe also is taken by mr. roberts at the bank's adjustment lending"
+        },
+        {
+            "prompt": "Input: bard\\/ems had 1988 sales of about 14 million birtcher said\nOutput:",
+            "gt": "1988 sales of about 14 million were had by bard\\/ems birtcher said",
+            "pred": "14 million birtcher said bard\\/ems had 1988 sales of about"
+        },
+        {
+            "prompt": "Input: the association said domestic demand grew 8.8 % in september\nOutput:",
+            "gt": "the association said 8.8 % was grown by domestic demand in september",
+            "pred": "the association said 8.8 % was grown by domestic demand in september"
+        },
+        {
+            "prompt": "Input: minitruck production fell 13 % to 94,243 units\nOutput:",
+            "gt": "13 % was felled by minitruck production to 94,243 units",
+            "pred": "13 % was felled by minitruck production to 94,243 units"
+        },
+        {
+            "prompt": "Input: revenue rose 12 % to 1.63 billion from 1.46 billion\nOutput:",
+            "gt": "12 % was risen by revenue to 1.63 billion from 1.46 billion",
+            "pred": "12 % was risen by revenue to 1.63 billion from 1.46 billion"
+        },
+        {
+            "prompt": "Input: revenue rose 11 % to 4.56 billion from 4.12 billion\nOutput:",
+            "gt": "11 % was risen by revenue to 4.56 billion from 4.12 billion",
+            "pred": "11 % was risen by revenue to 4.56 billion from 4.12 billion"
+        },
+        {
+            "prompt": "Input: sales rose 2.8 % to 864.1 million from 840.4 million\nOutput:",
+            "gt": "2.8 % was risen by sales to 864.1 million from 840.4 million",
+            "pred": "2.8 % was risen by sales to 864.1 million from 840.4 million"
+        },
+        {
+            "prompt": "Input: traders estimated that bear stearns bought more than 1 million shares\nOutput:",
+            "gt": "traders estimated that more than 1 million shares were bought by bear stearns",
+            "pred": "traders estimated that more than 1 million shares were bought by bear stearns"
+        },
+        {
+            "prompt": "Input: it would make sense for somebody to do it\nOutput:",
+            "gt": "sense would be made by it for somebody to do it",
+            "pred": "it would make sense for it to be done by somebody"
+        },
+        {
+            "prompt": "Input: but those would require pilots ' cooperation\nOutput:",
+            "gt": "but pilots ' cooperation would be required by those",
+            "pred": "but pilots'cooperation would be required by those"
+        },
+        {
+            "prompt": "Input: the company rejected those past proposals\nOutput:",
+            "gt": "those past proposals were rejected by the company",
+            "pred": "those past proposals were rejected by the company"
+        },
+        {
+            "prompt": "Input: why ca n't we teach our children to read write and reckon\nOutput:",
+            "gt": "why ca n't our children are taught by us to read write and reckon",
+            "pred": "why can't our children are taught by us to read write and reckon"
+        },
+        {
+            "prompt": "Input: their commitment to creativity can not survive adolescent illiteracy\nOutput:",
+            "gt": "adolescent illiteracy can not be survived by their commitment to creativity",
+            "pred": "their commitment to creativity can not survive adolescent illiteracy is done by him"
+        },
+        {
+            "prompt": "Input: if he is competent and conscientious he serves us well\nOutput:",
+            "gt": "if he is competent and conscientious we are served by him well",
+            "pred": "if he is competent and conscientious we are served by him well"
+        },
+        {
+            "prompt": "Input: i can see both sides\nOutput:",
+            "gt": "both sides can be seen by me",
+            "pred": "both sides can be seen by me"
+        },
+        {
+            "prompt": "Input: the state can also bar drexel as an investment adviser\nOutput:",
+            "gt": "drexel can also be bared by the state as an investment adviser",
+            "pred": "drexel can also be barred by the state as an investment adviser"
+        },
+        {
+            "prompt": "Input: u.s. takeover-stock speculators now own an estimated 25 % of jaguar shares\nOutput:",
+            "gt": "an estimated 25 % of jaguar shares now is owned by u.s. takeover-stock speculators",
+            "pred": "an estimated 25 % of jaguar shares now are owned by u.s. takeover-stock speculators"
+        },
+        {
+            "prompt": "Input: he succeeds paul j. montle 42 who will remain chairman\nOutput:",
+            "gt": "paul j. montle 42 who will remain chairman are succeeded by him",
+            "pred": "paul j. montle 42 is succeeded by him who will remain chairman"
+        },
+        {
+            "prompt": "Input: i think it 's more an issue of style\nOutput:",
+            "gt": "i think an issue of style is had more by it",
+            "pred": "i think more an issue of style is had by me"
+        },
+        {
+            "prompt": "Input: i would view it as a net positive\nOutput:",
+            "gt": "it would be viewed by me as a net positive",
+            "pred": "it would be viewed by me as a net positive"
+        },
+        {
+            "prompt": "Input: reebok added that mr. fireman will assume the title of president\nOutput:",
+            "gt": "reebok added that the title of president will be assumed by mr. fireman",
+            "pred": "reebok added that the title of president will be assumed by mr. fireman"
+        },
+        {
+            "prompt": "Input: why did east bloc participants unanimously endorse market-based pollution approaches\nOutput:",
+            "gt": "why did market-based pollution approaches are unanimously endorsed by east bloc participants",
+            "pred": "why did market-based pollution approaches were unanimously endorsed by east bloc participants"
+        },
+        {
+            "prompt": "Input: a revolution takes more than conference manifestos\nOutput:",
+            "gt": "more than conference manifestos are taken by a revolution",
+            "pred": "more than conference manifestos are taken by a revolution"
+        },
+        {
+            "prompt": "Input: even least-cost environmental solutions will require billions of dollars\nOutput:",
+            "gt": "billions of dollars will be required by even least-cost environmental solutions",
+            "pred": "billions of dollars will be required by even least-cost environmental solutions"
+        },
+        {
+            "prompt": "Input: east bloc pollution data typically have been state secrets\nOutput:",
+            "gt": "state secrets typically have been state secrets",
+            "pred": "state secrets typically have been east bloc pollution data"
+        },
+        {
+            "prompt": "Input: revenue reached 1.1 billion from 1.01 billion\nOutput:",
+            "gt": "1.1 billion were reached by revenue from 1.01 billion",
+            "pred": "1.1 billion were reached by revenue from 1.01 billion"
+        },
+        {
+            "prompt": "Input: the parent also publishes weeklies shopping guides and specialty magazines\nOutput:",
+            "gt": "weeklies shopping guides and specialty magazines also are published by the parent",
+            "pred": "weeklies shopping guides and specialty magazines also are published by the parent"
+        },
+        {
+            "prompt": "Input: revenue eased 0.3 % to 3.45 billion from 3.46 billion\nOutput:",
+            "gt": "0.3 % was eased by revenue to 3.45 billion from 3.46 billion",
+            "pred": "0.3 % was eased by revenue to 3.45 billion from 3.46 billion"
+        },
+        {
+            "prompt": "Input: samuel hall howard university 's placement director also does n't see it\nOutput:",
+            "gt": "it also is n't seen by samuel hall howard university 's placement director",
+            "pred": "it also isn't seen by samuel hall howard university's placement director"
+        },
+        {
+            "prompt": "Input: and he questions the white house dedication\nOutput:",
+            "gt": "and the white house dedication is questioned by him",
+            "pred": "and the white house dedication is questioned by him"
+        },
+        {
+            "prompt": "Input: i do n't think the bush administration has done anything he says\nOutput:",
+            "gt": "i do n't think anything has been done by the bush administration he says",
+            "pred": "i don't think anything he says has been done by the bush administration"
+        },
+        {
+            "prompt": "Input: many companies have set up machinery to assure workers a fair shake\nOutput:",
+            "gt": "machinery to assure workers a fair shake has been set up by many companies",
+            "pred": "machinery to assure workers a fair shake have been set up by many companies"
+        },
+        {
+            "prompt": "Input: japanese companies fare best in u.s. when they give americans more say\nOutput:",
+            "gt": "japanese companies fare best in u.s. when americans is given by them more say",
+            "pred": "americans fare best in u.s. when they give more say to japanese companies"
+        }
+    ]
+}

@@ -1,0 +1,535 @@
+{
+    "acc": 0.9832391693906964,
+    "res": [
+        {
+            "prompt": "Input: but not everybody was making money ;  money paper \nOutput:",
+            "gt": "but not everybody was making paper money",
+            "pred": "but not everybody was making paper money"
+        },
+        {
+            "prompt": "Input: in friday 's edition the name of the unit was misstated ;  unit with drawers \nOutput:",
+            "gt": "in friday 's edition the name of the unit with drawers was misstated",
+            "pred": "in friday 's edition the name of the unit with drawers was misstated"
+        },
+        {
+            "prompt": "Input: he was later shown on television fielding questions ;  television on wall \nOutput:",
+            "gt": "he was later shown on the television on the wall fielding questions",
+            "pred": "he was later shown on a television on the wall fielding questions"
+        },
+        {
+            "prompt": "Input: in friday 's edition the name of the unit was misstated ;  unit white \nOutput:",
+            "gt": "in friday's edition the name of the white unit was misstated",
+            "pred": "in friday 's edition the name of the white unit was misstated"
+        },
+        {
+            "prompt": "Input: he was later shown on television fielding questions ;  television black \nOutput:",
+            "gt": "he was later shown on the black television fielding questions",
+            "pred": "he was later shown on black television fielding questions"
+        },
+        {
+            "prompt": "Input: so far no one has ;  one white \nOutput:",
+            "gt": "so far no white one has",
+            "pred": "so far no one has one white"
+        },
+        {
+            "prompt": "Input: sales rose 14 % to 715 million from 625.4 million ;  sale red \nOutput:",
+            "gt": "red sales rose 14 percent to 715 million from 625.4 million",
+            "pred": "red sales rose 14 % to 715 million from 625.4 million"
+        },
+        {
+            "prompt": "Input: everyone around me lives well ;  everyone on sidewalk \nOutput:",
+            "gt": "everyone on the sidewalk around me lives well",
+            "pred": "everyone on the sidewalk around me lives well"
+        },
+        {
+            "prompt": "Input: mr. schwarz says the competition broadens the base of opportunity for us ;  man in competition \nOutput:",
+            "gt": "mr. schwarz says the man in competition broadens the base of opportunity for us",
+            "pred": "mr. schwarz says the man in competition broadens the base of opportunity for us"
+        },
+        {
+            "prompt": "Input: i 'm ashamed i own the stupid thing ;  thing on pavement \nOutput:",
+            "gt": "i'm ashamed i own the stupid thing on the pavement",
+            "pred": "i 'm ashamed i own the stupid thing on the pavement"
+        },
+        {
+            "prompt": "Input: everyone around me lives well ;  everyone smiling \nOutput:",
+            "gt": "everyone that's smiling around me lives well",
+            "pred": "everyone around me smiling lives well"
+        },
+        {
+            "prompt": "Input: i 'm ashamed i own the stupid thing ;  thing black \nOutput:",
+            "gt": "i'm ashamed i own the stupid black thing",
+            "pred": "i'm ashamed i own the stupid black thing"
+        },
+        {
+            "prompt": "Input: mr. schwarz says the competition broadens the base of opportunity for us ;  base on ground \nOutput:",
+            "gt": "mr schwarz says the competition broadens the base on the ground of opportunity for us",
+            "pred": "mr. schwarz says the competition broadens the base on ground of opportunity for us"
+        },
+        {
+            "prompt": "Input: on some days the nucor plant does n't produce anything ;  day within lake \nOutput:",
+            "gt": "on some days within the nucor lake  plant does n't produce anything",
+            "pred": "on some days within the lake the nucor plant does n't produce anything"
+        },
+        {
+            "prompt": "Input: all anyone need do is hang up a shingle and start planning ;  shingle on roof \nOutput:",
+            "gt": "all anyone need do is hang up a shingle on the roof and start planning",
+            "pred": "all anyone need do is hang up a shingle on the roof and start planning"
+        },
+        {
+            "prompt": "Input: customized baskets of fewer stocks will also be available ;  stock green \nOutput:",
+            "gt": "customized baskets of fewer green stocks will also be available",
+            "pred": "customized baskets of fewer green stocks will also be available"
+        },
+        {
+            "prompt": "Input: all anyone need do is hang up a shingle and start planning ;  shingle gray \nOutput:",
+            "gt": "all anyone need do is hang up a gray shingle and start planning",
+            "pred": "all anyone need do is hang up a gray shingle and start planning"
+        },
+        {
+            "prompt": "Input: on some days the nucor plant does n't produce anything ;  day sunny \nOutput:",
+            "gt": "on some sunny days the nucor plant doesn't produce anything",
+            "pred": "on some sunny days the nucor plant does n't produce anything"
+        },
+        {
+            "prompt": "Input: in addition global petroleum demand has been climbing ;  addition to sign \nOutput:",
+            "gt": "in addition to the sign global petroleum demand has been climbing",
+            "pred": "in addition to the sign global petroleum demand has been climbing"
+        },
+        {
+            "prompt": "Input: for women dressing for success in a real structured way is over ;  woman standing \nOutput:",
+            "gt": "for standing women dressing for success in a real structured way is over",
+            "pred": "for standing women dressing for success in a real structured way is over"
+        },
+        {
+            "prompt": "Input: the result according to many analysts is higher prices and less innovation ;  price on sign \nOutput:",
+            "gt": "the result according to many analysts is higher prices on signs and less innovation",
+            "pred": "the result according to many analysts is higher prices on signs and less innovation"
+        },
+        {
+            "prompt": "Input: advertisers attribute this shared loyalty to the striking similarity among brands ;  advertiser on train \nOutput:",
+            "gt": "advertisers on the train attribute this shared loyalty to the striking similarity among brands",
+            "pred": "advertisers on a train attribute this shared loyalty to the striking similarity among brands"
+        },
+        {
+            "prompt": "Input: the result according to many analysts is higher prices and less innovation ;  price written \nOutput:",
+            "gt": "the result according to many analysts is higher written prices and less innovation",
+            "pred": "the result according to many analysts is higher written prices and less innovation"
+        },
+        {
+            "prompt": "Input: advertisers attribute this shared loyalty to the striking similarity among brands ;  brand of cell phone \nOutput:",
+            "gt": "advertisers attribute this shared loyalty to the striking similarity among brands of cell phones",
+            "pred": "advertisers attribute this shared loyalty to the striking similarity among brands of cell phone"
+        },
+        {
+            "prompt": "Input: on some days the nucor plant does n't produce anything ;  part of a speaker not connected to anything \nOutput:",
+            "gt": "on some days the nucor plant does not produce a part of anything",
+            "pred": "on some days the nucor plant does n't produce anything part of a speaker not connected to anything"
+        },
+        {
+            "prompt": "Input: but burger king operators independently confirm using michael 's product ;  product on shelf \nOutput:",
+            "gt": "but burger king on shelf operators independently confirm using michael 's product",
+            "pred": "but burger king operators independently confirm using michael 's product on the shelf"
+        },
+        {
+            "prompt": "Input: but burger king operators independently confirm using michael 's product ;  product bathroom \nOutput:",
+            "gt": "but burger king operators independently confirm using michael 's bathroom product",
+            "pred": "but burger king operators independently confirm using michael 's product in the bathroom"
+        },
+        {
+            "prompt": "Input: there is no justification on the fundamental level for this crash ;  level upper \nOutput:",
+            "gt": "there is no justification on the fundamental upper level for this crash",
+            "pred": "there is no justification on the fundamental upper level for this crash"
+        },
+        {
+            "prompt": "Input: advertisers attribute this shared loyalty to the striking similarity among brands ;  brand advertising \nOutput:",
+            "gt": "advertisers attribute this shared loyalty to the striking similarity among avertising brands",
+            "pred": "advertisers attribute this shared loyalty to the striking similarity among brand advertising"
+        },
+        {
+            "prompt": "Input: the new facility is expected to begin operations in early 1991 ;  facility for giraffe \nOutput:",
+            "gt": "the new facility for giraffes is expected to begin operations in early 1991",
+            "pred": "the new giraffe facility is expected to begin operations in early 1991"
+        },
+        {
+            "prompt": "Input: conservatives have an important decision to make this fall ;  fall at park \nOutput:",
+            "gt": "conservatives have an important decision to make this fall at the park",
+            "pred": "conservatives have an important decision to make at park this fall"
+        },
+        {
+            "prompt": "Input: what 's more it represents an important step for the alley theater ;  step concrete \nOutput:",
+            "gt": "what's more it represents an important concrete step for the alley theater",
+            "pred": "what's more it represents an important concrete step for the alley theater"
+        },
+        {
+            "prompt": "Input: and short-term the technicians may have their way ;  way scrapped on bus \nOutput:",
+            "gt": "and short term the technicians may have their way scrapped on the bus",
+            "pred": "and short-term the technicians may have their way scrapped on bus"
+        },
+        {
+            "prompt": "Input: the new facility is expected to begin operations in early 1991 ;  facility skateboarding \nOutput:",
+            "gt": "the new facility is expected to begin skateboarding operations in early 1991",
+            "pred": "the new skateboarding facility is expected to begin operations in early 1991"
+        },
+        {
+            "prompt": "Input: but some players were quick to seize the moment ;  player with bat \nOutput:",
+            "gt": "but some players with bats were quick to seize the moment",
+            "pred": "but some players with a bat were quick to seize the moment"
+        },
+        {
+            "prompt": "Input: the company paid five cents a share in april ;  company calls flowering mills \nOutput:",
+            "gt": "the company called flowering mills paid five cents a share in april",
+            "pred": "the company paid five cents a share in april that calls flowering mills"
+        },
+        {
+            "prompt": "Input: then they said by the way two of the doors are locked ;  way to house \nOutput:",
+            "gt": "then they said by the way two of the house doors are locked",
+            "pred": "then they said by the way two of the doors are locked to the house"
+        },
+        {
+            "prompt": "Input: then they said by the way two of the doors are locked ;  way walk \nOutput:",
+            "gt": "then they said by the walkway two of the doors are locked.",
+            "pred": "then they said by the way walk two of the doors are locked"
+        },
+        {
+            "prompt": "Input: but some players were quick to seize the moment ;  player baseball \nOutput:",
+            "gt": "but some baseball players were quick to seize the moment",
+            "pred": "but some baseball players were quick to seize the moment"
+        },
+        {
+            "prompt": "Input: then they said by the way two of the doors are locked ;  door white \nOutput:",
+            "gt": "then they said by the way two of the white doors are locked",
+            "pred": "then they said by the way two of the white doors are locked"
+        },
+        {
+            "prompt": "Input: more-detailed reports followed and attracted even less notice ;  report on green paper \nOutput:",
+            "gt": "more-detailed reports on green paper followed and attracted even less notice",
+            "pred": "more detailed reports on green papers followed and attracted even less notice"
+        },
+        {
+            "prompt": "Input: more-detailed reports followed and attracted even less notice ;  notice on board \nOutput:",
+            "gt": "more detailed reports followed and attracted even less notice on the board",
+            "pred": "more-detailed reports followed and attracted even less notice on board"
+        },
+        {
+            "prompt": "Input: more-detailed reports followed and attracted even less notice ;  notice white \nOutput:",
+            "gt": "more detailed reports followed and attracted even less white notice",
+            "pred": "more-detailed reports followed and attracted even less white notice"
+        },
+        {
+            "prompt": "Input: you stay out of it author whitford quotes mr. clements as saying ;  author christopher paolini \nOutput:",
+            "gt": "you stay out of it author christopher paolini whitford quotes mr. clements as saying",
+            "pred": "you stay out of it christopher paolini quotes mr. clements as saying"
+        },
+        {
+            "prompt": "Input: but there are no scientific data on this question ;  data on black screen \nOutput:",
+            "gt": "but there are no scientific data on the black screen on this question",
+            "pred": "but there are no scientific data on this question on black screen"
+        },
+        {
+            "prompt": "Input: expansion plans also include acquisitions in growing foreign markets ;  plan on ground \nOutput:",
+            "gt": "expansion plans on the ground also include acquisitions in growing foreign markets",
+            "pred": "expansion plans also include acquisitions on the ground in growing foreign markets"
+        },
+        {
+            "prompt": "Input: coal earnings rose to 26 million from 21 million ;  coal black \nOutput:",
+            "gt": "black coal earnings rose to 26 million from 21 million",
+            "pred": "black coal earnings rose to 26 million from 21 million"
+        },
+        {
+            "prompt": "Input: but there are no scientific data on this question ;  data green \nOutput:",
+            "gt": "but there are no scientific green data on this question",
+            "pred": "but there are no green scientific data on this question"
+        },
+        {
+            "prompt": "Input: expansion plans also include acquisitions in growing foreign markets ;  plan air \nOutput:",
+            "gt": "expansion plans in the air also include acquisitions in growing foreign markets",
+            "pred": "expansion plans also include air acquisitions in growing foreign markets"
+        },
+        {
+            "prompt": "Input: in short rey found companies with weak earnings but rich assets ;  company at bottom \nOutput:",
+            "gt": "in short rey found companies at the bottom with weak earnings with rich assets",
+            "pred": "in short rey found companies at the bottom with weak earnings but rich assets"
+        },
+        {
+            "prompt": "Input: in short rey found companies with weak earnings but rich assets ;  company name \nOutput:",
+            "gt": "in short rey found company names with weak earnings but rich assets",
+            "pred": "in short rey found companies with weak earnings but rich asset names"
+        },
+        {
+            "prompt": "Input: but when the judge received his payment book he disavowed the deal ;  judge tennis line \nOutput:",
+            "gt": "but when the tennis line judge received his payment book he disavowed the deal",
+            "pred": "but when the judge received his tennis payment book he disavowed the deal"
+        },
+        {
+            "prompt": "Input: the company said a new chief operating officer wo n't be appointed ;  company on corner \nOutput:",
+            "gt": "the company on the corner said a new chief operating office would not be appointed",
+            "pred": "the company on the corner said a new chief operating officer won't be appointed"
+        },
+        {
+            "prompt": "Input: it 's a baptism of fire for corry says one usx executive ;  fire in fireplace \nOutput:",
+            "gt": "it's a baptism of fire in the fireplace for corry says one usx executive",
+            "pred": "it 's a baptism of fire in the fireplace for corry says one usx executive"
+        },
+        {
+            "prompt": "Input: some even claim the group has become a lagging not leading indicator ;  group large \nOutput:",
+            "gt": "some even claim the large group has become a lagging not leading indicator",
+            "pred": "some even claim the large group has become a lagging not leading indicator"
+        },
+        {
+            "prompt": "Input: but the production is the equal of any local program ;  program on a television \nOutput:",
+            "gt": "but the production on a television is the equal of any local program",
+            "pred": "but the production is the equal of any local television program"
+        },
+        {
+            "prompt": "Input: it 's a baptism of fire for corry says one usx executive ;  fire orange \nOutput:",
+            "gt": "it's a baptism of orange fire for corry says one usx executive",
+            "pred": "it 's a baptism of orange fire for corry says one usx executive"
+        },
+        {
+            "prompt": "Input: some even claim the group has become a lagging not leading indicator ;  indicator of bus \nOutput:",
+            "gt": "some even claim the group has become a lagging not leading indicator of the bus",
+            "pred": "some even claim the group has become a lagging not leading indicator of bus"
+        },
+        {
+            "prompt": "Input: some even claim the group has become a lagging not leading indicator ;  indicator red \nOutput:",
+            "gt": "some even claim the group has become a lagging not leading red indicator",
+            "pred": "some even claim the group has become a lagging not leading red indicator"
+        },
+        {
+            "prompt": "Input: but when the judge received his payment book he disavowed the deal ;  deal great \nOutput:",
+            "gt": "but when the judge received his payment book he disavowed the great deal",
+            "pred": "but when the judge received his payment book he disavowed the great deal"
+        },
+        {
+            "prompt": "Input: it 's a baptism of fire for corry says one usx executive ;  executive in white \nOutput:",
+            "gt": "it's a baptism of fire for corry says one usx executive in white",
+            "pred": "it 's a baptism of fire for corry says one usx executive in white"
+        },
+        {
+            "prompt": "Input: whether she can meet that ambitious goal is still far from certain ;  goal white \nOutput:",
+            "gt": "whether she can meet that ambitious white goal is still far from certain",
+            "pred": "whether she can meet that ambitious white goal is still far from certain"
+        },
+        {
+            "prompt": "Input: a further problem is razor-thin profits ;  plane has problem \nOutput:",
+            "gt": "a further problem the plane has is razor-thin profits",
+            "pred": "a further problem with the plane is razor-thin profits"
+        },
+        {
+            "prompt": "Input: there is a small renoir on the wall ;  wall behind toiilet \nOutput:",
+            "gt": "there is a small renoir on the wall behind the toilet",
+            "pred": "there is a small renoir on the wall behind the toilet"
+        },
+        {
+            "prompt": "Input: we 'll have to wait and see how the plan develops ;  plan behind guy \nOutput:",
+            "gt": "we will have to wait and see how the guy behind the plan develops",
+            "pred": "we 'll have to wait and see how the plan behind guy develops"
+        },
+        {
+            "prompt": "Input: there is a small renoir on the wall ;  wall white \nOutput:",
+            "gt": "there is a small renoir on the white wall",
+            "pred": "there is a small renoir on the white wall"
+        },
+        {
+            "prompt": "Input: learning aids lists films pamphlets brochures videos and other educational data ;  film in middle \nOutput:",
+            "gt": "learning aids lists films in the middle in pamphlets brochures videos and other educational data",
+            "pred": "learning aids lists in middle films pamphlets brochures videos and other educational data"
+        },
+        {
+            "prompt": "Input: a thin man in a gray suit looks up from a newspaper ;  man wearing shirt \nOutput:",
+            "gt": "a thin man wearing a shirt in a gray suit looks up from a newspaper",
+            "pred": "a thin man wearing a shirt in a gray suit looks up from a newspaper"
+        },
+        {
+            "prompt": "Input: profit from continuing operations in the year-earlier period was 402.7 million ;  period red \nOutput:",
+            "gt": "profit from continuing operations in the year-earlier red period was 402.7 million",
+            "pred": "profit from continuing operations in the red year-earlier period was 402.7 million"
+        },
+        {
+            "prompt": "Input: learning aids lists films pamphlets brochures videos and other educational data ;  pamphlet lying on floor \nOutput:",
+            "gt": "learning aids lists films pamphlets lying on the floor brochures videos and other educational data",
+            "pred": "learning aids lists films pamphlets lying on the floor brochures videos and other educational data"
+        },
+        {
+            "prompt": "Input: complete details were n't immediately available ;  detail in building \nOutput:",
+            "gt": "complete details in the building were not immediately available",
+            "pred": "complete details in building were n't immediately available"
+        },
+        {
+            "prompt": "Input: learning aids lists films pamphlets brochures videos and other educational data ;  pamphlet blue \nOutput:",
+            "gt": "learning aids lists films blue pamphlets brochures videos and other educational data",
+            "pred": "learning aids lists films blue pamphlets brochures videos and other educational data"
+        },
+        {
+            "prompt": "Input: union officials could n't be reached for comment ;  official has shirt \nOutput:",
+            "gt": "union officials that have a shirt could not be reached for comment",
+            "pred": "union officials with a shirt couldn't be reached for comment"
+        },
+        {
+            "prompt": "Input: a thin man in a gray suit looks up from a newspaper ;  suit black \nOutput:",
+            "gt": "a thin man in a black and gray suit looks up from a newspaper",
+            "pred": "a thin man in a gray black suit looks up from a newspaper"
+        },
+        {
+            "prompt": "Input: learning aids lists films pamphlets brochures videos and other educational data ;  brochure on shelf \nOutput:",
+            "gt": "learning aids lists films pamphlets brochures on the shelf videos and other educational data",
+            "pred": "learning aids lists films pamphlets brochures on shelf videos and other educational data"
+        },
+        {
+            "prompt": "Input: union officials could n't be reached for comment ;  official tennis \nOutput:",
+            "gt": "union tennis officials couldn't be reached for comment",
+            "pred": "union tennis officials could n't be reached for comment"
+        },
+        {
+            "prompt": "Input: learning aids lists films pamphlets brochures videos and other educational data ;  brochure white \nOutput:",
+            "gt": "learning aids lists films pamphlets white brochures videos and other educational data",
+            "pred": "learning aids lists films pamphlets brochures white videos and other educational data"
+        },
+        {
+            "prompt": "Input: learning aids lists films pamphlets brochures videos and other educational data ;  video on laptop \nOutput:",
+            "gt": "learning aids lists films pamphlets brochures videos on laptops and other educational data",
+            "pred": "learning aids lists films pamphlets brochures videos on laptops and other educational data"
+        },
+        {
+            "prompt": "Input: a thin man in a gray suit looks up from a newspaper ;  newspaper folded \nOutput:",
+            "gt": "a thin man in a gray suit looks up from a folded newspaper",
+            "pred": "a thin man in a gray suit looks up from a folded newspaper"
+        },
+        {
+            "prompt": "Input: the board has 10 business days to respond ;  business has entrance \nOutput:",
+            "gt": "the board business that has an entrance has 10 business days to respond",
+            "pred": "the board has 10 entrance business days to respond"
+        },
+        {
+            "prompt": "Input: learning aids lists films pamphlets brochures videos and other educational data ;  video halfway \nOutput:",
+            "gt": "learning aids lists films pamphlets brochures halfway videos and other educational data",
+            "pred": "learning aids lists films pamphlets brochures halfway videos and other educational data"
+        },
+        {
+            "prompt": "Input: learning aids lists films pamphlets brochures videos and other educational data ;  data on screen \nOutput:",
+            "gt": "learning aids lists films pamphlets brochures videos and other educational data seen on screen",
+            "pred": "learning aids lists films pamphlets brochures videos and other educational data on the screen"
+        },
+        {
+            "prompt": "Input: golenbock with 35 lawyers has lost several partners during the past year ;  lawyer showing a paper \nOutput:",
+            "gt": "golenbock with 35 lawyers showing a paper has lost several partners during the past year",
+            "pred": "golenbock with 35 lawyers showing a paper has lost several partners during the past year"
+        },
+        {
+            "prompt": "Input: golenbock with 35 lawyers has lost several partners during the past year ;  partner playing on tennis court \nOutput:",
+            "gt": "golenbock with 35 lawyers has lost several partners while playing on the tennis court during the past year",
+            "pred": "golenbock with 35 lawyers has lost several partners playing on a tennis court during the past year"
+        },
+        {
+            "prompt": "Input: learning aids lists films pamphlets brochures videos and other educational data ;  data green \nOutput:",
+            "gt": "learning aids lists films pamphlets brochures videos and other educational green data",
+            "pred": "learning aids lists films pamphlets brochures videos and other green educational data"
+        },
+        {
+            "prompt": "Input: the numbers were adjusted for usual seasonal fluctuations ;  number black \nOutput:",
+            "gt": "the numbers were adjusted for the usual black seasonal number fluctuations",
+            "pred": "the black numbers were adjusted for usual seasonal fluctuations"
+        },
+        {
+            "prompt": "Input: but only four days after that mr. bush resurrected the veto threat ;  day sunny \nOutput:",
+            "gt": "but only four sunny days after that mr. bush resurrected the veto threat",
+            "pred": "but only four sunny days after that mr. bush resurrected the veto threat"
+        },
+        {
+            "prompt": "Input: at that time tasks were assigned strictly on the basis of seniority ;  time on ticket \nOutput:",
+            "gt": "at that time on the ticket tasks were assigned strictly on the basis of seniority",
+            "pred": "at that time tasks on the ticket were assigned strictly on the basis of seniority"
+        },
+        {
+            "prompt": "Input: golenbock with 35 lawyers has lost several partners during the past year ;  year on bench \nOutput:",
+            "gt": "golenbock with 35 lawyers has lost several partners during the past year on the bench",
+            "pred": "golenbock with 35 lawyers has lost several partners during the past year on the bench"
+        },
+        {
+            "prompt": "Input: the board has 10 business days to respond ;  day sunny \nOutput:",
+            "gt": "the board has 10 sunny business days to respond",
+            "pred": "the sunny board has 10 business days to respond"
+        },
+        {
+            "prompt": "Input: fundamental factors are at work as well ;  work on clock \nOutput:",
+            "gt": "fundamental factors are at work on the clock as well",
+            "pred": "fundamental factors are at work as well on the clock"
+        },
+        {
+            "prompt": "Input: individual and japanese participation in the auction was disappointing according to dealers ;  individual smiling \nOutput:",
+            "gt": "smiling individual and japanese participation in the auction was disappointing according to dealers.",
+            "pred": "individual smiling and japanese participation in the auction was disappointing according to dealers"
+        },
+        {
+            "prompt": "Input: there is after all big money in environmentalism ;  money under card \nOutput:",
+            "gt": "there is after all big money under the card in environmentalism",
+            "pred": "there is after all big money under the card in environmentalism"
+        },
+        {
+            "prompt": "Input: individual and japanese participation in the auction was disappointing according to dealers ;  dealer wearing glasses \nOutput:",
+            "gt": "individual and japanese participation in the auction was disappointing according to the dealer wearing glasses",
+            "pred": "individual and japanese participation in the auction was disappointing according to dealers wearing glasses"
+        },
+        {
+            "prompt": "Input: our computer model has a certain trigger point he said ;  computer laptop \nOutput:",
+            "gt": "our laptop computer model has a certain trigger point he said",
+            "pred": "our laptop computer model has a certain trigger point he said"
+        },
+        {
+            "prompt": "Input: there is after all big money in environmentalism ;  money paper \nOutput:",
+            "gt": "there is after all big paper money in environmentalism",
+            "pred": "there is after all big paper money in environmentalism"
+        },
+        {
+            "prompt": "Input: individual and japanese participation in the auction was disappointing according to dealers ;  dealer female \nOutput:",
+            "gt": "individual and japanese participation in the auction was disappointing according to the female dealer",
+            "pred": "individual and japanese participation in the auction was disappointing according to female dealers"
+        },
+        {
+            "prompt": "Input: he pampers them he invites them to fabulous parties he strokes them ;  party at a house \nOutput:",
+            "gt": "he pampers them he invites them to fabulous parties at a house and he strokes them",
+            "pred": "he pampers them he invites them to fabulous parties at a house he strokes them"
+        },
+        {
+            "prompt": "Input: most bills are drafted by bureaucrats not politicians ;  bill orange \nOutput:",
+            "gt": "most orange bills are drafted by bureaucrats not politicians",
+            "pred": "most orange bills are drafted by bureaucrats not politicians"
+        },
+        {
+            "prompt": "Input: indeed the insurance adjusters had already bolted out of the courtroom ;  adjuster on post \nOutput:",
+            "gt": "indeed the insurance adjusters on the post had already bolted out of the courtroom",
+            "pred": "indeed the insurance adjusters on post had already bolted out of the courtroom"
+        },
+        {
+            "prompt": "Input: our computer model has a certain trigger point he said ;  model red \nOutput:",
+            "gt": "our red computer model has a certain trigger point he said",
+            "pred": "our computer model that is red has a certain trigger point he said"
+        },
+        {
+            "prompt": "Input: he pampers them he invites them to fabulous parties he strokes them ;  party birthday \nOutput:",
+            "gt": "he pampers them he invites them to fabulous birthday parties  he strokes them",
+            "pred": "he pampers them he invites them to fabulous birthday parties he strokes them"
+        },
+        {
+            "prompt": "Input: they currently have large orders for cargo planes ;  order ready \nOutput:",
+            "gt": "they have large orders for cargo planes currently ready.",
+            "pred": "they currently have large orders for cargo planes that are ready"
+        },
+        {
+            "prompt": "Input: most other bonds however would probably not have fared much better ;  bond black  \nOutput:",
+            "gt": "most other black bonds however would probably not have fared much better",
+            "pred": "most other black bonds however would probably not have fared much better"
+        },
+        {
+            "prompt": "Input: the interviews took place two years ago ;  interview in background \nOutput:",
+            "gt": "the interview in the background took place two years ago",
+            "pred": "the interviews in the background took place two years ago"
+        },
+        {
+            "prompt": "Input: the big one is still due mr. johnson predicted in an interview ;  interview in background \nOutput:",
+            "gt": "the big one is still due mr jackson predicted in an interview in the background",
+            "pred": "the big one is still due mr. johnson predicted in the background interview"
+        }
+    ]
+}
