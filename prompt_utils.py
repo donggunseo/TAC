@@ -43,13 +43,17 @@ def create_prompt(demon_pool, query=None, num_shots_by_class=0, option="random",
         selection = stratify_selection(demon_pool=demon_pool, num_shots=num_shots, label_list=label_list, shuffle_label=shuffle_label)
     elif option == "random":
         selection = random_selection(demon_pool=demon_pool, num_shots=num_shots, shuffle_label=shuffle_label)
+    elif option == "all":
+        selection = demon_pool
+        random.shuffle(selection)
     else:
         selection = []
     for d in selection:
         prompt+=prefixes["input"]+" "+d['input']+separators["input"]+prefixes["output"]+" "+d['output']+separators["output"]
-    prompt+=prefixes["input"]+" "+query['input']+separators["input"]+prefixes["output"]
-
-    return prompt, query['output']
+    if query is not None:
+        prompt+=prefixes["input"]+" "+query['input']+separators["input"]+prefixes["output"]
+        return prompt, query['output']
+    return prompt
 
 def create_prompt_generation(demon_pool, query=None, num_shots=0):
     prompt=""

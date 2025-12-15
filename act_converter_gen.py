@@ -22,9 +22,9 @@ MODEL_CARD={
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_name", type=str, default='meta-llama/Llama-3.1-8B')
+    parser.add_argument("--model_name", type=str, default='llama3.1-8b')
     parser.add_argument("--num_shots", type=int, default=10)
-    parser.add_argument("--result_folder", type=str, default='./result_extended')
+    parser.add_argument("--result_folder", type=str, default='./final_result')
     parser.add_argument("--data_dir", type=str, default='./dataset')
     parser.add_argument("--dataset_name", type=str, default='wmt19_cs-en')
     parser.add_argument("--seed", type=int, default=42)
@@ -32,17 +32,18 @@ if __name__ == "__main__":
     parser.add_argument("--epoch", type=int, default=10)
     parser.add_argument("--batch_size", type=int, default=10)
     parser.add_argument("--n_trials", type=int, default=100)
+    parser.add_argument("--max_generate_length", type=int, default=10)
 
     args = parser.parse_args()
 
     set_seed(args.seed)
     model_card = MODEL_CARD[args.model_name]
 
-    res_dir = os.path.join(args.result_folder, args.dataset_name, model_card)
+    res_dir = os.path.join(args.result_folder, args.dataset_name, args.model_name, str(args.seed))
 
     os.makedirs(res_dir, exist_ok=True)
 
-    train_dataset, valid_dataset, test_dataset = load_data_generation(args.dataset_name, args.data_dir)
+    train_dataset, valid_dataset, test_dataset, _ = load_data(args.dataset_name, args.data_dir)
 
     target_lang_code = args.dataset_name[-2:] if "wmt" in args.dataset_name else 'en'
     
