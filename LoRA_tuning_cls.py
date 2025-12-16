@@ -6,12 +6,8 @@ from tqdm import tqdm
 from model_utils import *
 from data_utils import *
 from prompt_utils import *
-import torch.nn as nn
-from typing import Dict, List, Any
-from bert_score import score
-
-from datasets import Dataset, DatasetDict
-from peft import LoraConfig, get_peft_model
+from transformers import get_cosine_schedule_with_warmup
+from peft import LoraConfig, get_peft_model, PeftModel
 
 MODEL_CARD={
     "llama3.1-8b": "meta-llama/Llama-3.1-8B",
@@ -26,14 +22,14 @@ MODEL_CARD={
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default='llama3.1-8b')
-    parser.add_argument("--num_examples_by_class", type=int, default=3) ## number of examples for each class in data
-    parser.add_argument("--result_folder", type=str, default='./final_result')
+    parser.add_argument("--result_folder", type=str, default='./final_result2')
     parser.add_argument("--data_dir", type=str, default='./dataset')
     parser.add_argument("--dataset_name", type=str, default='banking77')
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--lr", type=float, default=5e-5)
-    parser.add_argument("--epoch", type=int, default=10)
-    parser.add_argument("--batch_size", type=int, default=20)
+    parser.add_argument("--lr", type=float, default=1e-4)
+    parser.add_argument("--epoch", type=int, default=5)
+    parser.add_argument("--batch_size", type=int, default=10)
+    parser.add_argument("--max_generate_length", type=int, default=10)
 
     args = parser.parse_args()
 
@@ -46,21 +42,13 @@ if __name__ == "__main__":
 
     train_dataset, valid_dataset, test_dataset, label_list = load_data(args.dataset_name, args.data_dir)
 
-    train_buckets = defaultdict(list)
-    for item in train_dataset:
-        if item["output"] in label_list:
-            train_buckets[item["output"]].append(item)
-    for k,v in train_buckets.items():
-        train_buckets[k] = random.sample(train_buckets[k], args.num_examples_by_class)
-    train_dataset = [item for v in train_buckets.values() for item in v]
-
     device = 'cuda'
     model, tokenizer, model_config = load_model_and_tokenizer(model_card)
     model.to(device)
 
-    LORA_R = 4
-    LORA_ALPHA = 8
-    LORA_DROPOUT = 0.1
+    LORA_R = 8
+    LORA_ALPHA = 16
+    LORA_DROPOUT = 0.2
     LORA_TARGET_MODULES = ["q_proj", "k_proj", "v_proj", "o_proj"]
 
     lora_config = LoraConfig(
@@ -88,9 +76,12 @@ if __name__ == "__main__":
 
     
     best_val_acc = 0
-    best_model_state = None
-    optimizer = torch.optim.AdamW(trainable_params, lr=args.lr, weight_decay=0.01)
-    scheduler = torch.optim.lr_scheduler.OneCycleLR(optimizer, max_lr=5e-4, steps_per_epoch=(len(train_dataset)//args.batch_size)+1, epochs=args.epoch, pct_start=0.1, div_factor=10)
+    total_steps = ((len(train_dataset)+args.batch_size-1)//args.batch_size)*args.epoch
+    warmup_steps = int(0.2*total_steps)
+    optimizer = torch.optim.AdamW(trainable_params, lr=args.lr, weight_decay=0.001)
+    scheduler = get_cosine_schedule_with_warmup(optimizer, num_warmup_steps = warmup_steps, num_training_steps=total_steps)
+    early_stop_cnt = 0
+    early_stop_ths = 2
     for epoch in tqdm(range(args.epoch)):
         with torch.set_grad_enabled(True):
             random.shuffle(train_dataset)
@@ -105,8 +96,8 @@ if __name__ == "__main__":
                     train_prompt, train_target = create_prompt(demon_pool=None, query = train_item, num_shots_by_class=0, option=None, label_list=label_list, shuffle_label=False)
                     batched_train_prompt.append(train_prompt+" "+train_target)
                     prompt_length = len(tokenizer.encode(train_prompt))
-                    target_length = len(tokenizer.encode(" "+ train_target, add_special_tokens=False))
-                    batched_train_target.append([-100]*(prompt_length-1) + tokenizer.encode(" "+ train_target, add_special_tokens=False) + [-100])
+                    target_length = len(tokenizer.encode(" "+ train_target+ tokenizer.eos_token, add_special_tokens=False))
+                    batched_train_target.append([-100]*(prompt_length-1) + tokenizer.encode(" "+ train_target+ tokenizer.eos_token, add_special_tokens=False))
                 train_tokenized_input = tokenizer(batched_train_prompt, return_tensors='pt', padding='longest')
                 batch_len = len(train_tokenized_input.input_ids[0])
                 for i, b in enumerate(batched_train_target):
@@ -122,7 +113,7 @@ if __name__ == "__main__":
                 torch.nn.utils.clip_grad_norm_(trainable_params, 1.0)
                 optimizer.step()
                 scheduler.step()
-                if idx%2==0:
+                if idx%10==0:
                     print("train loss : ", task_loss.item())
         torch.cuda.empty_cache()
         correct_cnt=0
@@ -130,9 +121,10 @@ if __name__ == "__main__":
             for val_item in tqdm(valid_dataset):
                 val_prompt, val_target = create_prompt(demon_pool=None, query = val_item, num_shots_by_class=0, option=None, label_list=label_list, shuffle_label=False)
                 val_tokenized_input = tokenizer(val_prompt, return_tensors='pt').to(device)
-                output = model.generate(**val_tokenized_input, max_new_tokens = 10, pad_token_id=tokenizer.eos_token_id, eos_token_id = tokenizer.eos_token_id, tokenizer=tokenizer, do_sample=False, temperature = None, top_p = None, stop_strings = ["\n\n"])
+                output = model.generate(**val_tokenized_input, max_new_tokens = args.max_generate_length, pad_token_id=tokenizer.eos_token_id, eos_token_id = tokenizer.eos_token_id, tokenizer=tokenizer, do_sample=False, temperature = None, top_p = None, stop_strings = ["\n\n"])
                 pred_str = tokenizer.decode(output.squeeze()[len(val_tokenized_input.input_ids.squeeze()):], skip_speical_tokens=True)
                 pred_str = pred_str.strip()
+                pred_str = pred_str.replace(tokenizer.eos_token, "")
                 pred_str = label_text_match(pred_str, label_list)
                 print(pred_str)
                 print(val_target)
@@ -140,12 +132,21 @@ if __name__ == "__main__":
                 if pred_str == val_target:
                     correct_cnt+=1
             val_acc = correct_cnt/len(valid_dataset)
-            print(f"Epoch {epoch} validation acc : {val_acc}")
+            print(f"Epoch {epoch+1} validation acc : {val_acc}")
             if val_acc>=best_val_acc:
                 best_val_acc = val_acc
-                best_model_state = model.state_dict()
+                model.save_pretrained(res_dir)
+            else:
+                early_stop_cnt+=1
+            if early_stop_cnt==early_stop_ths:
+                break
     
-    model.load_state_dict(best_model_state)
+    
+    
+    del model
+    model, tokenizer, model_config = load_model_and_tokenizer(model_card)
+    model.to(device)
+    model = PeftModel.from_pretrained(model, res_dir)
     model.eval()
     res = []
     correct_cnt=0
@@ -153,9 +154,10 @@ if __name__ == "__main__":
         for test_item in tqdm(test_dataset):
             test_prompt, test_target = create_prompt(demon_pool=None, query = test_item, num_shots_by_class=0, option=None, label_list=label_list, shuffle_label=False)
             test_tokenized_input = tokenizer(test_prompt, return_tensors='pt').to(device)
-            output = model.generate(**test_tokenized_input, max_new_tokens = 10, pad_token_id=tokenizer.eos_token_id, eos_token_id = tokenizer.eos_token_id, tokenizer=tokenizer, do_sample=False, temperature = None, top_p = None, stop_strings = ["\n\n"])
+            output = model.generate(**test_tokenized_input, max_new_tokens = args.max_generate_length, pad_token_id=tokenizer.eos_token_id, eos_token_id = tokenizer.eos_token_id, tokenizer=tokenizer, do_sample=False, temperature = None, top_p = None, stop_strings = ["\n\n"])
             pred_str = tokenizer.decode(output.squeeze()[len(test_tokenized_input.input_ids.squeeze()):], skip_speical_tokens=True)
             pred_str = pred_str.strip()
+            pred_str = pred_str.replace(tokenizer.eos_token, "")
             pred_str = label_text_match(pred_str, label_list)
             print(pred_str)
             print(test_target)

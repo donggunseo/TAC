@@ -9,6 +9,7 @@ from prompt_utils import *
 from baukit import TraceDict, get_module
 import torch.nn as nn
 from collections import defaultdict
+from transformers import get_cosine_schedule_with_warmup
 torch.set_grad_enabled(False)
 
 MODEL_CARD={
@@ -24,15 +25,15 @@ MODEL_CARD={
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default='llama3.1-8b')
-    parser.add_argument("--num_examples_by_class", type=int, default=3) ## number of examples for each class in data
-    parser.add_argument("--num_shots_by_class", type=int, default=2) ## 반드시 위에꺼보단 작아야함, 그래야 dummy query 한개씩은 확보할 수 있음
+    parser.add_argument("--num_shots_by_class", type=int, default=2)
+    parser.add_argument("--n_trials_by_class", type=int, default=5)
     parser.add_argument("--result_folder", type=str, default='./final_result')
     parser.add_argument("--data_dir", type=str, default='./dataset')
     parser.add_argument("--dataset_name", type=str, default='banking77')
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--demon_selection", type=str, default = "stratify")
     parser.add_argument("--lr", type=float, default=1e-4)
-    parser.add_argument("--epoch", type=int, default=10)
+    parser.add_argument("--epoch", type=int, default=5)
     parser.add_argument("--batch_size", type=int, default=10)
     parser.add_argument("--max_generate_length", type=int, default=10)
 
@@ -54,15 +55,6 @@ if __name__ == "__main__":
         param.requires_grad = False
     model.to(device)
 
-    ## train_data를 각 클래스별 n개씩만 데이터를 갖게 분리하기 (나중에 하나는 demon set, 하나는 dummy query set으로 분리될 예정)
-    train_buckets = defaultdict(list)
-    for item in train_dataset:
-        if item["output"] in label_list:
-            train_buckets[item["output"]].append(item)
-    for k,v in train_buckets.items():
-        train_buckets[k] = random.sample(train_buckets[k], args.num_examples_by_class)
-    train_dataset = [item for v in train_buckets.values() for item in v]
-
     def split_activations_by_head(activations, model_config):
         new_shape = activations.size()[:-1] + (model_config['n_heads'], model_config['resid_dim']//model_config['n_heads']) # split by head: + (n_attn_heads, hidden_size/n_attn_heads)
         activations = activations.view(*new_shape)  # (batch_size, n_tokens, n_heads, head_hidden_dim)
@@ -71,16 +63,34 @@ if __name__ == "__main__":
     if os.path.exists(os.path.join(res_dir, "head_act.pt")):
         activation_storage = torch.load(os.path.join(res_dir, "head_act.pt"))
     else:
+        train_buckets = defaultdict(list)
+        for item in train_dataset:
+            if item["output"] in label_list:
+                train_buckets[item["output"]].append(item)
         activation_storage = []
-        for train_item in tqdm(train_dataset):
-            demon_pool = [item for item in train_dataset if item!=train_item]
-            dummy_prompt, dummy_query_target = create_prompt(demon_pool=demon_pool, query = train_item, num_shots_by_class=args.num_shots_by_class, option='all', label_list=label_list, shuffle_label=False)
-            dummy_tokenized_input = tokenizer(dummy_prompt, return_tensors='pt').to(device)
-            with torch.no_grad() and TraceDict(model, layers=model_config['attn_hook_names'], retain_input=True, retain_output=False) as td:
-                outputs = model.forward(**dummy_tokenized_input)
-            stack_initial = torch.vstack([split_activations_by_head(td[layer].input, model_config) for layer in model_config['attn_hook_names']]).permute(0,2,1,3)
-            cur_activation = stack_initial[:, :, -1, :].cpu().detach()
-            activation_storage.append(cur_activation)
+        num_act_by_class = args.n_trials_by_class
+        for l in tqdm(label_list):
+            cur_act_cnt = 0
+            while cur_act_cnt<num_act_by_class:
+                dummy_query = random.choice(train_buckets[l])
+                demon_pool = [item for item in train_dataset if item!=dummy_query]
+                dummy_prompt, dummy_query_target = create_prompt(demon_pool=demon_pool, query = dummy_query, num_shots_by_class=args.num_shots_by_class, option=args.demon_selection, label_list=label_list, shuffle_label=False)
+                dummy_tokenized_input = tokenizer(dummy_prompt, return_tensors='pt').to(device)
+                dummy_output = model.generate(**dummy_tokenized_input, max_new_tokens = 10, pad_token_id=tokenizer.eos_token_id, eos_token_id = tokenizer.eos_token_id, tokenizer=tokenizer, do_sample=False, temperature = None, top_p = None, stop_strings = ["\n\n"])
+                dummy_pred_str = tokenizer.decode(dummy_output.squeeze()[len(dummy_tokenized_input.input_ids.squeeze()):], skip_speical_tokens=True)
+                dummy_pred_str = dummy_pred_str.strip()
+                dummy_pred_str = dummy_pred_str.replace(tokenizer.eos_token, "")
+                dummy_pred_str = dummy_pred_str.split("\n\n")[0]
+                if dummy_pred_str==dummy_query_target:
+                    torch.cuda.empty_cache()
+                    with torch.no_grad() and TraceDict(model, layers=model_config['attn_hook_names'], retain_input=True, retain_output=False) as td:
+                        outputs = model.forward(**dummy_tokenized_input)
+                    stack_initial = torch.vstack([split_activations_by_head(td[layer].input, model_config) for layer in model_config['attn_hook_names']]).permute(0,2,1,3)
+                    cur_activation = stack_initial[:, :, -1, :].cpu().detach()
+                    activation_storage.append(cur_activation)
+                    cur_act_cnt+=1
+                else:
+                    continue
         activation_storage = torch.stack(activation_storage)
         activation_storage = torch.mean(activation_storage, dim=0)
         torch.save(activation_storage, os.path.join(res_dir, "head_act.pt"))
@@ -158,12 +168,15 @@ if __name__ == "__main__":
     best_val_acc = 0
     best_converter_state = None
 
-    optimizer = torch.optim.AdamW(act_converter.parameters(), lr=args.lr)
-    scheduler = torch.optim.lr_scheduler.OneCycleLR(optimizer, max_lr=5e-3, steps_per_epoch=(len(train_dataset)//args.batch_size)+1, epochs=args.epoch, pct_start=0.1, div_factor=10)
-
     if os.path.exists(os.path.join(res_dir, "best_converter_state.pt")):
         best_converter_state = torch.load(os.path.join(res_dir, "best_converter_state.pt"))
     else:
+        total_steps = ((len(train_dataset)+args.batch_size-1)//args.batch_size)*args.epoch
+        warmup_steps = int(0.2*total_steps)
+        optimizer = torch.optim.AdamW(act_converter.parameters(), lr=args.lr, weight_decay=0.001)
+        scheduler = get_cosine_schedule_with_warmup(optimizer, num_warmup_steps = warmup_steps, num_training_steps=total_steps)
+        early_stop_cnt = 0
+        early_stop_ths = 2
         for epoch in tqdm(range(args.epoch)):
             with torch.set_grad_enabled(True):
                 random.shuffle(train_dataset)
@@ -200,7 +213,8 @@ if __name__ == "__main__":
                     torch.nn.utils.clip_grad_norm_(act_converter.parameters(), 1.0)
                     optimizer.step()
                     scheduler.step()
-                    print("train loss : ", task_loss.item())
+                    if idx%10==0:
+                        print("train loss : ", task_loss.item())
             torch.cuda.empty_cache()
             with torch.no_grad():
                 correct_cnt=0
@@ -234,10 +248,14 @@ if __name__ == "__main__":
                         correct_cnt+=1
                     h_status = []
                 val_acc = correct_cnt/len(valid_dataset)
-                print(f"Epoch {epoch} validation acc : {val_acc}")
-                if val_acc>=best_val_acc:
+                print(f"Epoch {epoch+1} validation acc : {val_acc}")
+                if val_acc>best_val_acc:
                     best_val_acc = val_acc
                     best_converter_state = act_converter.state_dict()
+                else:
+                    early_stop_cnt+=1
+                if early_stop_cnt==early_stop_ths:
+                    break
         torch.save(best_converter_state, os.path.join(res_dir, "best_converter_state.pt"))
     act_converter.load_state_dict(best_converter_state)
     act_converter.eval()

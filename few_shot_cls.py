@@ -22,9 +22,8 @@ MODEL_CARD={
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default='llama3.1-8b')
-    parser.add_argument("--num_examples_by_class", type=int, default=3)
-    parser.add_argument("--num_shots_by_class", type=int, default=3)
-    parser.add_argument("--result_folder", type=str, default='./final_result')
+    parser.add_argument("--num_shots_by_class", type=int, default=5)
+    parser.add_argument("--result_folder", type=str, default='./final_result2')
     parser.add_argument("--data_dir", type=str, default='./dataset')
     parser.add_argument("--dataset_name", type=str, default='banking77')
     parser.add_argument("--seed", type=int, default=42)
@@ -47,14 +46,6 @@ if __name__ == "__main__":
     for param in model.parameters():
         param.requires_grad = False
     model.to(device)
-
-    train_buckets = defaultdict(list)
-    for item in train_dataset:
-        if item["output"] in label_list:
-            train_buckets[item["output"]].append(item)
-    for k,v in train_buckets.items():
-        train_buckets[k] = random.sample(train_buckets[k], args.num_examples_by_class)
-    train_dataset = [item for v in train_buckets.values() for item in v]
 
 
     demon_prompt = create_prompt(demon_pool=train_dataset, query = None, num_shots_by_class=args.num_shots_by_class, option=args.demon_selection, label_list=label_list, shuffle_label=False)
