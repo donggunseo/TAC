@@ -32,9 +32,9 @@ if __name__ == "__main__":
     parser.add_argument("--dataset_name", type=str, default='banking77')
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--demon_selection", type=str, default = "stratify")
-    parser.add_argument("--lr", type=float, default=1e-4)
+    parser.add_argument("--lr", type=float, default=5e-3)
     parser.add_argument("--epoch", type=int, default=5)
-    parser.add_argument("--batch_size", type=int, default=10)
+    parser.add_argument("--batch_size", type=int, default=16)
     parser.add_argument("--max_generate_length", type=int, default=10)
 
     
@@ -173,7 +173,7 @@ if __name__ == "__main__":
     else:
         total_steps = ((len(train_dataset)+args.batch_size-1)//args.batch_size)*args.epoch
         warmup_steps = int(0.2*total_steps)
-        optimizer = torch.optim.AdamW(act_converter.parameters(), lr=args.lr, weight_decay=0.001)
+        optimizer = torch.optim.AdamW(act_converter.parameters(), lr=args.lr, weight_decay=0.01)
         scheduler = get_cosine_schedule_with_warmup(optimizer, num_warmup_steps = warmup_steps, num_training_steps=total_steps)
         early_stop_cnt = 0
         early_stop_ths = 2

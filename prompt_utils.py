@@ -1,6 +1,14 @@
 import random
 from collections import defaultdict
 
+PROMPT_TEMPLATES = [
+    {"input":"Input:", "output":"Output:"},
+    {"input":"Q:", "output":"A:"},
+    {"input":"Question:", "output":"Answer:"},
+    {"input":"X:", "output":"Y:"},
+    {"input":"A:", "output":"B:"},
+]
+
 def shuffle_label_func(demon_pool):
     all_outputs = [item["output"] for item in demon_pool]
     random.shuffle(all_outputs)
@@ -32,11 +40,18 @@ def stratify_selection(demon_pool, num_shots=0, label_list=None, shuffle_label=F
 
 
 
-def create_prompt(demon_pool, query=None, num_shots_by_class=0, option="random", label_list=None, shuffle_label = False):
+def create_prompt(demon_pool, query=None, num_shots_by_class=0, option="random", label_list=None, shuffle_label = False, prefixes = None, separators = None):
+    
     prompt=""
-    prefixes = {"input":"Input:", "output":"Output:"}
-    separators = {"input":"\n", "output":"\n\n"}
+    
+    if prefixes is None:
+        prefixes = {"input":"Input:", "output":"Output:"}
+    
+    if separators is None:
+        separators = {"input":"\n", "output":"\n\n"}
+    
     num_shots = len(label_list)*num_shots_by_class
+    
     if num_shots==0:
         selection = []
     elif option == "stratify":
@@ -48,11 +63,14 @@ def create_prompt(demon_pool, query=None, num_shots_by_class=0, option="random",
         random.shuffle(selection)
     else:
         selection = []
+    
     for d in selection:
         prompt+=prefixes["input"]+" "+d['input']+separators["input"]+prefixes["output"]+" "+d['output']+separators["output"]
+    
     if query is not None:
         prompt+=prefixes["input"]+" "+query['input']+separators["input"]+prefixes["output"]
         return prompt, query['output']
+    
     return prompt
 
 def create_prompt_generation(demon_pool, query=None, num_shots=0):
@@ -65,3 +83,35 @@ def create_prompt_generation(demon_pool, query=None, num_shots=0):
     prompt+=prefixes["input"]+" "+query['input']+separators["input"]+prefixes["output"]
 
     return prompt, query['output']
+
+def create_prompt_template_shuffle(demon_pool, query=None, num_shots_by_class=0, option="random", label_list=None, shuffle_label = False, separators = None):
+    
+    prompt=""
+    
+    prefixes = random.choice(PROMPT_TEMPLATES)
+    
+    if separators is None:
+        separators = {"input":"\n", "output":"\n\n"}
+    
+    num_shots = len(label_list)*num_shots_by_class
+    
+    if num_shots==0:
+        selection = []
+    elif option == "stratify":
+        selection = stratify_selection(demon_pool=demon_pool, num_shots=num_shots, label_list=label_list, shuffle_label=shuffle_label)
+    elif option == "random":
+        selection = random_selection(demon_pool=demon_pool, num_shots=num_shots, shuffle_label=shuffle_label)
+    elif option == "all":
+        selection = demon_pool
+        random.shuffle(selection)
+    else:
+        selection = []
+    
+    for d in selection:
+        prompt+=prefixes["input"]+" "+d['input']+separators["input"]+prefixes["output"]+" "+d['output']+separators["output"]
+    
+    if query is not None:
+        prompt+=prefixes["input"]+" "+query['input']+separators["input"]+prefixes["output"]
+        return prompt, query['output']
+    
+    return prompt
