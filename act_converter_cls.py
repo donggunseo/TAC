@@ -27,7 +27,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_name", type=str, default='llama3.1-8b')
     parser.add_argument("--num_shots_by_class", type=int, default=2)
     parser.add_argument("--n_trials_by_class", type=int, default=5)
-    parser.add_argument("--result_folder", type=str, default='./final_result')
+    parser.add_argument("--result_folder", type=str, default='./final_result2')
     parser.add_argument("--data_dir", type=str, default='./dataset')
     parser.add_argument("--dataset_name", type=str, default='banking77')
     parser.add_argument("--seed", type=int, default=42)
@@ -297,6 +297,6 @@ if __name__ == "__main__":
             h_status = []
         interv_acc = correct_cnt/len(test_dataset)
         print(interv_acc)
-        site = {"acc": interv_acc, "res": act_convert_res}
-    with open(os.path.join(res_dir, "extended_act_converter_result.json"), "w") as f:
-        json.dump(site, f)
+    #     site = {"acc": interv_acc, "res": act_convert_res}
+    # with open(os.path.join(res_dir, "extended_act_converter_result.json"), "w") as f:
+    #     json.dump(site, f)

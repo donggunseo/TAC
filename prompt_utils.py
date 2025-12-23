@@ -1,12 +1,36 @@
 import random
 from collections import defaultdict
 
-PROMPT_TEMPLATES = [
-    {"input":"Input:", "output":"Output:"},
-    {"input":"Q:", "output":"A:"},
-    {"input":"Question:", "output":"Answer:"},
-    {"input":"X:", "output":"Y:"},
-    {"input":"A:", "output":"B:"},
+ID_PROMPT_TEMPLATES = [
+    # A. Direct I/O phrasing
+    "input: {x}\noutput: {y}",
+    "input -> {x}\noutput -> {y}",
+    "Input:\n{x}\nOutput:\n{y}",
+    "given input: {x}\nreturn output: {y}",
+    "input = {x}\noutput = {y}",
+
+    # D. Formal / technical tone
+    "input sequence:\n{x}\noutput sequence:\n{y}",
+    "given:\n{x}\nexpected:\n{y}",
+    "input data:\n{x}\noutput data:\n{y}",
+    "source:\n{x}\ntarget:\n{y}",
+    "x:\n{x}\ny:\n{y}",
+]
+
+OOD_PROMPT_TEMPLATES = [
+    # B. Question-like (weak semantics)
+    "what is the answer of {x}?\n{y}",
+    "answer for the following:\n{x}\n{y}",
+    "the answer to this input is:\n{x}\n{y}",
+    "solve the following:\n{x}\n{y}",
+    "response to:\n{x}\n{y}",
+
+    # C. Minimal instruction verbs
+    "process:\n{x}\nresult:\n{y}",
+    "convert:\n{x}\n{y}",
+    "map the following input to output:\n{x}\n{y}",
+    "produce output for:\n{x}\n{y}",
+    "complete:\n{x}\n{y}",
 ]
 
 def shuffle_label_func(demon_pool):
@@ -88,7 +112,7 @@ def create_prompt_template_shuffle(demon_pool, query=None, num_shots_by_class=0,
     
     prompt=""
     
-    prefixes = random.choice(PROMPT_TEMPLATES)
+    prefixes = random.choice(ID_PROMPT_TEMPLATES)
     
     if separators is None:
         separators = {"input":"\n", "output":"\n\n"}

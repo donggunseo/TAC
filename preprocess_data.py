@@ -456,6 +456,25 @@ if __name__ == "__main__":
         train_dataset = train_dataset.map(transform, remove_columns=["translation"])
         val_dataset = val_dataset.map(transform, remove_columns=["translation"])
         test_dataset = test_dataset.map(transform, remove_columns=["translation"])
+    elif args.dataset_name == "paradetox":
+        dataset = load_dataset("s-nlp/paradetox")
+        train_dataset=dataset['train']
+        ds = train_dataset.train_test_split(test_size = 500)
+        train_dataset = ds['train']
+        test_dataset = ds['test']
+        ds = train_dataset.train_test_split(test_size = 100)
+        train_datset = ds['train']
+        val_dataset = ds['test']
+        train_dataset = train_dataset.shuffle(seed=42)
+        train_dataset = train_dataset.select([i for i in range(5000)])
+        def transform(example):
+            return {
+                "input": example["en_toxic_comment"],
+                "output": example["en_neutral_comment"]
+            }
+        train_dataset = train_dataset.map(transform, remove_columns=["en_toxic_comment", "en_neutral_comment"])
+        val_dataset = val_dataset.map(transform, remove_columns=["en_toxic_comment", "en_neutral_comment"])
+        test_dataset = test_dataset.map(transform, remove_columns=["en_toxic_comment", "en_neutral_comment"])
     train_dataset = train_dataset.to_list()
     with open(os.path.join(args.save_dir,args.dataset_name, "train.json"), "w") as f:
         json.dump(train_dataset, f)
