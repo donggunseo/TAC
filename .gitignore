@@ -1,2 +1,5 @@
 result/
 __pycache__/
+# Python cache
+__pycache__/
+*.pyc
