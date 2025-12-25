@@ -22,13 +22,13 @@ MODEL_CARD={
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default='llama3.1-8b')
-    parser.add_argument("--result_folder", type=str, default='./final_result2')
+    parser.add_argument("--result_folder", type=str, default='./final_result3')
     parser.add_argument("--data_dir", type=str, default='./dataset')
     parser.add_argument("--dataset_name", type=str, default='banking77')
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--lr", type=float, default=1e-4)
+    parser.add_argument("--lr", type=float, default=1e-3)
     parser.add_argument("--epoch", type=int, default=5)
-    parser.add_argument("--batch_size", type=int, default=16)
+    parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--max_generate_length", type=int, default=10)
 
     args = parser.parse_args()
@@ -70,13 +70,6 @@ if __name__ == "__main__":
 
     trainable_params = [p for p in model.parameters() if p.requires_grad]
     tokenizer.padding_size="right"
-
-    def label_text_match(pred, label_list):
-        for l in label_list:
-            label_len = len(l)
-            if pred[:label_len]==l:
-                return pred[:label_len]
-        return pred
 
     if not os.path.exists(os.path.join(lora_dir, "adapter_model.safetensors")):
         best_val_acc = 0
@@ -147,7 +140,7 @@ if __name__ == "__main__":
                         correct_cnt+=1
                 val_acc = correct_cnt/len(valid_dataset)
                 print(f"Epoch {epoch+1} validation acc : {val_acc}")
-                if val_acc>=best_val_acc:
+                if val_acc>best_val_acc:
                     best_val_acc = val_acc
                     model.save_pretrained(lora_dir)
                 else:
@@ -163,7 +156,7 @@ if __name__ == "__main__":
     correct_cnt=0
     with torch.no_grad():
         for test_item in tqdm(test_dataset):
-            test_prompt, test_target = create_prompt(demon_pool=None, query = test_item, num_shots_by_class=0, option=None, label_list=label_list, shuffle_label=False, prefixes = {"input":"Sentence:", "output":"Label:"})
+            test_prompt, test_target = create_prompt(demon_pool=None, query = test_item, num_shots_by_class=0, option=None, label_list=label_list, shuffle_label=False)
             test_tokenized_input = tokenizer(test_prompt, return_tensors='pt').to(device)
             kv_cache = None
             pred_seq = []
@@ -188,9 +181,9 @@ if __name__ == "__main__":
             res.append({"prompt": test_prompt, "query": test_item["input"], "gt": test_target, "pred": pred_str})
         test_acc = correct_cnt/len(test_dataset)
         print("acc : ", test_acc)
-    # lora = {"acc": test_acc, "res": res}
-    # with open(os.path.join(res_dir, "lora_result.json"), "w") as f:
-    #     json.dump(lora, f)
+    lora = {"acc": test_acc, "res": res}
+    with open(os.path.join(res_dir, "lora_result.json"), "w") as f:
+        json.dump(lora, f)
             
 
 

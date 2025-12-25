@@ -11,6 +11,8 @@ import torch.nn as nn
 from collections import defaultdict
 from transformers import get_cosine_schedule_with_warmup
 torch.set_grad_enabled(False)
+from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
+
 
 MODEL_CARD={
     "llama3.1-8b": "meta-llama/Llama-3.1-8B",
@@ -25,16 +27,16 @@ MODEL_CARD={
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default='llama3.1-8b')
-    parser.add_argument("--num_shots_by_class", type=int, default=2)
+    parser.add_argument("--num_shots_by_class", type=int, default=5)
     parser.add_argument("--n_trials_by_class", type=int, default=5)
     parser.add_argument("--result_folder", type=str, default='./final_result3')
     parser.add_argument("--data_dir", type=str, default='./dataset')
     parser.add_argument("--dataset_name", type=str, default='banking77')
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--demon_selection", type=str, default = "stratify")
-    parser.add_argument("--lr", type=float, default=5e-3)
+    parser.add_argument("--lr", type=float, default=7e-3)
     parser.add_argument("--epoch", type=int, default=5)
-    parser.add_argument("--batch_size", type=int, default=10)
+    parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--max_generate_length", type=int, default=10)
 
     
@@ -95,33 +97,116 @@ if __name__ == "__main__":
         torch.save(activation_storage, os.path.join(res_dir, "head_act.pt"))
     print("activation_shape:", activation_storage.shape)
     
-    def intervention_fn_train(head_act, model_config, batch_size, act_converter, device, batched_convert_idx):
-        def mix_head_act(output, layer_name, inputs):
-            current_layer = int(layer_name.split(".")[2])           
-            intervention_embedding = head_act[current_layer,:].to(device)  #shape: (hidden_dim)
-            if isinstance(output, tuple):
-                output = output[0]
-            modified_output = output.clone()
+    # def intervention_fn_train(head_act, model_config, batch_size, act_converter, device, batched_convert_idx):
+    #     def mix_head_act(output, layer_name, inputs):
+    #         current_layer = int(layer_name.split(".")[2])           
+    #         intervention_embedding = head_act[current_layer,:].to(device)  #shape: (hidden_dim)
+    #         if isinstance(output, tuple):
+    #             output = output[0]
+    #         modified_output = output.clone()
             
-            completion_activations = []
-            completion_lengths = []
-            for batch_idx in range(batch_size):
-                single_output = output[batch_idx] # (tokens (n), hidden_dim)
-                convert_idx = batched_convert_idx[batch_idx]
-                single_output = single_output[convert_idx:] # (generated_tokens, hidden_dim)
-                completion_activations.append(single_output)
-                completion_lengths.append(single_output.shape[0])
-            longest = max(completion_lengths)
-            for batch_idx in range(batch_size):
-                if completion_activations[batch_idx].shape[0]<longest:
-                    completion_activations[batch_idx] = torch.cat([completion_activations[batch_idx], torch.zeros((longest-completion_activations[batch_idx].shape[0], model_config['resid_dim']), dtype = torch.bfloat16).to(device)], dim=0)
-            completion_activations = torch.stack(completion_activations, dim=0) ## (batch_size, padded_generated_tokens, hidden_dim)
-            cell_state = intervention_embedding.repeat(batch_size,1).unsqueeze(0)
-            out, _ = act_converter(completion_activations, (torch.zeros(*cell_state.shape, dtype=torch.bfloat16).to(device), cell_state)) # out shape : (batch_size, padded_generated_tokens, head_dim)
-            for batch_idx in range(batch_size):
-                modified_output[batch_idx, batched_convert_idx[batch_idx]:] += out[batch_idx, :completion_lengths[batch_idx]]
-            modified_output = modified_output.contiguous()
-            return modified_output
+    #         completion_activations = []
+    #         completion_lengths = []
+    #         for batch_idx in range(batch_size):
+    #             single_output = output[batch_idx] # (tokens (n), hidden_dim)
+    #             convert_idx = batched_convert_idx[batch_idx]
+    #             single_output = single_output[convert_idx:] # (generated_tokens, hidden_dim)
+    #             completion_activations.append(single_output)
+    #             completion_lengths.append(single_output.shape[0])
+    #         longest = max(completion_lengths)
+    #         for batch_idx in range(batch_size):
+    #             if completion_activations[batch_idx].shape[0]<longest:
+    #                 completion_activations[batch_idx] = torch.cat([completion_activations[batch_idx], torch.zeros((longest-completion_activations[batch_idx].shape[0], model_config['resid_dim']), dtype = torch.bfloat16).to(device)], dim=0)
+    #         completion_activations = torch.stack(completion_activations, dim=0) ## (batch_size, padded_generated_tokens, hidden_dim)
+    #         cell_state = intervention_embedding.repeat(batch_size,1).unsqueeze(0)
+    #         out, _ = act_converter(completion_activations, (cell_state, cell_state)) # out shape : (batch_size, padded_generated_tokens, head_dim)
+    #         for batch_idx in range(batch_size):
+    #             modified_output[batch_idx, batched_convert_idx[batch_idx]:] += out[batch_idx, :completion_lengths[batch_idx]]
+    #         modified_output = modified_output.contiguous()
+    #         return modified_output
+    #     return mix_head_act
+
+    def intervention_fn_train(head_act, model_config, batch_size, act_converter, device, batched_convert_idx):
+        """
+        head_act: (n_layers, resid_dim)  or something indexable by [layer]
+        batched_convert_idx: List[int] length = batch_size
+        """
+
+        D = model_config['resid_dim']
+
+        def mix_head_act(output, layer_name, inputs):
+            current_layer = int(layer_name.split(".")[2])
+
+            # hook output가 tuple일 수 있음
+            if isinstance(output, tuple):
+                output = output[0]  # (B, T, D)
+
+            # 실제 batch_size는 padding 때문에 다를 수 있으니 output 기준으로 잡는게 안전
+            B = output.size(0)
+            assert B == batch_size, f"batch_size mismatch: output has {B}, but batch_size arg is {batch_size}"
+
+            # (1) 개입 임베딩 준비
+            # head_act를 미리 device에 올려두면 여기서 .to(device) 안 해도 됨
+            intervention_embedding = head_act[current_layer, :].to(device)  # (D,)
+
+            # (2) completion 길이 계산: 각 샘플마다 convert_idx 이후 길이
+            # output의 seq_len은 padding 포함 길이이므로,
+            # convert_idx가 실제 prompt 끝 토큰 위치라는 전제가 유지되어야 함
+            T = output.size(1)
+            lengths = []
+            for i in range(B):
+                ci = batched_convert_idx[i]
+                li = max(T - ci, 0)
+                lengths.append(li)
+
+            # 만약 전부 0이면 (이론상 거의 없겠지만) 그냥 원본 반환
+            if max(lengths) == 0:
+                return output
+
+            Tmax = max(lengths)
+
+            # (3) padded completion tensor 생성: (B, Tmax, D)
+            # dtype/device는 output과 동일하게 맞춰서 안전하게
+            completion = output.new_zeros((B, Tmax, D))  # (B, Tmax, D)
+
+            # completion[b, :lengths[b]] = output[b, convert_idx[b] : convert_idx[b] + lengths[b]]
+            for b in range(B):
+                lb = lengths[b]
+                if lb > 0:
+                    ci = batched_convert_idx[b]
+                    completion[b, :lb, :] = output[b, ci:ci+lb, :]
+
+            # (4) pack해서 LSTM forward (padding 구간 계산 스킵)
+            # lengths는 보통 CPU list/tensor가 제일 호환성 좋음
+            lengths_cpu = torch.tensor(lengths, dtype=torch.long, device="cpu")
+
+            packed = pack_padded_sequence(
+                completion,
+                lengths=lengths_cpu,
+                batch_first=True,
+                enforce_sorted=False
+            )
+
+            # 초기 hidden/cell: (num_layers * num_directions, B, hidden_size)
+            # 너 원래 코드 의도대로 h0=c0=intervention_embedding 반복
+            h0 = intervention_embedding.view(1, 1, D).expand(1, B, D).contiguous()
+            c0 = h0
+
+            packed_out, _ = act_converter(packed, (h0, c0))
+
+            # 다시 padded로 복원: out -> (B, Tmax, D)
+            out, _ = pad_packed_sequence(packed_out, batch_first=True, total_length=Tmax)
+
+            # (5) 원본 output에 out을 add (convert_idx 이후에만)
+            modified_output = output.clone()
+            for b in range(B):
+                lb = lengths[b]
+                if lb > 0:
+                    ci = batched_convert_idx[b]
+                    modified_output[b, ci:ci+lb, :] += out[b, :lb, :]
+
+            return modified_output.contiguous()
+
         return mix_head_act
 
     h_status = []
@@ -129,8 +214,9 @@ if __name__ == "__main__":
         def mix_head_act_inference(output, layer_name, inputs):
             current_layer = int(layer_name.split(".")[2])
             if step==0:
-                intervention_embedding = head_act[current_layer,:].unsqueeze(0).to(device) #shape: (1,hidden_dim)
-                intervention_embedding = (torch.zeros(*intervention_embedding.shape, dtype=torch.bfloat16).to(device), intervention_embedding)
+                intervention_embedding = head_act[current_layer:current_layer+1,:].unsqueeze(0).to(device) #shape: (1,hidden_dim)
+                # intervention_embedding = (torch.zeros(*intervention_embedding.shape, dtype=torch.bfloat16).to(device), intervention_embedding)
+                intervention_embedding = (intervention_embedding, intervention_embedding)
             else:
                 intervention_embedding = head_act[current_layer]
             if isinstance(output, tuple):
@@ -151,8 +237,8 @@ if __name__ == "__main__":
     best_val_acc = 0
     best_converter_state = None
 
-    if os.path.exists(os.path.join(res_dir, "best_converter_state.pt")):
-        best_converter_state = torch.load(os.path.join(res_dir, "best_converter_state.pt"))
+    if os.path.exists(os.path.join(res_dir, "best_converter_state2.pt")):
+        best_converter_state = torch.load(os.path.join(res_dir, "best_converter_state2.pt"))
     else:
         total_steps = ((len(train_dataset)+args.batch_size-1)//args.batch_size)*args.epoch
         warmup_steps = int(0.2*total_steps)
@@ -187,7 +273,7 @@ if __name__ == "__main__":
                             batched_train_target[i]+=[-100]*(batch_len-len(b))
                     batched_train_target = torch.tensor(batched_train_target)
                     intervention_fn = intervention_fn_train(head_act = activation_storage, model_config = model_config, batch_size=cur_batch_size, act_converter=act_converter, device=device, batched_convert_idx=batched_convert_idx)
-                    with TraceDict(model, layers=model_config['attn_hook_names'], edit_output=intervention_fn):              
+                    with TraceDict(model, layers=model_config['attn_hook_names'], edit_output=intervention_fn, retain_input=False, retain_output=False):              
                         output = model.forward(**train_tokenized_input)
                     out_logit = output.logits[torch.arange(cur_batch_size)]
                     loss_fct = torch.nn.CrossEntropyLoss(reduction="none", ignore_index = -100)
@@ -209,7 +295,7 @@ if __name__ == "__main__":
                     act_input = activation_storage
                     for t in range(args.max_generate_length):
                         intervention_fn = intervention_fn_inference(head_act = act_input, model_config = model_config, act_converter=act_converter, device = device, step=t)
-                        with TraceDict(model, layers=model_config['attn_hook_names'], edit_output=intervention_fn):              
+                        with TraceDict(model, layers=model_config['attn_hook_names'], edit_output=intervention_fn, retain_input=False, retain_output=False):              
                             output = model.forward(**val_tokenized_input, use_cache=True, past_key_values = kv_cache)
                             kv_cache = output.past_key_values
                         output_logits = output.logits[0,-1]
@@ -239,47 +325,47 @@ if __name__ == "__main__":
                     early_stop_cnt+=1
                 if early_stop_cnt==early_stop_ths:
                     break
-        torch.save(best_converter_state, os.path.join(res_dir, "best_converter_state.pt"))
+        torch.save(best_converter_state, os.path.join(res_dir, "best_converter_state2.pt"))
     act_converter.load_state_dict(best_converter_state)
     act_converter.eval()
     
-    # softmax = nn.Softmax(dim=-1)
-    # correct_cnt = 0
-    # act_convert_res = []
-    # new_line_id = tokenizer.encode("\n\n", add_special_tokens=False)[0]
-    # with torch.no_grad():
-    #     for test_item in tqdm(test_dataset):
-    #         test_prompt, test_target = create_prompt(demon_pool=None, query = test_item, num_shots_by_class=0, option=None, label_list=label_list, shuffle_label=False)
-    #         test_tokenized_input = tokenizer(test_prompt, return_tensors='pt').to(device)
-    #         kv_cache = None
-    #         pred_seq = []
-    #         act_input = activation_storage
-    #         for t in range(args.max_generate_length):
-    #             intervention_fn = intervention_fn_inference(head_act = act_input, model_config = model_config, act_converter=act_converter, device = device, step=t)
-    #             with TraceDict(model, layers=model_config['attn_hook_names'], edit_output=intervention_fn) as td:              
-    #                 output = model.forward(**test_tokenized_input, use_cache=True, past_key_values = kv_cache)
-    #                 kv_cache = output.past_key_values
-    #             output_logits = output.logits[0,-1]
-    #             pred_token_id = torch.argmax(output_logits, dim=-1)
-    #             pred_seq.append(pred_token_id.item())
-    #             if pred_token_id.item()==new_line_id:
-    #                 break
-    #             test_tokenized_input['input_ids'] = pred_token_id.reshape(1,-1)
-    #             test_tokenized_input['attention_mask'] = None
-    #             act_input = h_status.copy()
-    #             h_status = []
-    #         pred_str = tokenizer.decode(pred_seq).strip()
-    #         pred_str = pred_str.replace(tokenizer.eos_token, "")
-    #         pred_str = pred_str.split("\n\n")[0]
-    #         print(pred_str)
-    #         print(test_target)
-    #         print("____________")
-    #         if pred_str == test_target:
-    #             correct_cnt+=1
-    #         act_convert_res.append({"prompt": test_prompt, "query": test_item["input"], "gt": test_target, "pred": pred_str})
-    #         h_status = []
-    #     interv_acc = correct_cnt/len(test_dataset)
-    #     print(interv_acc)
-    #     site = {"acc": interv_acc, "res": act_convert_res}
-    # with open(os.path.join(res_dir, "extended_act_converter_result.json"), "w") as f:
-    #     json.dump(site, f)
+    softmax = nn.Softmax(dim=-1)
+    correct_cnt = 0
+    act_convert_res = []
+    new_line_id = tokenizer.encode("\n\n", add_special_tokens=False)[0]
+    with torch.no_grad():
+        for test_item in tqdm(test_dataset):
+            test_prompt, test_target = create_prompt(demon_pool=None, query = test_item, num_shots_by_class=0, option=None, label_list=label_list, shuffle_label=False)
+            test_tokenized_input = tokenizer(test_prompt, return_tensors='pt').to(device)
+            kv_cache = None
+            pred_seq = []
+            act_input = activation_storage
+            for t in range(args.max_generate_length):
+                intervention_fn = intervention_fn_inference(head_act = act_input, model_config = model_config, act_converter=act_converter, device = device, step=t)
+                with TraceDict(model, layers=model_config['attn_hook_names'], edit_output=intervention_fn, retain_input=False, retain_output=False):              
+                    output = model.forward(**test_tokenized_input, use_cache=True, past_key_values = kv_cache)
+                    kv_cache = output.past_key_values
+                output_logits = output.logits[0,-1]
+                pred_token_id = torch.argmax(output_logits, dim=-1)
+                pred_seq.append(pred_token_id.item())
+                if pred_token_id.item()==new_line_id:
+                    break
+                test_tokenized_input['input_ids'] = pred_token_id.reshape(1,-1)
+                test_tokenized_input['attention_mask'] = None
+                act_input = h_status.copy()
+                h_status = []
+            pred_str = tokenizer.decode(pred_seq).strip()
+            pred_str = pred_str.replace(tokenizer.eos_token, "")
+            pred_str = pred_str.split("\n\n")[0]
+            print(pred_str)
+            print(test_target)
+            print("____________")
+            if pred_str == test_target:
+                correct_cnt+=1
+            act_convert_res.append({"prompt": test_prompt, "query": test_item["input"], "gt": test_target, "pred": pred_str})
+            h_status = []
+        interv_acc = correct_cnt/len(test_dataset)
+        print(interv_acc)
+        site = {"acc": interv_acc, "res": act_convert_res}
+    with open(os.path.join(res_dir, "extended_act_converter_result2.json"), "w") as f:
+        json.dump(site, f)
