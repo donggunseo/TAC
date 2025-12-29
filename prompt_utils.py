@@ -84,7 +84,8 @@ def create_prompt(demon_pool, query=None, num_shots_by_class=0, option="random",
         selection = random_selection(demon_pool=demon_pool, num_shots=num_shots, shuffle_label=shuffle_label)
     elif option == "all":
         selection = demon_pool
-        random.shuffle(selection)
+        if shuffle_label:
+            selection = shuffle_label_func(selection)
     else:
         selection = []
     
@@ -93,7 +94,7 @@ def create_prompt(demon_pool, query=None, num_shots_by_class=0, option="random",
     
     if query is not None:
         prompt+=prefixes["input"]+" "+query['input']+separators["input"]+prefixes["output"]
-        return prompt, query['output']
+        return prompt, query['output'], selection
     
     return prompt
 
