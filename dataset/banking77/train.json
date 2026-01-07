@@ -313,7 +313,7 @@
     },
     {
         "input": "My card payment was reverted",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I need to know what is going on. I'm attempting to purchase a flat and need the money to pay on my initial mortgage payment. I'm only getting an error. Can you find out what's going on and help in making the transfer?",
@@ -829,7 +829,7 @@
     },
     {
         "input": "I purchased something and the seller hasn't received the money yet, but it has been deducted from my account.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why do I have to pay extra for using my card?",
@@ -873,7 +873,7 @@
     },
     {
         "input": "What does it mean if my payment was reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Am I able to open an account for my children?",
@@ -1181,7 +1181,7 @@
     },
     {
         "input": "I think my card payment was reverted",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why am I missing my refund",
@@ -1729,7 +1729,7 @@
     },
     {
         "input": "Why wasn't my payment accepted by the app",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Need a new passcode.",
@@ -1809,7 +1809,7 @@
     },
     {
         "input": "I think a card payment I made was cancelled, can you check?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How do I get my card out of the ATM?",
@@ -2509,7 +2509,7 @@
     },
     {
         "input": "I made a payment but the app gave the money back.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "There is a payment in my app that I did not make.  I have not used that card all day  Please reimburse my money.",
@@ -2725,7 +2725,7 @@
     },
     {
         "input": "I just got refunded for my purchase over two weeks ago",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Can I change my PIN?",
@@ -2933,7 +2933,7 @@
     },
     {
         "input": "why did my payment revert",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "The exchange rate for my withdrawal was wrong.",
@@ -2973,7 +2973,7 @@
     },
     {
         "input": "I think the payment from my card was revereted",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "The app rejected my top up",
@@ -3213,7 +3213,7 @@
     },
     {
         "input": "One of my card payments has reverted",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I accidentally chose to exchange GBP, but I need to pick AUD. How can I change it?",
@@ -3473,7 +3473,7 @@
     },
     {
         "input": "Please tell me why the purchase I made online returned payment. I really wanted this item and I've been trying for 2 weeks.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I need an actual card that I can hold in my hand, how do I do that?",
@@ -3521,7 +3521,7 @@
     },
     {
         "input": "I seem to have a problem here, I bought something about a 2 weeks ago and just now received the payment back into my account and I've already received the item. Can you tell me what is going on here?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I would like to reactivate a card and wondered if that could be done?",
@@ -3533,7 +3533,7 @@
     },
     {
         "input": "My money is back in my account after a seller contacted me stating they never received payment. I am positive it was deducted out of my account. Please get this sorted out right away.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "What is the source of funds for my money?",
@@ -3569,7 +3569,7 @@
     },
     {
         "input": "How do I fix a payment that was reverted",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Please tell me the types of currency I can hold.",
@@ -3605,7 +3605,7 @@
     },
     {
         "input": "I just checked and my payment was cancelled, why?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "My new card came in.  How do I activate?",
@@ -3817,7 +3817,7 @@
     },
     {
         "input": "How come the money from the merchant appeared back into my account?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I am trying to find out how to exchange currency X with currency Y.",
@@ -4229,7 +4229,7 @@
     },
     {
         "input": "How can I tell if my card payment is reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How do I make my transfer go through",
@@ -4277,7 +4277,7 @@
     },
     {
         "input": "Why would a merchant revert my payment?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Can both Visa and Mastercard be chosen?",
@@ -4505,7 +4505,7 @@
     },
     {
         "input": "I'm not sure what is going on here. I've received payment back into my account  for an item I've already received, from about 2 weeks ago.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "The wrong exchange rate was used for my cash withdrawal",
@@ -4845,7 +4845,7 @@
     },
     {
         "input": "why was my payment reverted on the app",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How to a go about ordering a disposable virtual card?",
@@ -4917,7 +4917,7 @@
     },
     {
         "input": "Seems like my card payment has been cancelled",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "It can take between 10 minutes to an hour before you hear back from us about the verification result.  Please try again if your verification fails.  Make sure you double check that images are clear and all document photos are readable without blur or glare. You have to be 18 or older and live in the European Economic area or live in Switzerland to be able to open an account.",
@@ -5221,7 +5221,7 @@
     },
     {
         "input": "Hi, I am trying to buy something online, but i think there is some issue in my card. As payment is reverted. Please help me in this as i am facing the same issue from last two weeks.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "This card is accepted by what businesses?",
@@ -5909,7 +5909,7 @@
     },
     {
         "input": "I made a payment and it was reverted and wanted to know why?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "The other bank confirmed a transfer I made, but this account is not reflecting it yet.",
@@ -6453,7 +6453,7 @@
     },
     {
         "input": "I see a reverted payment on my account. Why has this happened?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "My transfer still says pending",
@@ -6689,7 +6689,7 @@
     },
     {
         "input": "I was checking my statement and I think one of my card payments has reverted",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "My transfer failed, why did that happen?",
@@ -6897,7 +6897,7 @@
     },
     {
         "input": "What should I do if my card payment was cancelled?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I'll send a check to top up my account",
@@ -7281,7 +7281,7 @@
     },
     {
         "input": "Did a card payment that I made get cancelled?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Can you tell me why my transfer is pending still?",
@@ -7457,7 +7457,7 @@
     },
     {
         "input": "Why was my card payment reversed?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I was declined when I tried to take out cash!",
@@ -7529,7 +7529,7 @@
     },
     {
         "input": "Why was a payment I made reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "After trying to update my account balance yesterday by cheque it doesn't seem to working. Shouldn't the process be quicker? I need my account looked at because there appears to be a problem.",
@@ -7849,7 +7849,7 @@
     },
     {
         "input": "Unknowingly to me the payment sent to seller has been redeposied back in my account. I do not know why it would take out the payment and then put it back in my account. Can you resolve this as soon as possible?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I have lost my phone, what steps can I take to prevent someone using my account?",
@@ -7913,7 +7913,7 @@
     },
     {
         "input": "I think a card payment I made was cancelled.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Can I open an account for my offspring?",
@@ -7961,7 +7961,7 @@
     },
     {
         "input": "I sent a payment but now it's not showing up.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "What apps can I use to top up my account?",
@@ -7981,7 +7981,7 @@
     },
     {
         "input": "The app reverted my recent payment",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I would like to get an account for my child.",
@@ -8045,7 +8045,7 @@
     },
     {
         "input": "I think my card payment has been reverted",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I don't think I made this payment that is showing up",
@@ -8653,7 +8653,7 @@
     },
     {
         "input": "I purchased something about one to two weeks ago but for some reason the payment was returned to my account today even though I've already received one of the items. Can you tell me what's going on?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Can you tell me how long it takes for a new card to come?",
@@ -8681,7 +8681,7 @@
     },
     {
         "input": "My payment was stopped",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Can you help me transfer money into my friend's bank account? I tried to do it but it keeps rejecting me. I need to get the money in there asap. I have enough and all the account info is correct.",
@@ -8765,7 +8765,7 @@
     },
     {
         "input": "I dont know what happened, but my payment was cancelled",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why is verification for my identity needed?",
@@ -8961,7 +8961,7 @@
     },
     {
         "input": "The card payment didn't work",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Please help!  The app won't let me cancel a money transfer.  I accidently sent money to an account that wasn't mine.  I need this cancelled immediately.",
@@ -9601,7 +9601,7 @@
     },
     {
         "input": "Why would my card payment get reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I noticed my transfer was declined.",
@@ -9741,7 +9741,7 @@
     },
     {
         "input": "My payment was cancelled",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why isn't my id verified?",
@@ -9785,7 +9785,7 @@
     },
     {
         "input": "My payment was put back, I think.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "While on vacation in Spain I think someone saw my PIN and I now need to change it, can I do this at an ATM in Spain?",
@@ -9873,7 +9873,7 @@
     },
     {
         "input": "Card payment has be declined.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why is my card payment still a pending transaction?",
@@ -9965,7 +9965,7 @@
     },
     {
         "input": "I have an issue. I bought something within the past one to two weeks and have received one of the products; however, today the total was returned to my account. What's going on here?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I have a charge I did not make.",
@@ -10169,7 +10169,7 @@
     },
     {
         "input": "I received a returned payment that I made.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Canceling my order is what I need to do right now.",
@@ -10237,7 +10237,7 @@
     },
     {
         "input": "My payment has not been accepted.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How do I use disposable cards?",
@@ -10369,7 +10369,7 @@
     },
     {
         "input": "Why is my card payment cancelled?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How can I receive money from someone?",
@@ -10425,7 +10425,7 @@
     },
     {
         "input": "My card payment has not been withdrawn from my account",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How long do I have  to wait for my transaction to be completed?",
@@ -11013,7 +11013,7 @@
     },
     {
         "input": "My payment did not go through because the app reverted it",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Am I charged a fee to transfer funds?",
@@ -11109,7 +11109,7 @@
     },
     {
         "input": "It looks like my card payment might have been reverted.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I am planning activating my card was it possible?",
@@ -11437,7 +11437,7 @@
     },
     {
         "input": "I believe my card payment has reverted",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I want to get a virtual card!",
@@ -11473,7 +11473,7 @@
     },
     {
         "input": "My payment has been returned.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Someone stole my wallet a couple of hours ago now and they have taken money from my account. Is there any way that you can help so I won't lose any more of my money.",
@@ -11821,7 +11821,7 @@
     },
     {
         "input": "I've got a weird problem: I purchased something a week or maybe it was two weeks ago, and the funds have come back into my account! Can you explain this?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why did it cost money to transfer funds?",
@@ -11857,7 +11857,7 @@
     },
     {
         "input": "It looks like my card payment was sent back.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I recently transferred some cash, but the balance has not changed.",
@@ -12033,7 +12033,7 @@
     },
     {
         "input": "I tried to buy something online but my funds were transferred back to my account. What is happening?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "This place has been too much work so I'd just like to close out my account & be done.",
@@ -12873,7 +12873,7 @@
     },
     {
         "input": "I've got a problem - I bought something with my card one or two weeks ago, but now exact same amount of the purchase is showing up in my account. I like more money in my account, but this is too good to be true. Can you tell me what's happening?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I got a new address and need to change my information.",
@@ -12909,7 +12909,7 @@
     },
     {
         "input": "Why did my payment not go through why did it cancel?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I really need some help to understand why my transfer keeps failing. I'm trying to send money to a friend. Please help.",
@@ -13017,7 +13017,7 @@
     },
     {
         "input": "Hello,  I noticed the money for an item I purchased online and have already received has been returned to my checking account. Was there an issue with the merchant accepting my payment? Or, possibly, with the bank sending it?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "While abroad, I got cash, and the exchange rate applied is wrong.",
@@ -13037,7 +13037,7 @@
     },
     {
         "input": "I cannot seem to buy something online with my card? the payment comes back, what's going on?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why does a top- up need to be verify?",
@@ -13793,7 +13793,7 @@
     },
     {
         "input": "Under what condition will my payment revert?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How do you do exchanges?",
@@ -13833,7 +13833,7 @@
     },
     {
         "input": "My payment was terminated",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I want to add money automatically when I travel.",
@@ -13861,7 +13861,7 @@
     },
     {
         "input": "Hey a seller just contacted me that my money didn't come through. It was definitely deducted from my account, but now it appears it's back with me! Sort this out asap please.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Which countries are you in?",
@@ -14021,7 +14021,7 @@
     },
     {
         "input": "Why has my payment been reversed?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "The exchange rate is bad. Are you sure this is the exchange rate?",
@@ -14253,7 +14253,7 @@
     },
     {
         "input": "The payment I made with my card is not showing up.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "What is taking so long with my refund?",
@@ -14969,7 +14969,7 @@
     },
     {
         "input": "I would like to make a purchase, however my card has been declined. I would like to ask the reason for this. The past two weeks, the card has been working fine.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "What's the limit for disposable virtual cards?",
@@ -15085,7 +15085,7 @@
     },
     {
         "input": "I believe that a card payment I made was cancelled.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I don't understand why you want so much of my personal info.",
@@ -15153,7 +15153,7 @@
     },
     {
         "input": "The money is still in my account even though I already paid -- I don't understand what happened.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "how do i get the card linked",
@@ -15757,7 +15757,7 @@
     },
     {
         "input": "I purchased something and already received it, why hasn't the money taken out?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I was charged a fee for a transfer.",
@@ -15829,7 +15829,7 @@
     },
     {
         "input": "Why would my card payment be reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Using international ATMs messes up the exchange rate.",
@@ -16169,7 +16169,7 @@
     },
     {
         "input": "I've got a problem - I purchased an item maybe a week or two ago, but to the payment came back to my account! I've already got what I ordered, so why are the payment funds showing up in my account?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Hi. Please can you help me fix a double charge on my card? I'm looking at my transactions and this restaurant I went to earlier in the week has charged me twice! Please remove the additional charge for me.",
@@ -16261,7 +16261,7 @@
     },
     {
         "input": "I an not sure but it looks as if a card payment I made was cancelled.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "why are all my identity details required",
@@ -16429,7 +16429,7 @@
     },
     {
         "input": "Hello, I was contacted by a seller who let me know my money didn't come through on their side. It most certainly came out of my account so I need this looked at immediately because now it has been returned to me!",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "My statement is showing an extra \u00a31 charge and I am unsure why. Is there an explanation for this?",
@@ -16465,7 +16465,7 @@
     },
     {
         "input": "I paid two weeks ago and just got refunded",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Where can i top my card for free?",
@@ -16477,7 +16477,7 @@
     },
     {
         "input": "My card has an issue, the payment has been deferred.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I got some cash out of the ATM over the holiday and it seems that I've been grossly overcharged. I wouldn't have done that if I knew of these outrageous charges!",
@@ -17005,7 +17005,7 @@
     },
     {
         "input": "I just found out from the seller that my money didn't go through. I checked my account and it was deducted at first but now it's back in my account. Can you  please fix this for me quickly?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How much can I top up on my card?",
@@ -17121,7 +17121,7 @@
     },
     {
         "input": "Why isn't my payment showing?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Are there charges for using a bank card to top up",
@@ -17449,7 +17449,7 @@
     },
     {
         "input": "What reasons would cause my card payment to be cancelled?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Can you walk me through how I can edit some of my personal information?",
@@ -18021,7 +18021,7 @@
     },
     {
         "input": "I noticed my card payment was cancelled, can you tell me why?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why are my withdrawals suddenly being declined?",
@@ -18061,7 +18061,7 @@
     },
     {
         "input": "I think a payment I made with a card was cancelled.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Does my account have the option to hold multiple currencies?",
@@ -18401,7 +18401,7 @@
     },
     {
         "input": "I think my card payment has been refunded",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How do I find the PIN?",
@@ -18581,7 +18581,7 @@
     },
     {
         "input": "I am not able to purchase anything online! I have been using my card on multiple sites over a period of two weeks and none of the payments have gone through. Why is this happening?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "When do I get my PIN?",
@@ -18825,7 +18825,7 @@
     },
     {
         "input": "The app reverted the payment I made.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How does the exchange rate work on this app?",
@@ -18973,7 +18973,7 @@
     },
     {
         "input": "My payment didn't work and the money is in back in my account.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Will I know which exchange rate I will get?",
@@ -19217,7 +19217,7 @@
     },
     {
         "input": "I was refunded the money for something I bought already.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "There's a $200 withdrawal on my statement that seems fishy to me.",
@@ -19549,7 +19549,7 @@
     },
     {
         "input": "Why did you cancel my card payment?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "There is a payment showing on my app that I didn't do. Will you please cancel this payment and refund my money ?",
@@ -20029,7 +20029,7 @@
     },
     {
         "input": "My card payment reverted back, I think.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "At which locations can I order a card?",
@@ -20285,7 +20285,7 @@
     },
     {
         "input": "I cancelled my card payment",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How long does it take to transfer from china? Is there a way to transfer it quickly, I need it urgently?",
@@ -20521,7 +20521,7 @@
     },
     {
         "input": "Hi, I had an issue with my card payment and It shows on my account that my payment went through. Then I got contacted from the seller saying \"they did not receive my payment\" then the payment was returned to my account. so I would like to see why it did that please.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Has my top up gone through?",
@@ -21121,7 +21121,7 @@
     },
     {
         "input": "I bought something and already paid for it but now I don't see it.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why is top up not working for my apple pay app",
@@ -21977,7 +21977,7 @@
     },
     {
         "input": "I wanted to purchase something online but the payment was returned back to me. This has been going on for a couple of weeks. Please tell me what is going on here?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "A transfer I sent was received in less than the full amount I originally sent, and now I have to send additional funds to cover the full amount. What happened?",
@@ -22165,7 +22165,7 @@
     },
     {
         "input": "I did a payment but it was reverted by the app",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "My ATM transaction shorted me on cash, and I think the exchange rate was wrong. Did I receive the correct rate?",
@@ -22185,7 +22185,7 @@
     },
     {
         "input": "I had a seller reach out to me saying my money didn't come through to them, but I'm sure it was removed from my account. Can you figure out what the deal is here?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "A strange card payment, I do not recognize it.",
@@ -22281,7 +22281,7 @@
     },
     {
         "input": "What happens when a payment is reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Hello, I tried to take out some money out of the ATM, but it's still showing that it's pending? I really don't want to be charged for this.",
@@ -22289,7 +22289,7 @@
     },
     {
         "input": "What does it mean if my payment has been reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Does the top-up need verified?",
@@ -22553,11 +22553,11 @@
     },
     {
         "input": "What does it mean if it says my card payment has been cancelled?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why was a payment cancelled on my account?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Can you tell me more about limits to disposable virtual cards?",
@@ -22689,7 +22689,7 @@
     },
     {
         "input": "My card payment was cancelled it seems.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How can I fund another account with my American Express?",
@@ -22701,7 +22701,7 @@
     },
     {
         "input": "My card payment's cancelled",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Can I order a new card by phone?",
@@ -23985,7 +23985,7 @@
     },
     {
         "input": "Can you tell me why my card isn't letting me make purchases online? It's been 2 weeks I've been trying.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "When going to the ATM to take out some cash today my withdrawal was  declined.  I need to fix this problem as soon as possible. whats going on?",
@@ -24461,7 +24461,7 @@
     },
     {
         "input": "Why have I received a rebate for my payment after a week?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "What is this extra \u20ac1 fee about?",
@@ -24609,7 +24609,7 @@
     },
     {
         "input": "Was my card payment reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I am entering my passcode but getting an error.",
@@ -25545,7 +25545,7 @@
     },
     {
         "input": "What is the reason for my card payment to be reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Is there a tracking number for the card?",
@@ -25653,7 +25653,7 @@
     },
     {
         "input": "Explain why a card payment would be cancelled?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "my cash withdrawal has not come out of my account yet.",
@@ -26349,7 +26349,7 @@
     },
     {
         "input": "There's a problem - I bought something about a week or two ago but just today the payment somehow came back into my account! I already received the item though, what's going on here?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why was there a fee when I pulled cash?",
@@ -27093,7 +27093,7 @@
     },
     {
         "input": "I really wanted to buy something online but seems the card is not working as the payment suddenly came back! What's going on here, I've been trying for a good week or two.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why is there a fee when I thought there would be no fees?",
@@ -27129,7 +27129,7 @@
     },
     {
         "input": "Is it possible that my card payment was reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why hasn't my payment shown up yet?",
@@ -27165,7 +27165,7 @@
     },
     {
         "input": "I received a message from a seller stating they hadn't received my money even though it definitely came out of my account. The money has now been deposited back into my account. Please get this resolved as soon as possible.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "My card payment doesn't work.",
@@ -27273,7 +27273,7 @@
     },
     {
         "input": "Please help me with my card payments which keeps getting reverted whenever i do online shopping. I am having this problem since last two weeks.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I'm in the EU. Can I get one of your cards?",
@@ -27325,7 +27325,7 @@
     },
     {
         "input": "Ive been trying to use my card for two weeks now to purchase somethings online but nothing is going through. It keeps returning my payment to my account. There shouldn't be anything wrong with my account, is it the card?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why is my balance the same after a transfer?",
@@ -27437,7 +27437,7 @@
     },
     {
         "input": "I have cancelled payments to this card.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I am unable to transfer money. I believe it is not working because it states it was declined.",
@@ -27457,7 +27457,7 @@
     },
     {
         "input": "Why is a payment I made reverted back to my account?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "what is a virtual and how do i get one",
@@ -27545,7 +27545,7 @@
     },
     {
         "input": "Looks like my card payment was cancelled.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I tried taking out 30 pounds from the ATM just now and it only gave me 10. Why would it do that? I need the 30 pounds now!",
@@ -28105,7 +28105,7 @@
     },
     {
         "input": "I had a payment reverted and would like to figure out why.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "My phone was stolen, what can I do?",
@@ -28173,7 +28173,7 @@
     },
     {
         "input": "Why would the app revert my payment?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I wanted to take out $100 but I only got $20.",
@@ -28429,7 +28429,7 @@
     },
     {
         "input": "Can you tell me why my card payment was cancelled?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "My transfer didn't work how come?",
@@ -28669,7 +28669,7 @@
     },
     {
         "input": "I made a payment but the app cancelled it.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Am I able to top up with Apple Pay?",
@@ -29125,7 +29125,7 @@
     },
     {
         "input": "My card payment was reverted, why?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I am worried that too much time has gone by for a transfer to be completed.",
@@ -29529,7 +29529,7 @@
     },
     {
         "input": "I already got my item but just got my money back",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Is there a problem that makes my payments show pending?",
@@ -29541,7 +29541,7 @@
     },
     {
         "input": "Can you please tell me why my card payments are not going through when I try to buy something online? When I put in my card payment it takes it but it comes back a while later.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "My card doesn't work. I can't get cash out at an ATM",
@@ -29581,7 +29581,7 @@
     },
     {
         "input": "Why did the funds for one of my purchase come back to my account?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How can I dispute a debit transaction?",
@@ -29921,7 +29921,7 @@
     },
     {
         "input": "I need help to resolve mix up on my card payment. My account shows the money was taken out and then put back in the account. Then I received a message from the seller, It said that they did not get my payment.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "What do I need to do to correct this failed transfer?",
@@ -30093,7 +30093,7 @@
     },
     {
         "input": "My payment came back for something i'm trying to buy online? it's been doing it for two weeks.  do you know what the issue is?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Can I get an actual card",
@@ -30437,7 +30437,7 @@
     },
     {
         "input": "I was just contacted by a seller that let me know they didn't get my money even though I'm very sure it was removed from my account. Now it's back in my account. Get this resolved quickly.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Someone might be using my card that is not me.",
@@ -30657,7 +30657,7 @@
     },
     {
         "input": "Why would my card payment be cancelled?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "You sent me a card and now I want to link it.",
@@ -31509,7 +31509,7 @@
     },
     {
         "input": "I made a payment with my card that was cancelled?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I made a mistake on the last transfer I made, who must I speak with to cancel?",
@@ -31673,7 +31673,7 @@
     },
     {
         "input": "Can you tell me why the card payment came back?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "My card was stolen",
@@ -32269,7 +32269,7 @@
     },
     {
         "input": "Why has my card payment been reversed?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "What do I need to see my source of money?",
@@ -32809,7 +32809,7 @@
     },
     {
         "input": "Around one or two weeks ago I purchased something but there's seems to be an issue. I have already received one of the items, but today the money was placed back into my account. What is happening?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How much can I top up in a day?",
@@ -32841,11 +32841,11 @@
     },
     {
         "input": "I believe my card payment were reverted",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "My card payment has been cancelled",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I have duplicate charges for the same transaction",
@@ -33369,7 +33369,7 @@
     },
     {
         "input": "I used my card to make a payment and wondered why the payment was reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why is there an uknown charge showing on my account?",
@@ -33397,7 +33397,7 @@
     },
     {
         "input": "My card payment might have been reverted.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Are there any charges for using a bank card to top up",
@@ -33477,7 +33477,7 @@
     },
     {
         "input": "has my card payment been reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I need help proving that this is really me and to verify my identity.",
@@ -34557,7 +34557,7 @@
     },
     {
         "input": "I made a payment but it was returned.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Bank transfer to account did not show up, please help?",
@@ -34637,7 +34637,7 @@
     },
     {
         "input": "My card payment was cancelled.  Why?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "What should I do if I think my card was stolen?",
@@ -34805,7 +34805,7 @@
     },
     {
         "input": "I am not able to make a purchase because there is an issue with my card",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Can my account be topped-up by friends of mine.",
@@ -34961,7 +34961,7 @@
     },
     {
         "input": "Hi, I am facing issue with my card payment while shopping online as payment is getting reverted. I am struggling with this issue around two weeks. Please advise.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Is the card welcomed by everybody?",
@@ -36285,7 +36285,7 @@
     },
     {
         "input": "What happens if a merchant doesn't accept  you payment?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "can you top up your account automatically",
@@ -36493,7 +36493,7 @@
     },
     {
         "input": "I didn't cancel my card payment.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "What is the length of time for one of these items to come to the U.S?",
@@ -36557,7 +36557,7 @@
     },
     {
         "input": "What do I do if my payment was reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why am I unable verify my id?",
@@ -36661,7 +36661,7 @@
     },
     {
         "input": "Why has my money been returned back to my card.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Can I get some help to get me card activated?",
@@ -36861,7 +36861,7 @@
     },
     {
         "input": "Was my transaction reverted with my card?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I noticed that there's a payment on my card that's pending.",
@@ -36901,7 +36901,7 @@
     },
     {
         "input": "Tell me why my card payment would be reverted.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Hello,  I am a college student who I recently attended my high school reunion at a local restaurant. I paid with my credit card and now my transaction history reflects a second charge of the seemingly same payment. What could be the reason for this?  Is there any way to have the fraudulent  payment credited back onto my card?",
@@ -36981,7 +36981,7 @@
     },
     {
         "input": "Why would a merchant revert a card payment?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "When I was transferring money I was charged extra why?",
@@ -37121,7 +37121,7 @@
     },
     {
         "input": "My card payments have stopped.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Where do I find the verification code for the card I'm topping up?",
@@ -37381,7 +37381,7 @@
     },
     {
         "input": "The seller just told me he didn't get paid. After reviewing my account it did subtract the balance but now it has added it back to my account. I need you to please take care of this promptly.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "my cash balance less than what I thought",
@@ -37441,7 +37441,7 @@
     },
     {
         "input": "I notice that I have a card payment that's been cancelled.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I am worried about fees for top up cards?",
@@ -37581,7 +37581,7 @@
     },
     {
         "input": "What happens if my card payment is cancelled?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "i tried using a virtual card for a hotel but it didn't work, why not",
@@ -37805,7 +37805,7 @@
     },
     {
         "input": "Why did my payment go back to my account when I bought something?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "How to receive transfers from my employer when I get paid in GBP?",
@@ -37949,7 +37949,7 @@
     },
     {
         "input": "HELP. My account has been deducted already and the Seller says they haven't received the money yet? When can they expect it?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "wheres my money receipt",
@@ -37985,7 +37985,7 @@
     },
     {
         "input": "How come I can't find my payment?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why did my credit card get declined for top up?",
@@ -38033,7 +38033,7 @@
     },
     {
         "input": "Why would my payment have been returned to my account?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Why is it saying I have a pending payment?",
@@ -38285,7 +38285,7 @@
     },
     {
         "input": "I bought something and received it, but the payment went back to my account. Is the seller okay?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "Do cash withdrawals cost anything?",
@@ -38505,7 +38505,7 @@
     },
     {
         "input": "I did a payment but the app cancelled it.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "why do you verify the top up",
@@ -38637,7 +38637,7 @@
     },
     {
         "input": "I think my card payment was cancelled. What happened?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "During the last month I used this account to make payments for my place abroad. I noticed the fees have increased and I wonder why. Shouldn't frequent users have less fees as incentive to keep using instead of increasing them out of nowhere?",
@@ -38873,7 +38873,7 @@
     },
     {
         "input": "Is it on purpose that my payment has been returned to my account?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I mistook my pin and now I am locked.  Can you unlock me?",
@@ -38981,7 +38981,7 @@
     },
     {
         "input": "My payment has been cancelled",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "My bill shows the same charge more than once",
@@ -39173,7 +39173,7 @@
     },
     {
         "input": "Is my card payment reverted?",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "I need to update my demographics.",
@@ -39229,7 +39229,7 @@
     },
     {
         "input": "I tried to use my debit card, but the payment did not work.",
-        "output": "reverted_card_payment?"
+        "output": "reverted_card_payment"
     },
     {
         "input": "What do I do to verify a top-up?",

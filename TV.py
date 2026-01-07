@@ -67,7 +67,7 @@ if __name__ == "__main__":
                 demon_pool = [item for item in train_dataset if item!=dummy_query]
                 dummy_prompt, dummy_query_target, _= create_prompt(demon_pool=demon_pool, query = dummy_query, num_shots_by_class=args.num_shots_by_class, option=args.demon_selection, label_list=label_list, shuffle_label=False)
                 dummy_tokenized_input = tokenizer(dummy_prompt, return_tensors='pt').to(device)
-                dummy_output = model.generate(**dummy_tokenized_input, max_new_tokens = 10, pad_token_id=tokenizer.eos_token_id, eos_token_id = tokenizer.eos_token_id, tokenizer=tokenizer, do_sample=False, temperature = None, top_p = None, stop_strings = ["\n\n"])
+                dummy_output = model.generate(**dummy_tokenized_input, max_new_tokens = args.max_generate_length, pad_token_id=tokenizer.eos_token_id, eos_token_id = tokenizer.eos_token_id, tokenizer=tokenizer, do_sample=False, temperature = None, top_p = None, stop_strings = ["\n\n"])
                 dummy_pred_str = tokenizer.decode(dummy_output.squeeze()[len(dummy_tokenized_input.input_ids.squeeze()):], skip_speical_tokens=True)
                 dummy_pred_str = dummy_pred_str.strip()
                 dummy_pred_str = dummy_pred_str.replace(tokenizer.eos_token, "")
@@ -108,15 +108,17 @@ if __name__ == "__main__":
     new_line_id = tokenizer.encode("\n\n", add_special_tokens=False)[0]
     edit_layer = 15
     tv_res = []
+    label_token_id = [tokenizer.encode(": "+l, add_special_tokens=False)[1] for l in label_list]
     with torch.no_grad():
         tv = activation_storage[edit_layer]
-        for test_item in tqdm(test_dataset[1500:2000]):
+        for test_item in tqdm(test_dataset):
             test_prompt, test_target, _ = create_prompt(demon_pool=None, query = test_item, num_shots_by_class=0, option=None, label_list=label_list, shuffle_label=False)
             test_tokenized_input = tokenizer(test_prompt, return_tensors='pt').to(device)
             kv_cache = None
             pred_seq = []
             prob_seq= []
             target_seq = tokenizer.encode(": "+test_target, add_special_tokens=False)[1:]
+            flag=False
             for t in range(args.max_generate_length):
                 if t==0:
                     intervention_fn = add_task_vector(edit_layer = edit_layer, task_vector = tv, device=device, idx=-1)
@@ -148,8 +150,9 @@ if __name__ == "__main__":
                 first_token_match+=1
             tv_res.append({"prompt": test_prompt, "gt": test_target, "pred": pred_str, "probs": prob_seq})
         test_interv_acc = correct_cnt/len(test_dataset)
+        FTM = first_token_match/len(test_dataset)
         print(test_interv_acc)
-        print(first_token_match)
-        res = {"acc": test_interv_acc, "res": tv_res}
+        print(FTM)
+        res = {"acc": test_interv_acc, "FTM":FTM, "res": tv_res}
     with open(os.path.join(res_dir, "tv_result.json"), "w") as f:
         json.dump(res, f)

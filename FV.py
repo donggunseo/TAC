@@ -204,7 +204,7 @@ if __name__ == "__main__":
     fv_res = []
     new_line_id = tokenizer.encode("\n\n", add_special_tokens=False)[0]
     with torch.no_grad():
-        for test_item in tqdm(test_dataset[1500:2000]):
+        for test_item in tqdm(test_dataset):
             test_prompt, test_target, _ = create_prompt(demon_pool=None, query = test_item, num_shots_by_class=0, option=None, label_list=label_list, shuffle_label=False)
             test_tokenized_input = tokenizer(test_prompt, return_tensors='pt').to(device)
             kv_cache = None
@@ -244,7 +244,7 @@ if __name__ == "__main__":
         interv_acc = correct_cnt/len(test_dataset)
         FTM = first_token_match/len(test_dataset)
         print(interv_acc)
-        print(first_token_match)
-        res = {"acc": interv_acc, "res": fv_res}
+        print(FTM)
+        res = {"acc": interv_acc, "FTM":FTM, "res": fv_res}
     with open(os.path.join(res_dir, "fv_result.json"), "w") as f:
         json.dump(res, f)

@@ -287,6 +287,10 @@ CLINC150_LABEL_LIST = [
     "travel:travel_suggestion",                      # 149
     "meta:change_volume"                             # 150
 ]
+SST2_LABEL_LIST=[
+    "negative",
+    "positive"
+]
 
 
 if __name__ == "__main__":
@@ -388,6 +392,28 @@ if __name__ == "__main__":
         train_dataset = train_dataset.map(transform, remove_columns=["text", "intent", "label_text"])
         val_dataset = val_dataset.map(transform, remove_columns=["text", "intent", "label_text"])
         test_dataset = test_dataset.map(transform, remove_columns=["text", "intent", "label_text"])
+    elif "sst2" in args.dataset_name:
+        dataset = load_dataset("stanfordnlp/sst2")
+        train_dataset = dataset['train']
+        test_dataset = dataset['validation']
+        def convert_label(example):
+            example["label_text"]=SST2_LABEL_LIST[example['label']]
+            return example
+        train_dataset = train_dataset.map(convert_label)
+        test_dataset = test_dataset.map(convert_label)
+        with open(os.path.join(args.save_dir,args.dataset_name,"label_list.json"), "w") as f:
+            json.dump(SST2_LABEL_LIST, f)
+        ds = train_dataset.train_test_split(test_size=100, stratify_by_column="label")
+        train_dataset = ds['train']
+        val_dataset = ds['test']
+        def transform(example):
+            return {
+                "input": example["sentence"].strip(),
+                "output": example["label_text"]
+            }
+        train_dataset = train_dataset.map(transform, remove_columns=["sentence", "idx", "label_text", "label"])
+        val_dataset = val_dataset.map(transform, remove_columns=["sentence", "idx", "label_text", "label"])
+        test_dataset = test_dataset.map(transform, remove_columns=["sentence", "idx", "label_text", "label"])
     elif args.dataset_name == "wmt19_cs-en":
         dataset = load_dataset("wmt/wmt19", "cs-en")
         train_dataset = dataset['train']
